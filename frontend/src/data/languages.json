@@ -1,0 +1,144 @@
+{
+  "en": {
+    "name": "English",
+    "code": "en",
+    "flag": "🇬🇧",
+    "patterns": [
+      {
+        "id": "present_simple",
+        "title": "Present Simple Tense",
+        "explanation": "Used for habits, general truths, and regular actions.",
+        "examples": [
+          { "sentence": "I work every day.", "translation": "I work every day." },
+          { "sentence": "She speaks English.", "translation": "She speaks English." },
+          { "sentence": "They play football.", "translation": "They play football." }
+        ],
+        "practice": [
+          { "prompt": "Complete: I ___ (go) to school.", "answer": "go" },
+          { "prompt": "Complete: He ___ (like) pizza.", "answer": "likes" }
+        ]
+      },
+      {
+        "id": "past_simple",
+        "title": "Past Simple Tense",
+        "explanation": "Used for completed actions in the past.",
+        "examples": [
+          { "sentence": "I worked yesterday.", "translation": "I worked yesterday." },
+          { "sentence": "She visited Paris.", "translation": "She visited Paris." }
+        ],
+        "practice": [
+          { "prompt": "Complete: I ___ (go) to school yesterday.", "answer": "went" },
+          { "prompt": "Complete: They ___ (play) football last week.", "answer": "played" }
+        ]
+      }
+    ],
+    "dialogs": [
+      {
+        "id": "greeting",
+        "title": "Basic Greeting",
+        "scenario": "Meeting someone for the first time",
+        "conversation": [
+          { "speaker": "Person A", "text": "Hello! My name is John. What's your name?" },
+          { "speaker": "Person B", "text": "Hi John! I'm Maria. Nice to meet you!" },
+          { "speaker": "Person A", "text": "Nice to meet you too! Where are you from?" },
+          { "speaker": "Person B", "text": "I'm from Spain. And you?" },
+          { "speaker": "Person A", "text": "I'm from the United States." }
+        ],
+        "practice": [
+          { "prompt": "How do you greet someone?", "answers": ["Hello", "Hi", "Good morning"] }
+        ]
+      },
+      {
+        "id": "restaurant",
+        "title": "At a Restaurant",
+        "scenario": "Ordering food at a restaurant",
+        "conversation": [
+          { "speaker": "Waiter", "text": "Good evening! Are you ready to order?" },
+          { "speaker": "Customer", "text": "Yes, I'd like a salad and the pasta, please." },
+          { "speaker": "Waiter", "text": "Would you like something to drink?" },
+          { "speaker": "Customer", "text": "A glass of water, please." },
+          { "speaker": "Waiter", "text": "Perfect! Your order will be ready soon." }
+        ],
+        "practice": [
+          { "prompt": "How do you order food?", "answers": ["I'd like...", "Can I have...", "I'll have..."] }
+        ]
+      }
+    ]
+  },
+  "es": {
+    "name": "Spanish",
+    "code": "es",
+    "flag": "🇪🇸",
+    "patterns": [
+      {
+        "id": "present_simple",
+        "title": "Presente Simple",
+        "explanation": "Se usa para hábitos, verdades generales y acciones regulares.",
+        "examples": [
+          { "sentence": "Yo trabajo todos los días.", "translation": "I work every day." },
+          { "sentence": "Ella habla español.", "translation": "She speaks Spanish." },
+          { "sentence": "Ellos juegan al fútbol.", "translation": "They play football." }
+        ],
+        "practice": [
+          { "prompt": "Completa: Yo ___ (ir) a la escuela.", "answer": "voy" },
+          { "prompt": "Completa: Él ___ (gustar) la pizza.", "answer": "le gusta" }
+        ]
+      }
+    ],
+    "dialogs": [
+      {
+        "id": "greeting",
+        "title": "Saludo Básico",
+        "scenario": "Conocer a alguien por primera vez",
+        "conversation": [
+          { "speaker": "Persona A", "text": "¡Hola! Me llamo Juan. ¿Cómo te llamas?" },
+          { "speaker": "Persona B", "text": "¡Hola Juan! Soy María. ¡Encantada de conocerte!" },
+          { "speaker": "Persona A", "text": "¡Encantado también! ¿De dónde eres?" },
+          { "speaker": "Persona B", "text": "Soy de España. ¿Y tú?" },
+          { "speaker": "Persona A", "text": "Soy de los Estados Unidos." }
+        ],
+        "practice": [
+          { "prompt": "¿Cómo saludas a alguien?", "answers": ["Hola", "Buenos días", "Buenas tardes"] }
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "name": "French",
+    "code": "fr",
+    "flag": "🇫🇷",
+    "patterns": [
+      {
+        "id": "present_simple",
+        "title": "Présent Simple",
+        "explanation": "Utilisé pour les habitudes, les vérités générales et les actions régulières.",
+        "examples": [
+          { "sentence": "Je travaille tous les jours.", "translation": "I work every day." },
+          { "sentence": "Elle parle français.", "translation": "She speaks French." },
+          { "sentence": "Ils jouent au football.", "translation": "They play football." }
+        ],
+        "practice": [
+          { "prompt": "Complète: Je ___ (aller) à l'école.", "answer": "vais" },
+          { "prompt": "Complète: Il ___ (aimer) la pizza.", "answer": "aime" }
+        ]
+      }
+    ],
+    "dialogs": [
+      {
+        "id": "greeting",
+        "title": "Salutation de Base",
+        "scenario": "Rencontrer quelqu'un pour la première fois",
+        "conversation": [
+          { "speaker": "Personne A", "text": "Bonjour! Je m'appelle Jean. Comment t'appelles-tu?" },
+          { "speaker": "Personne B", "text": "Bonjour Jean! Je suis Marie. Enchantée de te rencontrer!" },
+          { "speaker": "Personne A", "text": "Enchanté aussi! D'où viens-tu?" },
+          { "speaker": "Personne B", "text": "Je viens de France. Et toi?" },
+          { "speaker": "Personne A", "text": "Je viens des États-Unis." }
+        ],
+        "practice": [
+          { "prompt": "Comment saluer quelqu'un?", "answers": ["Bonjour", "Salut", "Bonsoir"] }
+        ]
+      }
+    ]
+  }
+}
