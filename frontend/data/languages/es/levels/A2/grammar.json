@@ -1,0 +1,27 @@
+{
+    "level": "A2",
+    "topics": [
+        {
+            "id": "preterite-vs-imperfect-intro",
+            "title": "Introduccion al preterito vs. imperfecto",
+            "summary": "Cuándo usar cada tiempo al describir acciones pasadas.",
+            "points": [
+                "Use el preterito para acciones completas y únicas.",
+                "Use el imperfecto para acciones habituales o descripciones.",
+                "Palabras clave: ayer, anoche (preterito); siempre, a menudo (imperfecto)."
+            ],
+            "examples": [
+                {
+                    "sentence": "Ayer visite a mis abuelos.",
+                    "translation": "Yesterday I visited my grandparents.",
+                    "explanation": "Accion única y terminada, por eso preterito."
+                },
+                {
+                    "sentence": "Cuando era nina, visitaba a mis abuelos cada domingo.",
+                    "translation": "When I was little, I used to visit my grandparents every Sunday.",
+                    "explanation": "Accion habitual en el pasado, usa imperfecto."
+                }
+            ]
+        }
+    ]
+}

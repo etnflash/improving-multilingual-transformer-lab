@@ -1,0 +1,19 @@
+{
+    "level": "A2",
+    "topics": [
+        {
+            "id": "present-perfect-intro",
+            "title": "Present perfect basics",
+            "summary": "Use have + past participle to link past actions with the present.",
+            "points": [
+                "Have/has + participle.",
+                "Use for experiences or unfinished time periods.",
+                "Common markers: already, yet, just."
+            ],
+            "examples": [
+                { "sentence": "I have visited Mexico twice.", "translation": "" },
+                { "sentence": "She has not finished her homework yet.", "translation": "" }
+            ]
+        }
+    ]
+}

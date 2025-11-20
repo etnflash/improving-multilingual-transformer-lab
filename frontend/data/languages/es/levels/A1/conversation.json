@@ -1,0 +1,15 @@
+{
+    "level": "A1",
+    "scenes": [
+        {
+            "id": "greeting-class",
+            "title": "Saludo en clase",
+            "goal": "Practicar saludos y presentaciones basicas.",
+            "dialog": [
+                { "speaker": "profesor", "line": "Hola, buenos dias. ?Como te llamas?", "translation": "Hello, good morning. What is your name?" },
+                { "speaker": "aprendiz", "line": "Me llamo Ana. Soy de Peru.", "translation": "My name is Ana. I am from Peru." },
+                { "speaker": "profesor", "line": "Mucho gusto, Ana.", "translation": "Nice to meet you, Ana." }
+            ]
+        }
+    ]
+}

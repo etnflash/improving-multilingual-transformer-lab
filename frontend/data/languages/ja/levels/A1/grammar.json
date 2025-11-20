@@ -1,0 +1,19 @@
+{
+    "level": "A1",
+    "topics": [
+        {
+            "id": "desu-basics",
+            "title": "X wa Y desu",
+            "summary": "Introduce objects and people with the copula desu.",
+            "points": [
+                "Structure: [topic] wa [info] desu.",
+                "Add question particle ka for yes/no questions.",
+                "Use ka at end: [topic] wa [info] desu ka?"
+            ],
+            "examples": [
+                { "sentence": "私は学生です。", "translation": "I am a student." },
+                { "sentence": "ミカは先生ですか。", "translation": "Is Mika a teacher?" }
+            ]
+        }
+    ]
+}

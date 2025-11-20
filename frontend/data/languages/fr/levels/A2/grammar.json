@@ -1,0 +1,19 @@
+{
+    "level": "A2",
+    "topics": [
+        {
+            "id": "passe-compose-intro",
+            "title": "Passe compose avec avoir",
+            "summary": "Former le passe compose pour raconter des actions finies.",
+            "points": [
+                "Auxiliaire avoir au present + participe passe.",
+                "Accord avec objet direct place avant.",
+                "Marqueurs: hier, la semaine derniere."
+            ],
+            "examples": [
+                { "sentence": "J'ai termine le rapport.", "translation": "I finished the report." },
+                { "sentence": "Nous avons visite Lyon.", "translation": "We visited Lyon." }
+            ]
+        }
+    ]
+}

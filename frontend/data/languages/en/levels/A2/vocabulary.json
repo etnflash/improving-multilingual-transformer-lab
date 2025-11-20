@@ -1,0 +1,15 @@
+{
+    "level": "A2",
+    "sets": [
+        {
+            "id": "travel",
+            "title": "Travel basics",
+            "words": [
+                { "term": "ticket", "translation": "" },
+                { "term": "weekend", "translation": "" },
+                { "term": "coast", "translation": "" },
+                { "term": "plan", "translation": "" }
+            ]
+        }
+    ]
+}

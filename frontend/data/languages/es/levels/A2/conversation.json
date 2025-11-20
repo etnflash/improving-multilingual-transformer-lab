@@ -1,0 +1,31 @@
+{
+    "level": "A2",
+    "scenes": [
+        {
+            "id": "market-shopping",
+            "title": "Compras en el mercado",
+            "goal": "Practicar precios y cantidades",
+            "dialog": [
+                {
+                    "speaker": "vendedor",
+                    "line": "Buenos dias, ?que frutas buscas hoy?",
+                    "translation": "Good morning, what fruit are you looking for today?"
+                },
+                {
+                    "speaker": "aprendiz",
+                    "line": "Quiero medio kilo de fresas y un melon pequeno, por favor.",
+                    "translation": "I would like half a kilo of strawberries and a small melon, please."
+                },
+                {
+                    "speaker": "vendedor",
+                    "line": "Son seis euros. ?Algo mas?",
+                    "translation": "That will be six euros. Anything else?"
+                }
+            ],
+            "reflection": [
+                "Usa cantidades especificas (medio kilo, un kilo).",
+                "Incluye cortesia: por favor, gracias."
+            ]
+        }
+    ]
+}

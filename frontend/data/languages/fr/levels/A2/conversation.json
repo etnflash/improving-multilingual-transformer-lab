@@ -1,0 +1,15 @@
+{
+    "level": "A2",
+    "scenes": [
+        {
+            "id": "weekend-recap",
+            "title": "Raconter son week-end",
+            "goal": "Utiliser le passe compose pour decrire des activites.",
+            "dialog": [
+                { "speaker": "ami1", "line": "Qu'est-ce que tu as fait samedi?", "translation": "What did you do on Saturday?" },
+                { "speaker": "ami2", "line": "J'ai visite un musee et j'ai pris beaucoup de photos.", "translation": "I visited a museum and took many photos." },
+                { "speaker": "ami1", "line": "Super, moi j'ai reste chez moi.", "translation": "Great, I stayed home." }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "level": "A2",
+    "patterns": [
+        {
+            "id": "querer-cantidad",
+            "title": "Querer + cantidad + de + sustantivo",
+            "structure": "Quiero + [cantidad] + de + [sustantivo]",
+            "examples": [
+                {
+                    "sentence": "Quiero un litro de leche.",
+                    "translation": "I want a liter of milk."
+                },
+                {
+                    "sentence": "Quisiera dos botellas de agua con gas.",
+                    "translation": "I would like two bottles of sparkling water."
+                }
+            ],
+            "tips": [
+                "Combina con modales: Quiero, Quisiera, Me gustaria.",
+                "Incluye unidad de medida coherente con el sustantivo."
+            ]
+        }
+    ]
+}

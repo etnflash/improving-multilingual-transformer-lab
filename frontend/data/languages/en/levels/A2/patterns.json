@@ -1,0 +1,18 @@
+{
+    "level": "A2",
+    "patterns": [
+        {
+            "id": "have-ever",
+            "title": "Have you ever + past participle",
+            "structure": "Have you ever + [participle]?",
+            "examples": [
+                { "sentence": "Have you ever tried surfing?", "translation": "" },
+                { "sentence": "Have you ever flown alone?", "translation": "" }
+            ],
+            "tips": [
+                "Use with life experiences.",
+                "Answer with yes, I have / no, I haven't."
+            ]
+        }
+    ]
+}

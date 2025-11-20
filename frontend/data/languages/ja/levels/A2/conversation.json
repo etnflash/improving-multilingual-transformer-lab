@@ -1,0 +1,15 @@
+{
+    "level": "A2",
+    "scenes": [
+        {
+            "id": "office-help",
+            "title": "事務所でお願いする",
+            "goal": "Ask coworkers to perform simple tasks politely.",
+            "dialog": [
+                { "speaker": "staff", "line": "この資料をコピーしてくれませんか。", "translation": "Could you copy these documents?" },
+                { "speaker": "coworker", "line": "はい、すぐにコピーします。", "translation": "Yes, I will copy them right away." },
+                { "speaker": "staff", "line": "ありがとうございます。", "translation": "Thank you." }
+            ]
+        }
+    ]
+}

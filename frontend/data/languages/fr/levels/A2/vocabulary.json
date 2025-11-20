@@ -1,0 +1,15 @@
+{
+    "level": "A2",
+    "sets": [
+        {
+            "id": "weekend",
+            "title": "Activites du week-end",
+            "words": [
+                { "term": "musee", "translation": "museum" },
+                { "term": "photo", "translation": "photo" },
+                { "term": "balade", "translation": "walk" },
+                { "term": "rester", "translation": "to stay" }
+            ]
+        }
+    ]
+}

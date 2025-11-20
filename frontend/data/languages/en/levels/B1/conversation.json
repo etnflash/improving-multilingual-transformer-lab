@@ -1,0 +1,15 @@
+{
+    "level": "B1",
+    "scenes": [
+        {
+            "id": "team-update",
+            "title": "Team status update",
+            "goal": "Report what other teammates said and plan next steps.",
+            "dialog": [
+                { "speaker": "lead", "line": "Maria said that the prototype was ready.", "translation": "" },
+                { "speaker": "developer", "line": "I told her we would deploy tomorrow.", "translation": "" },
+                { "speaker": "lead", "line": "Great, please let the client know we confirmed it.", "translation": "" }
+            ]
+        }
+    ]
+}

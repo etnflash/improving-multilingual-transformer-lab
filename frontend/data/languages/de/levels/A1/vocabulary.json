@@ -1,0 +1,15 @@
+{
+    "level": "A1",
+    "sets": [
+        {
+            "id": "travel",
+            "title": "Reisen",
+            "words": [
+                { "term": "Bahnhof", "translation": "train station" },
+                { "term": "Ticket", "translation": "ticket" },
+                { "term": "fahren", "translation": "to travel" },
+                { "term": "Euro", "translation": "euro" }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "level": "A1",
+    "scenes": [
+        {
+            "id": "self-intro",
+            "title": "自己紹介",
+            "goal": "Use desu sentences to introduce name and country.",
+            "dialog": [
+                { "speaker": "student", "line": "はじめまして。私はケンです。", "translation": "Nice to meet you. I am Ken." },
+                { "speaker": "student", "line": "日本から来ました。", "translation": "I am from Japan." },
+                { "speaker": "partner", "line": "よろしくお願いします。", "translation": "Nice to work with you." }
+            ]
+        }
+    ]
+}

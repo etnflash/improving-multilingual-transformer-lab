@@ -1,0 +1,18 @@
+{
+    "level": "A1",
+    "patterns": [
+        {
+            "id": "je-voudrais",
+            "title": "Je voudrais + nom",
+            "structure": "Je voudrais + [boisson/nourriture]",
+            "examples": [
+                { "sentence": "Je voudrais un jus d'orange.", "translation": "I would like an orange juice." },
+                { "sentence": "Je voudrais une salade.", "translation": "I would like a salad." }
+            ],
+            "tips": [
+                "Ajoute s'il vous plait pour politesse.",
+                "Utilise l'article indefini singulier."
+            ]
+        }
+    ]
+}

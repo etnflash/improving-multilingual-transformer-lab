@@ -1,0 +1,19 @@
+{
+    "level": "A2",
+    "topics": [
+        {
+            "id": "te-form-requests",
+            "title": "〜てください requests",
+            "summary": "Use te-form plus kudasai to make polite requests.",
+            "points": [
+                "Convert verb to te-form + ください.",
+                "Add くださいませんか for extra polite.",
+                "Combine with location commands."
+            ],
+            "examples": [
+                { "sentence": "ドアをしめてください。", "translation": "Please close the door." },
+                { "sentence": "ここに名前を書いてください。", "translation": "Please write your name here." }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "level": "B1",
+    "patterns": [
+        {
+            "id": "espero-que-subjuntivo",
+            "title": "Espero que + subjuntivo",
+            "structure": "Espero que + [subjuntivo]",
+            "examples": [
+                { "sentence": "Espero que podamos terminar el proyecto.", "translation": "I hope we can finish the project." },
+                { "sentence": "Espero que no llueva manana.", "translation": "I hope it does not rain tomorrow." }
+            ],
+            "tips": [
+                "Asegurate de cambiar el sujeto en la clausula dependiente.",
+                "Practica con verbos irregulares del subjuntivo."
+            ]
+        }
+    ]
+}

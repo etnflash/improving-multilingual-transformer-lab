@@ -1,0 +1,15 @@
+{
+    "level": "B1",
+    "sets": [
+        {
+            "id": "collaboration",
+            "title": "Colaboracion academica",
+            "words": [
+                { "term": "cronograma", "translation": "schedule" },
+                { "term": "responsabilidad", "translation": "responsibility" },
+                { "term": "acordar", "translation": "to agree" },
+                { "term": "sugerencia", "translation": "suggestion" }
+            ]
+        }
+    ]
+}

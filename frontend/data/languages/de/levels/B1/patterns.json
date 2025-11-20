@@ -1,0 +1,18 @@
+{
+    "level": "B1",
+    "patterns": [
+        {
+            "id": "koennte-wuerde",
+            "title": "Koennte/Wuerde + Infinitiv",
+            "structure": "Koennte/Wuerde + [Infinitiv]",
+            "examples": [
+                { "sentence": "Wir koennten spaeter anfangen.", "translation": "We could start later." },
+                { "sentence": "Ich wuerde den Text kuerzen.", "translation": "I would shorten the text." }
+            ],
+            "tips": [
+                "Nutze Umlaut in wuerde schriftlich als ue.",
+                "Haenge Infinitiv ans Satzende."
+            ]
+        }
+    ]
+}

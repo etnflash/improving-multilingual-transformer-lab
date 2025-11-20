@@ -1,0 +1,25 @@
+{
+    "level": "B1",
+    "topics": [
+        {
+            "id": "subjuntivo-deseos",
+            "title": "Subjuntivo para deseos",
+            "summary": "Usar el subjuntivo despues de expresiones de deseo y emocion.",
+            "points": [
+                "Desencadenantes: espero que, me alegra que, deseo que.",
+                "Concordancia de sujeto: cambia cuando hay dos sujetos diferentes.",
+                "Recuerda acentos en formas de subjuntivo."
+            ],
+            "examples": [
+                {
+                    "sentence": "Espero que tengas un buen viaje.",
+                    "translation": "I hope that you have a good trip."
+                },
+                {
+                    "sentence": "Me alegra que estudien juntos.",
+                    "translation": "I am glad that they study together."
+                }
+            ]
+        }
+    ]
+}

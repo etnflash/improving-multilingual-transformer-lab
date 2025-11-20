@@ -1,0 +1,15 @@
+{
+    "level": "A2",
+    "sets": [
+        {
+            "id": "market-food",
+            "title": "Comida y mercado",
+            "words": [
+                { "term": "fresas", "translation": "strawberries", "note": "feminine plural" },
+                { "term": "melocoton", "translation": "peach", "note": "masculine" },
+                { "term": "medio kilo", "translation": "half a kilo", "note": "cantidad" },
+                { "term": "puesto", "translation": "stall", "note": "mercado" }
+            ]
+        }
+    ]
+}

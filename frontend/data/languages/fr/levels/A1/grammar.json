@@ -1,0 +1,19 @@
+{
+    "level": "A1",
+    "topics": [
+        {
+            "id": "etre-avoir",
+            "title": "Verbes etre et avoir",
+            "summary": "Utiliser les verbes de base pour decrire identite et possession.",
+            "points": [
+                "Je suis, tu es, il est.",
+                "J'ai, tu as, il a.",
+                "Combiner avec nationalites et objets simples."
+            ],
+            "examples": [
+                { "sentence": "Je suis etudiante.", "translation": "I am a student." },
+                { "sentence": "J'ai un chat noir.", "translation": "I have a black cat." }
+            ]
+        }
+    ]
+}

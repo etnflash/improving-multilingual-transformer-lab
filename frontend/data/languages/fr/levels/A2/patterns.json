@@ -1,0 +1,18 @@
+{
+    "level": "A2",
+    "patterns": [
+        {
+            "id": "j-ai-plus-participe",
+            "title": "J'ai + participe passe",
+            "structure": "J'ai + [participe passe]",
+            "examples": [
+                { "sentence": "J'ai regarde une serie.", "translation": "I watched a series." },
+                { "sentence": "J'ai mange avec des amis.", "translation": "I ate with friends." }
+            ],
+            "tips": [
+                "Choisis l'auxiliaire correct (avoir).",
+                "Ajoute des marqueurs de temps pour clarte."
+            ]
+        }
+    ]
+}

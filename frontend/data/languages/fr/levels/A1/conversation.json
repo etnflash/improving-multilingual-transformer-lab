@@ -1,0 +1,15 @@
+{
+    "level": "A1",
+    "scenes": [
+        {
+            "id": "cafe-order",
+            "title": "Commander au cafe",
+            "goal": "Pratiquer je voudrais + boisson.",
+            "dialog": [
+                { "speaker": "serveur", "line": "Bonjour, vous desirez?", "translation": "Hello, what would you like?" },
+                { "speaker": "client", "line": "Je voudrais un cafe creme, s'il vous plait.", "translation": "I would like a coffee with milk, please." },
+                { "speaker": "serveur", "line": "Tres bien, autre chose?", "translation": "Very well, anything else?" }
+            ]
+        }
+    ]
+}

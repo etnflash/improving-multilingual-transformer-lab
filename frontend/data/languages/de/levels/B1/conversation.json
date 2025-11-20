@@ -1,0 +1,15 @@
+{
+    "level": "B1",
+    "scenes": [
+        {
+            "id": "project-feedback",
+            "title": "Feedback im Team",
+            "goal": "Hoefliche Vorschlaege machen.",
+            "dialog": [
+                { "speaker": "kollege", "line": "Koennten wir die Praesentation kuerzen?", "translation": "Could we shorten the presentation?" },
+                { "speaker": "leiter", "line": "Das waere moeglich, wenn wir weniger Beispiele zeigen.", "translation": "That would be possible if we show fewer examples." },
+                { "speaker": "kollege", "line": "Gut, dann wuerde ich zwei Folien streichen.", "translation": "Good, then I would remove two slides." }
+            ]
+        }
+    ]
+}

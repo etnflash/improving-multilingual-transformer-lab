@@ -1,0 +1,15 @@
+{
+    "level": "A2",
+    "sets": [
+        {
+            "id": "office-requests",
+            "title": "オフィスのお願い",
+            "words": [
+                { "term": "コピー", "translation": "copy" },
+                { "term": "資料", "translation": "documents" },
+                { "term": "書く", "translation": "to write" },
+                { "term": "閉める", "translation": "to close" }
+            ]
+        }
+    ]
+}

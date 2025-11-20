@@ -1,0 +1,15 @@
+{
+    "level": "B1",
+    "sets": [
+        {
+            "id": "teamwork",
+            "title": "Teamarbeit",
+            "words": [
+                { "term": "Vorschlag", "translation": "suggestion" },
+                { "term": "Praesentation", "translation": "presentation" },
+                { "term": "Folien", "translation": "slides" },
+                { "term": "kuerzen", "translation": "to shorten" }
+            ]
+        }
+    ]
+}

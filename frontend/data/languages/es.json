@@ -1,0 +1,166 @@
+{
+    "language": {
+        "code": "es",
+        "name": "Spanish",
+        "nativeName": "Español",
+        "baseLanguage": "en",
+        "level": "A2-B1",
+        "notes": "Starter deck focused on intentions, polite requests, and cafe dialogs."
+    },
+    "patternLearning": {
+        "categories": [
+            {
+                "id": "intentions",
+                "title": "Intentions and Goals",
+                "patterns": [
+                    {
+                        "id": "quiero-infinitive",
+                        "label": "Quiero + infinitivo",
+                        "description": "Expressing desires or plans using 'quiero' followed by an infinitive verb.",
+                        "examples": [
+                            {
+                                "sentence": "Quiero aprender español todos los días.",
+                                "translation": "I want to learn Spanish every day.",
+                                "explanation": "Highlight routine intention with time expression."
+                            },
+                            {
+                                "sentence": "Quiero viajar a México el próximo verano.",
+                                "translation": "I want to travel to Mexico next summer.",
+                                "explanation": "Reinforce infinitive placement after 'quiero'."
+                            }
+                        ],
+                        "prompts": [
+                            "Quiero + [actividad] + [detalle temporal]",
+                            "Quiero + [verbo] + porque + [motivo]"
+                        ],
+                        "checks": [
+                            "Use infinitive verbs only (no conjugations).",
+                            "Optional reason clause with 'porque'."
+                        ]
+                    },
+                    {
+                        "id": "me-gustaria",
+                        "label": "Me gustaría + infinitivo",
+                        "description": "Softening requests or wishes with the conditional 'gustaría'.",
+                        "examples": [
+                            {
+                                "sentence": "Me gustaría probar un postre típico.",
+                                "translation": "I would like to try a traditional dessert.",
+                                "explanation": "Shows polite tone for ordering food."
+                            }
+                        ],
+                        "prompts": [
+                            "Me gustaría + [verbo] + [objeto]",
+                            "Me gustaría + [actividad] + con + [persona]"
+                        ],
+                        "checks": [
+                            "Remember the accent in 'gustaría'.",
+                            "Combine with infinitive verbs."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "sentenceCorrection": {
+        "errorTypes": [
+            {
+                "id": "gender-agreement",
+                "name": "Gender agreement",
+                "description": "Make sure adjectives match the noun gender.",
+                "examples": [
+                    {
+                        "incorrect": "El casa es bonita.",
+                        "correct": "La casa es bonita.",
+                        "explanation": "'Casa' is feminine, so the article must be 'la'."
+                    }
+                ]
+            },
+            {
+                "id": "verb-intentions",
+                "name": "Verb form after 'quiero'",
+                "description": "Use infinitive verbs when expressing desires.",
+                "examples": [
+                    {
+                        "incorrect": "Quiero voy al mercado.",
+                        "correct": "Quiero ir al mercado.",
+                        "explanation": "Replace conjugated 'voy' with infinitive 'ir'."
+                    }
+                ]
+            }
+        ],
+        "feedbackModes": [
+            {
+                "id": "english",
+                "label": "Explain in English",
+                "description": "Use simple English explanations for every fix."
+            },
+            {
+                "id": "bilingual",
+                "label": "Spanish + English",
+                "description": "Short Spanish note followed by English clarification."
+            }
+        ]
+    },
+    "dialogSimulation": {
+        "scenarios": [
+            {
+                "id": "cafe-order",
+                "title": "Café order",
+                "setting": "Neighborhood café, morning rush",
+                "goal": "Order a drink and small snack politely.",
+                "characters": ["Barista", "Learner"],
+                "turns": [
+                    {
+                        "speaker": "barista",
+                        "text": "¡Buenos días! ¿Qué te gustaría tomar hoy?",
+                        "translation": "Good morning! What would you like to drink today?",
+                        "feedback": "Notice inverted question marks and familiar 'te'."
+                    },
+                    {
+                        "speaker": "learner",
+                        "type": "input",
+                        "prompt": "Respond using 'Me gustaría...' and include a pastry if possible."
+                    },
+                    {
+                        "speaker": "barista",
+                        "text": "Perfecto. ¿Algo más para acompañar tu bebida?",
+                        "translation": "Perfect. Anything else to go with your drink?"
+                    }
+                ],
+                "tips": [
+                    "Reuse vocabulary from Pattern Learning for consistency.",
+                    "Keep sentences short for easier model feedback."
+                ]
+            }
+        ]
+    },
+    "transformerIntrospection": {
+        "tokenizer": "es_sentencepiece_v1",
+        "samples": [
+            {
+                "id": "sample-quiero",
+                "sentence": "Quiero ordenar un café.",
+                "translation": "I want to order a coffee.",
+                "tokenization": ["Quiero", "orden", "ar", "un", "caf", "é"],
+                "embeddingHints": [
+                    {
+                        "token": "Quiero",
+                        "note": "Intent-focused embedding often clusters with modal verbs."
+                    },
+                    {
+                        "token": "caf",
+                        "note": "Subword split due to accented vowel."
+                    }
+                ],
+                "attentionNotes": [
+                    {
+                        "layer": 3,
+                        "head": 5,
+                        "observation": "Head 5 links 'Quiero' with 'ordenar', showing intent-object focus."
+                    }
+                ]
+            }
+        ]
+    }
+}

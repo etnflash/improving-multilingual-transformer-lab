@@ -1,0 +1,15 @@
+{
+    "level": "A1",
+    "sets": [
+        {
+            "id": "intro",
+            "title": "自己紹介の言葉",
+            "words": [
+                { "term": "はじめまして", "translation": "nice to meet you" },
+                { "term": "学生", "translation": "student" },
+                { "term": "先生", "translation": "teacher" },
+                { "term": "よろしくお願いします", "translation": "please treat me well" }
+            ]
+        }
+    ]
+}

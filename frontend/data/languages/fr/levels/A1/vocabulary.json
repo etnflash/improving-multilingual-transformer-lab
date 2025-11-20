@@ -1,0 +1,15 @@
+{
+    "level": "A1",
+    "sets": [
+        {
+            "id": "cafe-words",
+            "title": "Au cafe",
+            "words": [
+                { "term": "cafe", "translation": "coffee" },
+                { "term": "the", "translation": "tea" },
+                { "term": "addition", "translation": "bill" },
+                { "term": "s'il vous plait", "translation": "please" }
+            ]
+        }
+    ]
+}

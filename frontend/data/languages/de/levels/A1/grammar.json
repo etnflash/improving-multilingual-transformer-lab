@@ -1,0 +1,19 @@
+{
+    "level": "A1",
+    "topics": [
+        {
+            "id": "sein-haben",
+            "title": "Verben sein und haben",
+            "summary": "Grundformen zum Vorstellen und Besitzen.",
+            "points": [
+                "Ich bin, du bist, er ist.",
+                "Ich habe, du hast, er hat.",
+                "Kombiniere mit Namen und Dingen des Alltags."
+            ],
+            "examples": [
+                { "sentence": "Ich bin Student.", "translation": "I am a student." },
+                { "sentence": "Wir haben einen Hund.", "translation": "We have a dog." }
+            ]
+        }
+    ]
+}

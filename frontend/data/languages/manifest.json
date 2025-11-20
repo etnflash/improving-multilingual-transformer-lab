@@ -1,0 +1,96 @@
+{
+    "defaultLanguage": "es",
+    "languages": [
+        {
+            "code": "es",
+            "name": "Spanish",
+            "nativeName": "Español",
+            "baseLanguage": "en",
+            "level": "A2-B1",
+            "status": "live",
+            "modules": [
+                "pattern-learning",
+                "sentence-correction",
+                "dialog-simulation",
+                "transformer-introspection"
+            ],
+            "levels": [
+                { "id": "A1", "label": "A1 - Beginner" },
+                { "id": "A2", "label": "A2 - Elementary" },
+                { "id": "B1", "label": "B1 - Intermediate" }
+            ]
+        },
+        {
+            "code": "en",
+            "name": "English",
+            "nativeName": "English",
+            "baseLanguage": "es",
+            "level": "B1-B2",
+            "status": "live",
+            "modules": [
+                "pattern-learning",
+                "sentence-correction",
+                "dialog-simulation",
+                "transformer-introspection"
+            ],
+            "levels": [
+                { "id": "A2", "label": "A2 - Elementary" },
+                { "id": "B1", "label": "B1 - Intermediate" }
+            ]
+        },
+        {
+            "code": "fr",
+            "name": "French",
+            "nativeName": "Francais",
+            "baseLanguage": "en",
+            "level": "A1-A2",
+            "status": "live",
+            "modules": [
+                "pattern-learning",
+                "sentence-correction",
+                "dialog-simulation",
+                "transformer-introspection"
+            ],
+            "levels": [
+                { "id": "A1", "label": "A1 - Debutant" },
+                { "id": "A2", "label": "A2 - Elementaire" }
+            ]
+        },
+        {
+            "code": "de",
+            "name": "German",
+            "nativeName": "Deutsch",
+            "baseLanguage": "en",
+            "level": "A1-B1",
+            "status": "live",
+            "modules": [
+                "pattern-learning",
+                "sentence-correction",
+                "dialog-simulation",
+                "transformer-introspection"
+            ],
+            "levels": [
+                { "id": "A1", "label": "A1 - Anfaenger" },
+                { "id": "B1", "label": "B1 - Fortgeschritten" }
+            ]
+        },
+        {
+            "code": "ja",
+            "name": "Japanese",
+            "nativeName": "Nihongo",
+            "baseLanguage": "en",
+            "level": "A1-A2",
+            "status": "live",
+            "modules": [
+                "pattern-learning",
+                "sentence-correction",
+                "dialog-simulation",
+                "transformer-introspection"
+            ],
+            "levels": [
+                { "id": "A1", "label": "A1 - Beginner" },
+                { "id": "A2", "label": "A2 - Elementary" }
+            ]
+        }
+    ]
+}

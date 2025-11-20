@@ -1,0 +1,15 @@
+{
+    "level": "A1",
+    "scenes": [
+        {
+            "id": "bahn-ticket",
+            "title": "Ticket am Bahnhof",
+            "goal": "Einfaches Kaufgesprach fuhren.",
+            "dialog": [
+                { "speaker": "mitarbeiter", "line": "Guten Tag, wohin fahren Sie?", "translation": "Good day, where are you traveling?" },
+                { "speaker": "reisende", "line": "Nach Berlin, bitte.", "translation": "To Berlin, please." },
+                { "speaker": "mitarbeiter", "line": "Das macht zwanzig Euro.", "translation": "That is twenty euros." }
+            ]
+        }
+    ]
+}

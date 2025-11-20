@@ -1,0 +1,15 @@
+{
+    "level": "A2",
+    "scenes": [
+        {
+            "id": "travel-plans",
+            "title": "Planning a weekend trip",
+            "goal": "Practice present perfect and future intentions.",
+            "dialog": [
+                { "speaker": "friend1", "line": "Have you ever visited the coast in winter?", "translation": "" },
+                { "speaker": "friend2", "line": "No, I have not, but I want to go this year.", "translation": "" },
+                { "speaker": "friend1", "line": "Great, let's book tickets for Saturday.", "translation": "" }
+            ]
+        }
+    ]
+}

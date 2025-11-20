@@ -1,0 +1,19 @@
+{
+    "level": "B1",
+    "topics": [
+        {
+            "id": "konjunktiv-ii",
+            "title": "Konjunktiv II fuer Wuensche",
+            "summary": "Hypothetische Situationen mit waere und haette ausdruecken.",
+            "points": [
+                "Wuensche: Ich wuerde gern..., wenn ich Zeit haette...",
+                "Hofliche Bitten mit Koennten Sie...",
+                "Achte auf Umlaute in den Formen."
+            ],
+            "examples": [
+                { "sentence": "Ich wuerde gern laenger reisen.", "translation": "I would like to travel longer." },
+                { "sentence": "Koennten Sie mir helfen?", "translation": "Could you help me?" }
+            ]
+        }
+    ]
+}

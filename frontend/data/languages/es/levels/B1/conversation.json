@@ -1,0 +1,19 @@
+{
+    "level": "B1",
+    "scenes": [
+        {
+            "id": "study-group",
+            "title": "Organizar un grupo de estudio",
+            "goal": "Negociar horarios y responsabilidades.",
+            "dialog": [
+                { "speaker": "alumno1", "line": "Propongo que nos reunamos los martes por la tarde.", "translation": "I propose that we meet on Tuesday afternoons." },
+                { "speaker": "alumno2", "line": "Preferiria que fuera jueves, tengo practicas el martes.", "translation": "I would prefer Thursday; I have practice on Tuesday." },
+                { "speaker": "alumno1", "line": "De acuerdo, entonces quedemos el jueves a las seis.", "translation": "Alright, then let's meet Thursday at six." }
+            ],
+            "reflection": [
+                "Usa el subjuntivo despues de verbos de preferencia.",
+                "Incluye razones breves para cada sugerencia."
+            ]
+        }
+    ]
+}

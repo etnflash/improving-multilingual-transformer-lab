@@ -1,0 +1,15 @@
+{
+    "level": "B1",
+    "sets": [
+        {
+            "id": "project-communication",
+            "title": "Project communication",
+            "words": [
+                { "term": "confirm", "translation": "" },
+                { "term": "announce", "translation": "" },
+                { "term": "clarify", "translation": "" },
+                { "term": "deadline", "translation": "" }
+            ]
+        }
+    ]
+}

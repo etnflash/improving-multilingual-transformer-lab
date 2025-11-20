@@ -1,0 +1,19 @@
+{
+    "level": "B1",
+    "topics": [
+        {
+            "id": "reported-speech",
+            "title": "Reported speech",
+            "summary": "Shift tense and pronouns when reporting what someone said.",
+            "points": [
+                "Backshift: present simple becomes past simple.",
+                "Use that-clause or infinitive for commands.",
+                "Adjust time adverbs (today -> that day)."
+            ],
+            "examples": [
+                { "sentence": "He said that he was tired.", "translation": "" },
+                { "sentence": "She told me to wait outside.", "translation": "" }
+            ]
+        }
+    ]
+}

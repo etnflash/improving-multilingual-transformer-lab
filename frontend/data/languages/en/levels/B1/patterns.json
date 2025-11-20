@@ -1,0 +1,18 @@
+{
+    "level": "B1",
+    "patterns": [
+        {
+            "id": "told-me-to",
+            "title": "Told + person + to + verb",
+            "structure": "[Subject] told [object] to + base verb",
+            "examples": [
+                { "sentence": "The coach told us to arrive early.", "translation": "" },
+                { "sentence": "I told him to send the report.", "translation": "" }
+            ],
+            "tips": [
+                "Use infinitive without to in negative: told me not to go.",
+                "Combine with time markers for clarity."
+            ]
+        }
+    ]
+}
