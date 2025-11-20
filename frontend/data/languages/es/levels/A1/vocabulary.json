@@ -7,8 +7,70 @@
             "words": [
                 { "term": "hola", "translation": "hello" },
                 { "term": "buenos dias", "translation": "good morning" },
+                { "term": "buenas tardes", "translation": "good afternoon" },
                 { "term": "como te llamas?", "translation": "what is your name?" },
-                { "term": "mucho gusto", "translation": "nice to meet you" }
+                { "term": "me llamo...", "translation": "my name is...", "note": "completa con tu nombre" },
+                { "term": "mucho gusto", "translation": "nice to meet you" },
+                { "term": "de donde eres?", "translation": "where are you from?" },
+                { "term": "soy de...", "translation": "I am from..." }
+            ]
+        },
+        {
+            "id": "daily-routines",
+            "title": "Rutinas basicas",
+            "words": [
+                { "term": "desayunar", "translation": "to have breakfast" },
+                { "term": "trabajar", "translation": "to work" },
+                { "term": "estudiar", "translation": "to study" },
+                { "term": "descansar", "translation": "to rest" },
+                { "term": "caminar", "translation": "to walk" },
+                { "term": "acostarse", "translation": "to go to bed", "note": "verbo reflexivo" }
+            ]
+        },
+        {
+            "id": "family-home",
+            "title": "Familia y casa",
+            "words": [
+                { "term": "madre", "translation": "mother" },
+                { "term": "padre", "translation": "father" },
+                { "term": "hermano", "translation": "brother" },
+                { "term": "hermana", "translation": "sister" },
+                { "term": "abuelo", "translation": "grandfather" },
+                { "term": "mascota", "translation": "pet" }
+            ]
+        },
+        {
+            "id": "city-essentials",
+            "title": "Lugares de la ciudad",
+            "words": [
+                { "term": "plaza", "translation": "town square" },
+                { "term": "supermercado", "translation": "supermarket" },
+                { "term": "parada de autobus", "translation": "bus stop" },
+                { "term": "banco", "translation": "bank" },
+                { "term": "farmacia", "translation": "pharmacy" },
+                { "term": "entrada", "translation": "ticket/entry" }
+            ]
+        },
+        {
+            "id": "weather-time-frequency",
+            "title": "Tiempo, clima y frecuencia",
+            "summary": "Expresiones básicas para describir el clima, la hora del día y la frecuencia de las actividades.",
+            "words": [
+                { "term": "hace sol", "translation": "it’s sunny" },
+                { "term": "hace frio", "translation": "it’s cold" },
+                { "term": "hace calor", "translation": "it’s hot" },
+                { "term": "está nublado", "translation": "it’s cloudy" },
+                { "term": "llueve", "translation": "it’s raining" },
+                { "term": "nieva", "translation": "it’s snowing" },
+                { "term": "por la mañana", "translation": "in the morning" },
+                { "term": "por la tarde", "translation": "in the afternoon" },
+                { "term": "por la noche", "translation": "at night" },
+                { "term": "siempre", "translation": "always" },
+                { "term": "a menudo", "translation": "often" },
+                { "term": "a veces", "translation": "sometimes" },
+                { "term": "casi nunca", "translation": "almost never" },
+                { "term": "todos los dias", "translation": "every day" },
+                { "term": "los fines de semana", "translation": "on weekends" }
             ]
         }
     ]

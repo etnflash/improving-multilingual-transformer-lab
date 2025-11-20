@@ -8,7 +8,47 @@
                 { "term": "fresas", "translation": "strawberries", "note": "feminine plural" },
                 { "term": "melocoton", "translation": "peach", "note": "masculine" },
                 { "term": "medio kilo", "translation": "half a kilo", "note": "cantidad" },
-                { "term": "puesto", "translation": "stall", "note": "mercado" }
+                { "term": "puesto", "translation": "stall", "note": "mercado" },
+                { "term": "oferta", "translation": "sale/deal" },
+                { "term": "degustacion", "translation": "tasting sample" },
+                { "term": "entero", "translation": "whole", "note": "producto completo" },
+                { "term": "pagar con tarjeta", "translation": "to pay with card" }
+            ]
+        },
+        {
+            "id": "housing-services",
+            "title": "Vivienda y servicios",
+            "words": [
+                { "term": "alquiler", "translation": "rent" },
+                { "term": "habitacion", "translation": "room" },
+                { "term": "vecindario", "translation": "neighborhood" },
+                { "term": "reparacion", "translation": "repair" },
+                { "term": "factura de luz", "translation": "electric bill" },
+                { "term": "internet incluido", "translation": "internet included" }
+            ]
+        },
+        {
+            "id": "travel-plans",
+            "title": "Viajes y transporte",
+            "words": [
+                { "term": "billete de ida y vuelta", "translation": "round-trip ticket" },
+                { "term": "taquilla", "translation": "ticket office" },
+                { "term": "horario", "translation": "timetable" },
+                { "term": "andén", "translation": "platform" },
+                { "term": "equipaje de mano", "translation": "carry-on luggage" },
+                { "term": "retraso", "translation": "delay" }
+            ]
+        },
+        {
+            "id": "health-appointments",
+            "title": "Salud y citas",
+            "words": [
+                { "term": "cita medica", "translation": "medical appointment" },
+                { "term": "receta", "translation": "prescription" },
+                { "term": "analisis", "translation": "lab test" },
+                { "term": "aseguranza", "translation": "insurance", "note": "uso coloquial" },
+                { "term": "sintomas", "translation": "symptoms" },
+                { "term": "guardia", "translation": "on-call service" }
             ]
         }
     ]

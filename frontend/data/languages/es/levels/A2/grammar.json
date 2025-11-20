@@ -2,26 +2,1133 @@
     "level": "A2",
     "topics": [
         {
-            "id": "preterite-vs-imperfect-intro",
-            "title": "Introduccion al preterito vs. imperfecto",
-            "summary": "Cuándo usar cada tiempo al describir acciones pasadas.",
+            "id": "preterite-vs-imperfect",
+            "title": "Pretérito indefinido vs. imperfecto",
+            "summary": "Seleccionar el tiempo adecuado para narrar acciones pasadas.",
+            "details": [
+                "El pretérito indefinido enfatiza acciones puntuales, con inicio y final claros (llegué, comimos).",
+                "El imperfecto describe hábitos, contextos, edad, hora o acciones en progreso (iba, llovía).",
+                "Cuando una acción interrumpe otra en desarrollo usa pretérito para la interrupción e imperfecto para el trasfondo (Estudiaba cuando sonó el teléfono)."
+            ],
             "points": [
-                "Use el preterito para acciones completas y únicas.",
-                "Use el imperfecto para acciones habituales o descripciones.",
-                "Palabras clave: ayer, anoche (preterito); siempre, a menudo (imperfecto)."
+                "Marcadores del pretérito: ayer, anoche, el lunes pasado.",
+                "Marcadores del imperfecto: siempre, mientras, cada verano.",
+                "Combina ambos tiempos para contar historias fluidas y claras."
             ],
             "examples": [
                 {
-                    "sentence": "Ayer visite a mis abuelos.",
-                    "translation": "Yesterday I visited my grandparents.",
-                    "explanation": "Accion única y terminada, por eso preterito."
+                    "sentence": "Ayer visité a mis abuelos y cenamos juntos.",
+                    "translation": "Yesterday I visited my grandparents and we had dinner together.",
+                    "explanation": "Acciones completadas, por eso usa pretérito."
                 },
                 {
-                    "sentence": "Cuando era nina, visitaba a mis abuelos cada domingo.",
-                    "translation": "When I was little, I used to visit my grandparents every Sunday.",
-                    "explanation": "Accion habitual en el pasado, usa imperfecto."
+                    "sentence": "Cuando era niña, visitaba a mis abuelos cada domingo.",
+                    "translation": "When I was a child, I used to visit my grandparents every Sunday.",
+                    "explanation": "Hábito en el pasado, se usa imperfecto."
                 }
-            ]
+            ],
+            "conjugations": [
+                {
+                    "verb": "hablar",
+                    "tense": "Pretérito indefinido",
+                    "forms": [
+                        { "person": "yo", "form": "hablé" },
+                        { "person": "tú", "form": "hablaste" },
+                        { "person": "él/ella/usted", "form": "habló" },
+                        { "person": "nosotros", "form": "hablamos" },
+                        { "person": "vosotros", "form": "hablasteis" },
+                        { "person": "ellos/ustedes", "form": "hablaron" }
+                    ]
+                },
+                {
+                    "verb": "hablar",
+                    "tense": "Imperfecto",
+                    "forms": [
+                        { "person": "yo", "form": "hablaba" },
+                        { "person": "tú", "form": "hablabas" },
+                        { "person": "él/ella/usted", "form": "hablaba" },
+                        { "person": "nosotros", "form": "hablábamos" },
+                        { "person": "vosotros", "form": "hablabais" },
+                        { "person": "ellos/ustedes", "form": "hablaban" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Escribe dos oraciones: una con pretérito y otra con imperfecto describiendo un viaje.",
+                "Transforma la frase al imperfecto: Ellos comieron en casa.",
+                "Completa con el tiempo correcto: Mientras yo ____ (leer), mi hermano ____ (llegar).",
+                "Cuenta una anécdota corta usando ambos tiempos explicitando los marcadores temporales."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Cuando era adolescente ____ al tenis todos los sábados.",
+                    "options": ["jugué", "jugaba", "jugaré"],
+                    "answer": "jugaba",
+                    "explanation": "Hábito pasado ⇒ imperfecto."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Estudiábamos cuando ____ (apagar) las luces.",
+                    "answer": "se apagaron",
+                    "hint": "La acción que interrumpe va en pretérito."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Pick the correct Spanish past tense to narrate finished actions or background scenes.",
+                    "details": [
+                        "The preterite highlights completed, punctual actions with clear beginnings and endings (llegué, comimos).",
+                        "The imperfect describes habits, context, age, time, or actions in progress in the past (iba, llovía).",
+                        "When one action interrupts another, use the preterite for the interruption and the imperfect for the ongoing background (Estudiaba cuando sonó el teléfono)."
+                    ],
+                    "points": [
+                        "Common preterite markers: ayer, anoche, el lunes pasado.",
+                        "Common imperfect markers: siempre, mientras, cada verano.",
+                        "Blend both tenses to deliver smooth, clear storytelling."
+                    ],
+                    "practice": [
+                        "Write two sentences about a trip: one in the preterite and one in the imperfect.",
+                        "Change the sentence to imperfect: Ellos comieron en casa.",
+                        "Complete the blanks: Mientras yo ____ (leer), mi hermano ____ (llegar).",
+                        "Tell a short anecdote using both tenses and explicit time cues."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "present-perfect-usage",
+            "title": "Pretérito perfecto compuesto",
+            "summary": "Hablar de experiencias recientes con haber + participio.",
+            "details": [
+                "Usa la estructura haber en presente + participio para acciones conectadas con el presente (Este año he viajado mucho).",
+                "Los participios regulares terminan en -ado para -ar y -ido para -er/-ir (visitado, aprendido).",
+                "Irregulares frecuentes: abierto, dicho, escrito, hecho, puesto, visto, vuelto."
+            ],
+            "points": [
+                "Coloca pronombres antes de haber: Me he levantado temprano.",
+                "Nunca se separa haber del participio.",
+                "Añade marcadores como esta semana, últimamente, hoy."
+            ],
+            "examples": [
+                {
+                    "sentence": "Este mes hemos estudiado muchos textos literarios.",
+                    "translation": "This month we have studied many literary texts."
+                },
+                {
+                    "sentence": "¿Has visto la nueva serie española?",
+                    "translation": "Have you seen the new Spanish series?"
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "haber",
+                    "tense": "Presente + participio",
+                    "forms": [
+                        { "person": "yo", "form": "he + participio" },
+                        { "person": "tú", "form": "has + participio" },
+                        { "person": "él/ella/usted", "form": "ha + participio" },
+                        { "person": "nosotros", "form": "hemos + participio" },
+                        { "person": "vosotros", "form": "habéis + participio" },
+                        { "person": "ellos/ustedes", "form": "han + participio" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Conjuga tres verbos regulares en pretérito perfecto y úsalos en oraciones.",
+                "Escribe dos frases con participios irregulares de la lista dada.",
+                "Transforma al pretérito perfecto: Nosotros comimos temprano.",
+                "Haz una entrevista corta preguntando ¿Has + participio...?"
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Esta semana Ana ____ (escribir) dos artículos.",
+                    "options": ["ha escrito", "escribió", "escribe"],
+                    "answer": "ha escrito",
+                    "explanation": "Acción reciente con conexión al presente."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "¿____ (ver, tú) la lluvia de meteoros hoy?",
+                    "answer": "Has visto",
+                    "hint": "Recuerda colocar el pronombre antes de haber si es necesario."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Use haber in the present plus a participle to talk about recent experiences tied to now.",
+                    "details": [
+                        "Build the tense with present-tense haber + past participle to describe actions linked to the present (Este año he viajado mucho).",
+                        "Regular participles end in -ado for -ar verbs and -ido for -er/-ir verbs (visitado, aprendido).",
+                        "High-frequency irregulars include abierto, dicho, escrito, hecho, puesto, visto, and vuelto."
+                    ],
+                    "points": [
+                        "Place object pronouns before haber: Me he levantado temprano.",
+                        "Never separate haber from its participle.",
+                        "Use time markers like esta semana, últimamente, hoy to show relevance."
+                    ],
+                    "practice": [
+                        "Conjugate three regular verbs in the present perfect and use each in a sentence.",
+                        "Write two sentences using irregular participles from the provided list.",
+                        "Transform: Nosotros comimos temprano → ______ (present perfect).",
+                        "Draft a short interview with questions starting ¿Has + participio ...?"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "progressive-periphrasis",
+            "title": "Perífrasis con gerundio",
+            "summary": "Describir acciones en desarrollo con estar, seguir y continuar + gerundio.",
+            "details": [
+                "Estar + gerundio indica acciones en curso en un momento concreto (Estoy estudiando ahora).",
+                "Seguir/continuar + gerundio expresa continuidad después de algún cambio (Seguimos trabajando).",
+                "Para planes futuros inmediatos puedes usar seguir + gerundio con marcadores temporales (Mañana seguiré revisando)."
+            ],
+            "points": [
+                "El gerundio se forma con -ando/-iendo: hablando, aprendiendo, viviendo.",
+                "No se usa para acciones futuras lejanas; limita su uso a progresivos reales.",
+                "Coloca pronombres de objeto antes del verbo auxiliar: Lo estoy leyendo / Estoy leyéndolo."
+            ],
+            "examples": [
+                {
+                    "sentence": "Estamos preparando una presentación para clase.",
+                    "translation": "We are preparing a presentation for class."
+                },
+                {
+                    "sentence": "Sigo practicando la pronunciación todos los días.",
+                    "translation": "I keep practicing pronunciation every day."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "estar",
+                    "tense": "Presente",
+                    "forms": [
+                        { "person": "yo", "form": "estoy" },
+                        { "person": "tú", "form": "estás" },
+                        { "person": "él/ella/usted", "form": "está" },
+                        { "person": "nosotros", "form": "estamos" },
+                        { "person": "vosotros", "form": "estáis" },
+                        { "person": "ellos/ustedes", "form": "están" }
+                    ]
+                },
+                {
+                    "verb": "seguir",
+                    "tense": "Presente",
+                    "forms": [
+                        { "person": "yo", "form": "sigo" },
+                        { "person": "tú", "form": "sigues" },
+                        { "person": "él/ella/usted", "form": "sigue" },
+                        { "person": "nosotros", "form": "seguimos" },
+                        { "person": "vosotros", "form": "seguís" },
+                        { "person": "ellos/ustedes", "form": "siguen" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Describe qué actividades estás haciendo ahora mismo usando estar + gerundio.",
+                "Reescribe tres oraciones del pretérito en forma progresiva para enfatizar el proceso.",
+                "Crea cinco gerundios nuevos a partir de verbos regulares e irregulares.",
+                "Combina seguir + gerundio para indicar planes de estudio continuos."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "¿Cuál es la mejor opción para 'Nosotros ____ (continuar) buscando información'?",
+                    "options": ["estamos continuando", "seguimos", "continuamos a"],
+                    "answer": "seguimos",
+                    "explanation": "Seguir + gerundio expresa continuidad natural."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Ahora mismo ____ (leer, yo) un artículo sobre arte español.",
+                    "answer": "estoy leyendo",
+                    "hint": "Recuerda formar el gerundio con -iendo para verbos -er/-ir."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Describe ongoing actions with estar, seguir, or continuar plus a gerund.",
+                    "details": [
+                        "Estar + gerundio signals what is happening at a specific moment (Estoy estudiando ahora).",
+                        "Seguir/continuar + gerundio shows that an activity keeps going after some change (Seguimos trabajando).",
+                        "Use seguir + gerundio with time markers for near-future continuity (Mañana seguiré revisando)."
+                    ],
+                    "points": [
+                        "Form gerunds with -ando/-iendo: hablando, aprendiendo, viviendo.",
+                        "Avoid the structure for distant future plans; keep it to genuine progressive actions.",
+                        "Place object pronouns before the auxiliary or attach them to the gerund (Lo estoy leyendo / Estoy leyéndolo)."
+                    ],
+                    "practice": [
+                        "Describe what you are doing right now using estar + gerundio.",
+                        "Rewrite three past-tense sentences in progressive form to stress the process.",
+                        "Create five new gerunds from regular and irregular verbs.",
+                        "Combine seguir + gerundio to indicate ongoing study plans."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "reflexive-routines",
+            "title": "Verbos reflexivos en la rutina diaria",
+            "summary": "Usar pronombres reflexivos (me, te, se, nos, os) para describir acciones que recaen en el propio sujeto.",
+            "details": [
+                "Los verbos reflexivos llevan el pronombre antes del verbo conjugado: Me levanto temprano.",
+                "Con infinitivo o gerundio puedes colocar el pronombre al final: Quiero levantarme / Estoy vistiéndome.",
+                "Muchos verbos de higiene y rutina son reflexivos: ducharse, cepillarse, vestirse, acostarse.",
+                "Al dar instrucciones generales utiliza uno se impersonal o los pronombres correspondientes para cada persona."
+            ],
+            "points": [
+                "Recuerda concordar el pronombre con la persona: nos acostamos, se acuestan.",
+                "Vestirse y ponerse cambian de raíz (me visto, me pongo).",
+                "Cuando hay dos verbos seguidos (ir + a + infinitivo) puedes mantener el pronombre antes del auxiliar o unido al infinitivo."
+            ],
+            "examples": [
+                {
+                    "sentence": "Normalmente me despierto a las seis y me visto rápido.",
+                    "translation": "I normally wake up at six and get dressed quickly."
+                },
+                {
+                    "sentence": "Para salir tenemos que ponernos abrigos porque hace frío.",
+                    "translation": "To go out we have to put on coats because it’s cold."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "levantarse",
+                    "tense": "Presente",
+                    "forms": [
+                        { "person": "yo", "form": "me levanto" },
+                        { "person": "tú", "form": "te levantas" },
+                        { "person": "él/ella/usted", "form": "se levanta" },
+                        { "person": "nosotros", "form": "nos levantamos" },
+                        { "person": "vosotros", "form": "os levantáis" },
+                        { "person": "ellos/ustedes", "form": "se levantan" }
+                    ]
+                },
+                {
+                    "verb": "ducharse",
+                    "tense": "Presente",
+                    "forms": [
+                        { "person": "yo", "form": "me ducho" },
+                        { "person": "tú", "form": "te duchas" },
+                        { "person": "él/ella/usted", "form": "se ducha" },
+                        { "person": "nosotros", "form": "nos duchamos" },
+                        { "person": "vosotros", "form": "os ducháis" },
+                        { "person": "ellos/ustedes", "form": "se duchan" }
+                    ]
+                },
+                {
+                    "verb": "vestirse",
+                    "tense": "Presente (irregular e→i)",
+                    "forms": [
+                        { "person": "yo", "form": "me visto" },
+                        { "person": "tú", "form": "te vistes" },
+                        { "person": "él/ella/usted", "form": "se viste" },
+                        { "person": "nosotros", "form": "nos vestimos" },
+                        { "person": "vosotros", "form": "os vestís" },
+                        { "person": "ellos/ustedes", "form": "se visten" }
+                    ]
+                },
+                {
+                    "verb": "ponerse",
+                    "tense": "Presente (irregular yo)",
+                    "forms": [
+                        { "person": "yo", "form": "me pongo" },
+                        { "person": "tú", "form": "te pones" },
+                        { "person": "él/ella/usted", "form": "se pone" },
+                        { "person": "nosotros", "form": "nos ponemos" },
+                        { "person": "vosotros", "form": "os ponéis" },
+                        { "person": "ellos/ustedes", "form": "se ponen" }
+                    ]
+                },
+                {
+                    "verb": "irse",
+                    "tense": "Presente (irregular)",
+                    "forms": [
+                        { "person": "yo", "form": "me voy" },
+                        { "person": "tú", "form": "te vas" },
+                        { "person": "él/ella/usted", "form": "se va" },
+                        { "person": "nosotros", "form": "nos vamos" },
+                        { "person": "vosotros", "form": "os vais" },
+                        { "person": "ellos/ustedes", "form": "se van" }
+                    ]
+                },
+                {
+                    "verb": "despertarse",
+                    "tense": "Presente (irregular e→ie)",
+                    "forms": [
+                        { "person": "yo", "form": "me despierto" },
+                        { "person": "tú", "form": "te despiertas" },
+                        { "person": "él/ella/usted", "form": "se despierta" },
+                        { "person": "nosotros", "form": "nos despertamos" },
+                        { "person": "vosotros", "form": "os despertáis" },
+                        { "person": "ellos/ustedes", "form": "se despiertan" }
+                    ]
+                },
+                {
+                    "verb": "acostarse",
+                    "tense": "Presente (irregular o→ue)",
+                    "forms": [
+                        { "person": "yo", "form": "me acuesto" },
+                        { "person": "tú", "form": "te acuestas" },
+                        { "person": "él/ella/usted", "form": "se acuesta" },
+                        { "person": "nosotros", "form": "nos acostamos" },
+                        { "person": "vosotros", "form": "os acostáis" },
+                        { "person": "ellos/ustedes", "form": "se acuestan" }
+                    ]
+                },
+                {
+                    "verb": "maquillarse",
+                    "tense": "Presente",
+                    "forms": [
+                        { "person": "yo", "form": "me maquillo" },
+                        { "person": "tú", "form": "te maquillas" },
+                        { "person": "él/ella/usted", "form": "se maquilla" },
+                        { "person": "nosotros", "form": "nos maquillamos" },
+                        { "person": "vosotros", "form": "os maquilláis" },
+                        { "person": "ellos/ustedes", "form": "se maquillan" }
+                    ]
+                },
+                {
+                    "verb": "afeitarse",
+                    "tense": "Presente",
+                    "forms": [
+                        { "person": "yo", "form": "me afeito" },
+                        { "person": "tú", "form": "te afeitas" },
+                        { "person": "él/ella/usted", "form": "se afeita" },
+                        { "person": "nosotros", "form": "nos afeitamos" },
+                        { "person": "vosotros", "form": "os afeitáis" },
+                        { "person": "ellos/ustedes", "form": "se afeitan" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Escribe tu rutina matutina usando al menos cinco verbos reflexivos.",
+                "Transforma oraciones no reflexivas en reflexivas (Yo despierto a mi hermano → Me despierto temprano).",
+                "Reordena instrucciones colocando el pronombre reflexivo correcto.",
+                "Graba o redacta consejos usando primero se y luego la forma personal (Para prepararse, uno se lava la cara / Nosotros nos lavamos la cara)."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Marta ____ (levantarse) a las siete todas las mañanas.",
+                    "options": ["se levanta", "la levanta", "se levanto"],
+                    "answer": "se levanta",
+                    "explanation": "Pronombre de tercera persona + forma correcta del verbo en presente."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Antes de salir, nosotros ____ (ponerse) los abrigos.",
+                    "answer": "nos ponemos",
+                    "hint": "Recuerda usar nos + forma irregular ponemos."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Use reflexive pronouns (me, te, se, nos, os) to describe actions that fall back on the subject.",
+                    "details": [
+                        "Place the pronoun before a conjugated verb: Me levanto temprano.",
+                        "Attach the pronoun to infinitives/gerunds when preferred: Quiero levantarme / Estoy vistiéndome.",
+                        "Daily-routine verbs like ducharse, cepillarse, vestirse, acostarse are reflexive in Spanish.",
+                        "When giving general instructions, switch between impersonal se statements and the personal pronouns for each subject."
+                    ],
+                    "points": [
+                        "Match the pronoun to the grammatical person: nos acostamos, se acuestan.",
+                        "Vestirse and ponerse change stems (me visto, me pongo).",
+                        "With two verbs together, keep the pronoun before the helper or attach it to the infinitive."
+                    ],
+                    "practice": [
+                        "Write your morning routine using at least five reflexive verbs.",
+                        "Turn non-reflexive sentences into reflexive ones (Yo despierto a mi hermano → Me despierto temprano).",
+                        "Reorder instructions by adding the correct reflexive pronoun.",
+                        "Record or draft tips using both impersonal se and personal forms (Para prepararse, uno se lava la cara / Nosotros nos lavamos la cara)."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "double-object-pronouns",
+            "title": "Pronombres de objeto directo e indirecto",
+            "summary": "Sustituir objetos y combinar pronombres en el orden correcto.",
+            "details": [
+                "Los pronombres de objeto directo responden a qué/qué cosa: lo, la, los, las.",
+                "Los pronombres de objeto indirecto responden a a quién/para quién: me, te, le, nos, os, les.",
+                "Cuando aparecen juntos, el indirecto va antes del directo y le/les cambian a se (Se lo expliqué)."
+            ],
+            "points": [
+                "Coloca los pronombres antes del verbo conjugado o unidos a infinitivo/gerundio.",
+                "Aclara el contexto con a + nombre cuando necesites precisión.",
+                "Mantén la concordancia de género y número en el pronombre directo."
+            ],
+            "examples": [
+                {
+                    "sentence": "Le di el libro a Marta → Se lo di.",
+                    "translation": "I gave the book to Marta → I gave it to her."
+                },
+                {
+                    "sentence": "Voy a explicarte la tarea mañana.",
+                    "translation": "I am going to explain the homework to you tomorrow."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "pronombres directos",
+                    "tense": "Formas",
+                    "forms": [
+                        { "person": "masculino singular", "form": "lo" },
+                        { "person": "femenino singular", "form": "la" },
+                        { "person": "masculino plural", "form": "los" },
+                        { "person": "femenino plural", "form": "las" }
+                    ]
+                },
+                {
+                    "verb": "pronombres indirectos",
+                    "tense": "Formas",
+                    "forms": [
+                        { "person": "yo", "form": "me" },
+                        { "person": "tú", "form": "te" },
+                        { "person": "él/ella/usted", "form": "le" },
+                        { "person": "nosotros", "form": "nos" },
+                        { "person": "vosotros", "form": "os" },
+                        { "person": "ellos/ustedes", "form": "les" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Sustituye los objetos por pronombres en cinco oraciones dadas.",
+                "Combina se + lo/la en frases que incluyan le/les.",
+                "Escribe diálogos cortos usando pronombres unidos a infinitivos.",
+                "Transforma oraciones afirmativas en preguntas manteniendo ambos pronombres."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Completa: ¿El informe? Sí, ____ voy a enviar hoy.",
+                    "options": ["lo", "le", "la"],
+                    "answer": "lo",
+                    "explanation": "Informe es masculino singular, usa lo."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "A mis padres les conté la noticia → ____ ____ conté.",
+                    "answer": "Se la",
+                    "hint": "Recuerda cambiar les a se cuando hay otro pronombre."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Replace direct and indirect objects and combine pronouns in the right order.",
+                    "details": [
+                        "Direct-object pronouns answer what/whom: lo, la, los, las.",
+                        "Indirect-object pronouns answer to whom/for whom: me, te, le, nos, os, les.",
+                        "When both appear, the indirect pronoun comes first and le/les change to se (Se lo expliqué)."
+                    ],
+                    "points": [
+                        "Place pronouns before a conjugated verb or attach them to an infinitive/gerund.",
+                        "Use a + noun for clarity when the reference might be ambiguous.",
+                        "Match gender and number in the direct-object pronoun."
+                    ],
+                    "practice": [
+                        "Swap objects for pronouns in five provided sentences.",
+                        "Create sentences that use se + lo/la when combining le/les with another pronoun.",
+                        "Write short dialogues that attach pronouns to infinitives.",
+                        "Turn affirmative sentences into questions while keeping both pronouns."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "comparatives-superlatives",
+            "title": "Comparativos y superlativos",
+            "summary": "Expresar igualdad, superioridad e inferioridad con precisión.",
+            "details": [
+                "Usa más/menos + adjetivo + que para comparativos regulares (más alto que).",
+                "Tan + adjetivo + como expresa igualdad; tanto/a/os/as + sustantivo + como compara cantidades.",
+                "El superlativo absoluto se forma con -ísimo/a y el relativo con el/la/los/las + más/menos + adjetivo."
+            ],
+            "points": [
+                "Adjetivos irregulares: bueno → mejor, malo → peor, grande → mayor, pequeño → menor.",
+                "El artículo es obligatorio en el superlativo relativo (la más interesante).",
+                "Cuida la concordancia con el sustantivo cuando uses tanto/a/os/as."
+            ],
+            "examples": [
+                {
+                    "sentence": "Mi barrio es más tranquilo que el tuyo.",
+                    "translation": "My neighborhood is calmer than yours."
+                },
+                {
+                    "sentence": "Esta es la película más emocionante del festival.",
+                    "translation": "This is the most exciting movie of the festival."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "estructuras comparativas",
+                    "tense": "Modelos",
+                    "forms": [
+                        { "person": "superioridad", "form": "más + adjetivo + que" },
+                        { "person": "inferioridad", "form": "menos + adjetivo + que" },
+                        { "person": "igualdad adjetivos", "form": "tan + adjetivo + como" },
+                        { "person": "igualdad sustantivos", "form": "tanto/a/os/as + sustantivo + como" }
+                    ]
+                },
+                {
+                    "verb": "superlativo relativo",
+                    "tense": "Modelo",
+                    "forms": [
+                        { "person": "masculino", "form": "el más + adjetivo" },
+                        { "person": "femenino", "form": "la más + adjetivo" },
+                        { "person": "plural masc.", "form": "los más + adjetivo" },
+                        { "person": "plural fem.", "form": "las más + adjetivo" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Escribe cinco comparaciones usando tan...como y tanto...como.",
+                "Convierte comparativos en superlativos relativos.",
+                "Completa frases con mejor/peor/mayor/menor según el contexto.",
+                "Describe tu ciudad usando al menos dos superlativos absolutos (-ísimo)."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "¿Cuál es la forma correcta? 'Este ejercicio es ____ difícil que el anterior'.",
+                    "options": ["más", "tan", "tanto"],
+                    "answer": "más",
+                    "explanation": "Comparativo de superioridad pide más + adjetivo + que."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Mis hermanas son ____ trabajadoras de la empresa.",
+                    "answer": "las más",
+                    "hint": "Recuerda el artículo femenino plural antes de más."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Express equality, superiority, and inferiority with precise comparative and superlative forms.",
+                    "details": [
+                        "Use más/menos + adjective + que for regular comparatives (más alto que).",
+                        "Tan + adjective + como shows equality; tanto/a/os/as + noun + como compares quantities.",
+                        "Form the absolute superlative with -ísimo/a and the relative one with el/la/los/las + más/menos + adjective."
+                    ],
+                    "points": [
+                        "Irregular adjectives: bueno → mejor, malo → peor, grande → mayor, pequeño → menor.",
+                        "Include the definite article in relative superlatives (la más interesante).",
+                        "Match tanto/a/os/as to the noun when comparing amounts."
+                    ],
+                    "practice": [
+                        "Write five comparisons using tan...como and tanto...como.",
+                        "Convert comparative sentences into relative superlatives.",
+                        "Complete sentences with mejor/peor/mayor/menor according to context.",
+                        "Describe your city using at least two absolute superlatives ending in -ísimo." 
+                    ]
+                }
+            }
+        },
+        {
+            "id": "future-forms",
+            "title": "Futuro inmediato y futuro simple",
+            "summary": "Contrastar ir a + infinitivo con el futuro simple para planes y predicciones.",
+            "details": [
+                "Ir a + infinitivo expresa planes cercanos o decisiones tomadas: Vamos a salir en diez minutos.",
+                "El futuro simple (hablaré, comerás) se usa para predicciones, promesas y conjeturas sobre el presente: Llegarán tarde, estarán en casa.",
+                "Marcadores de tiempo: mañana, la próxima semana, dentro de poco, algún día."],
+            "points": [
+                "Con el futuro simple los verbos irregulares cambian la raíz: tendré, harás, dirán.",
+                "Ambas estructuras pueden coexistir en una narrativa: Este sábado voy a estudiar y por la noche descansaré.",
+                "Para expresar probabilidad en el presente se usa el futuro: Serán las ocho (≈ probablemente son las ocho)."
+            ],
+            "examples": [
+                {
+                    "sentence": "Voy a llamar a mis padres esta tarde.",
+                    "translation": "I am going to call my parents this afternoon."
+                },
+                {
+                    "sentence": "El tren llegará a las diez en punto.",
+                    "translation": "The train will arrive at ten o'clock."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "hablar",
+                    "tense": "Futuro simple",
+                    "forms": [
+                        { "person": "yo", "form": "hablaré" },
+                        { "person": "tú", "form": "hablarás" },
+                        { "person": "él/ella/usted", "form": "hablará" },
+                        { "person": "nosotros", "form": "hablaremos" },
+                        { "person": "vosotros", "form": "hablaréis" },
+                        { "person": "ellos/ustedes", "form": "hablarán" }
+                    ]
+                },
+                {
+                    "verb": "tener",
+                    "tense": "Futuro irregular",
+                    "forms": [
+                        { "person": "yo", "form": "tendré" },
+                        { "person": "tú", "form": "tendrás" },
+                        { "person": "él/ella/usted", "form": "tendrá" },
+                        { "person": "nosotros", "form": "tendremos" },
+                        { "person": "vosotros", "form": "tendréis" },
+                        { "person": "ellos/ustedes", "form": "tendrán" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Reescribe planes cortos con ambas formas de futuro.",
+                "Conjuga cinco verbos irregulares en futuro y úsalos en predicciones.",
+                "Completa frases mezclando marcadores temporales y la estructura correcta.",
+                "Graba o escribe una agenda semanal diferenciando planes cercanos de metas a largo plazo."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Esta noche ____ (ir nosotros) a cenar fuera.",
+                    "options": ["iremos", "vamos a ir", "iríamos"],
+                    "answer": "vamos a ir",
+                    "explanation": "Plan cercano ⇒ ir a + infinitivo."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Algún día ____ (viajar, yo) por América Latina.",
+                    "answer": "viajaré",
+                    "hint": "Usa futuro simple para meta a largo plazo."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Contrast ir a + infinitive with the simple future to describe plans and predictions.",
+                    "details": [
+                        "Ir a + infinitive covers near-term plans or decisions already made: Vamos a salir en diez minutos.",
+                        "The simple future (hablaré, comerás) expresses predictions, promises, or present speculation: Llegarán tarde, estarán en casa.",
+                        "Use time markers such as mañana, la próxima semana, dentro de poco, algún día to anchor the tense."
+                    ],
+                    "points": [
+                        "Simple-future irregulars change the stem: tendré, harás, dirán.",
+                        "Both structures can appear in the same narrative: Este sábado voy a estudiar y por la noche descansaré.",
+                        "Use the future for probability about the present: Serán las ocho ≈ It is probably eight o'clock."
+                    ],
+                    "practice": [
+                        "Rewrite short plans using both future forms.",
+                        "Conjugate five irregular verbs in the future and place them in predictions.",
+                        "Complete sentences by matching time markers with the correct future choice.",
+                        "Draft a weekly agenda separating near plans (ir a) from long-term goals (futuro simple)."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "modal-periphrasis",
+            "title": "Perífrasis modales y de obligación",
+            "summary": "Matizar necesidad, costumbre y posibilidad con deber, poder, soler y haber que.",
+            "details": [
+                "Deber + infinitivo expresa obligación moral o recomendación: Debes descansar más.",
+                "Haber que + infinitivo se usa en forma impersonal (hay que) para obligaciones generales.",
+                "Poder + infinitivo indica permiso o capacidad; soler + infinitivo marca hábitos.",
+                "Diferencia entre tener que (obligación personal) y deber (recomendación) para mayor precisión."],
+            "points": [
+                "Hay que no se conjuga con sujeto; solo existe la forma impersonal.",
+                "Soler se conjuga como verbo con diptongo (suelo, sueles...).",
+                "Puedes suavizar peticiones con poder: ¿Puedes ayudarme?"
+            ],
+            "examples": [
+                {
+                    "sentence": "Solemos cenar tarde en verano.",
+                    "translation": "We usually have dinner late in summer."
+                },
+                {
+                    "sentence": "Hay que entregar el formulario antes del viernes.",
+                    "translation": "One must submit the form before Friday."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "deber",
+                    "tense": "Presente",
+                    "forms": [
+                        { "person": "yo", "form": "debo" },
+                        { "person": "tú", "form": "debes" },
+                        { "person": "él/ella/usted", "form": "debe" },
+                        { "person": "nosotros", "form": "debemos" },
+                        { "person": "vosotros", "form": "debéis" },
+                        { "person": "ellos/ustedes", "form": "deben" }
+                    ]
+                },
+                {
+                    "verb": "poder",
+                    "tense": "Presente",
+                    "forms": [
+                        { "person": "yo", "form": "puedo" },
+                        { "person": "tú", "form": "puedes" },
+                        { "person": "él/ella/usted", "form": "puede" },
+                        { "person": "nosotros", "form": "podemos" },
+                        { "person": "vosotros", "form": "podéis" },
+                        { "person": "ellos/ustedes", "form": "pueden" }
+                    ]
+                },
+                {
+                    "verb": "soler",
+                    "tense": "Presente",
+                    "forms": [
+                        { "person": "yo", "form": "suelo" },
+                        { "person": "tú", "form": "sueles" },
+                        { "person": "él/ella/usted", "form": "suele" },
+                        { "person": "nosotros", "form": "solemos" },
+                        { "person": "vosotros", "form": "soléis" },
+                        { "person": "ellos/ustedes", "form": "suelen" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Redacta recomendaciones diferenciando deber y tener que.",
+                "Completa diálogos con poder para pedir permiso de forma cortés.",
+                "Escribe rutinas con soler + infinitivo.",
+                "Transforma obligaciones impersonales (hay que) en obligaciones personales (tenemos que)."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Para hábitos usamos la perífrasis...",
+                    "options": ["deber + inf.", "poder + inf.", "soler + inf."],
+                    "answer": "soler + inf.",
+                    "explanation": "Soler marca costumbre o repetición."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "¿____ (poder, tú) ayudarme con la tarea?",
+                    "answer": "Puedes",
+                    "hint": "Conjuga poder en presente para tú."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Nuance obligation, habit, and ability with deber, tener que, poder, soler, and haber que.",
+                    "details": [
+                        "Deber + infinitive signals moral obligation or recommendation: Debes descansar más.",
+                        "Haber que + infinitive appears as the impersonal hay que to express general obligations.",
+                        "Poder + infinitive indicates permission or ability; soler + infinitive marks habitual actions.",
+                        "Differentiate tener que (personal obligation) from deber (softer advice) for precision."
+                    ],
+                    "points": [
+                        "Hay que stays impersonal—do not conjugate it for different subjects.",
+                        "Soler is a stem-changing verb (suelo, sueles, etc.).",
+                        "Use poder to soften requests politely: ¿Puedes ayudarme?"
+                    ],
+                    "practice": [
+                        "Write recommendations distinguishing between deber and tener que.",
+                        "Complete dialogues using poder to request permission politely.",
+                        "Describe routines with soler + infinitive.",
+                        "Convert impersonal obligations (hay que) into personal ones (tenemos que)."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "se-impersonal-accidental",
+            "title": "Construcciones con se impersonal y accidental",
+            "summary": "Generalizar acciones o expresar eventos involuntarios con se + verbo.",
+            "details": [
+                "El se impersonal usa el verbo en tercera persona singular para hablar en general: Se vive bien aquí.",
+                "El se pasivo concuerda con el objeto en tercera persona singular o plural: Se venden casas.",
+                "Para eventos accidentales se usan pronombres de objeto indirecto + se + verbo: Se me olvidó la llave.",
+                "Añade marcadores de lugar o tiempo para contextualizar la acción impersonal."],
+            "points": [
+                "Recuerda que el verbo concuerda con el objeto en el se pasivo (Se buscan voluntarios).",
+                "En se accidental, pronombres: me, te, le, nos, os, les indican a quién le ocurre.",
+                "Evita sujetos explícitos; el se ya cumple esa función."],
+            "examples": [
+                {
+                    "sentence": "Se habla español en esta oficina.",
+                    "translation": "Spanish is spoken in this office."
+                },
+                {
+                    "sentence": "Se me perdió el ticket del concierto.",
+                    "translation": "I lost the concert ticket (literally: The ticket got lost on me)."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "se impersonal",
+                    "tense": "Modelos",
+                    "forms": [
+                        { "person": "singular", "form": "se + verbo 3ª sing." },
+                        { "person": "plural", "form": "se + verbo 3ª plural" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Convierte oraciones activas en se pasivo.",
+                "Escribe tres frases impersonales describiendo normas (Se debe..., Se prohíbe...).",
+                "Completa eventos accidentales con el pronombre correcto (se me, se le...).",
+                "Relata un día de oficina usando se impersonal para describir procesos."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "____ (Se vende / Se venden) apartamentos en esta zona.",
+                    "options": ["Se vende", "Se venden"],
+                    "answer": "Se venden",
+                    "explanation": "Apartamentos es plural ⇒ verbo plural."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Lo siento, ____ me rompió el vaso.",
+                    "answer": "se",
+                    "hint": "Incluye se + pronombre para accidentes involuntarios."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Generalize actions or express accidents with se + verb structures.",
+                    "details": [
+                        "The impersonal se uses a third-person singular verb to talk in general: Se vive bien aquí.",
+                        "Se pasivo matches the verb with the object in singular or plural: Se venden casas.",
+                        "Accidental se combines an indirect-object pronoun + se + verb to show unintentional events: Se me olvidó la llave.",
+                        "Add place or time markers to situate the impersonal action."
+                    ],
+                    "points": [
+                        "Ensure the verb agrees with the object in se pasivo (Se buscan voluntarios).",
+                        "In accidental se, the pronouns me, te, le, nos, os, les mark who is affected.",
+                        "Skip explicit subjects—the se already fulfills that role."
+                    ],
+                    "practice": [
+                        "Turn active sentences into se pasivo forms.",
+                        "Write three impersonal rules using structures like Se debe... / Se prohíbe....",
+                        "Complete accidental events with the correct pronoun (se me, se le, etc.).",
+                        "Narrate a workday using se impersonal to describe procedures."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "passive-voice-intro",
+            "title": "Voz pasiva con ser y se pasivo",
+            "summary": "Transformar oraciones activas en pasivas utilizando ser + participio y el se pasivo.",
+            "details": [
+                "La voz pasiva con ser enfatiza el objeto y mantiene el agente opcional: La carta fue escrita por Ana.",
+                "El participio concuerda con el sujeto pasivo en género y número.",
+                "El se pasivo funciona mejor con sujetos inanimados y verbos transitivos: Se publicarán los resultados.",
+                "Prefiere la voz pasiva para lenguaje formal o para ocultar el agente."],
+            "points": [
+                "Coloca el agente con por + sustantivo si es necesario.",
+                "Evita la pasiva con verbos intransitivos (no llevan objeto directo).",
+                "Puedes alternar entre pasiva perifrástica (ser + participio) y pasiva refleja (se + verbo)."
+            ],
+            "examples": [
+                {
+                    "sentence": "El contrato será revisado por el abogado.",
+                    "translation": "The contract will be reviewed by the lawyer."
+                },
+                {
+                    "sentence": "Se anuncian nuevos cursos en la plataforma.",
+                    "translation": "New courses are announced on the platform."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "ser",
+                    "tense": "Pasiva",
+                    "forms": [
+                        { "person": "presente", "form": "es/son + participio" },
+                        { "person": "pasado", "form": "fue/fueron + participio" },
+                        { "person": "futuro", "form": "será/serán + participio" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Transforma diez oraciones activas en pasivas con ser.",
+                "Decide cuándo usar pasiva refleja frente a pasiva con ser.",
+                "Completa participios asegurando concordancia de género y número.",
+                "Redacta un breve informe formal usando varias pasivas."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "La exposición ____ inaugurada mañana.",
+                    "options": ["es", "será", "fue"],
+                    "answer": "será",
+                    "explanation": "Evento futuro requiere ser + participio en futuro."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Se ____ (publicar) los nombres en la web.",
+                    "answer": "publicarán",
+                    "hint": "Concordancia plural para nombres."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Turn active sentences into passive voice with ser + participle or the se passive.",
+                    "details": [
+                        "Passive voice with ser highlights the object and keeps the agent optional: La carta fue escrita por Ana.",
+                        "The participle must agree in gender and number with the passive subject.",
+                        "The se passive works best with inanimate subjects and transitive verbs: Se publicarán los resultados.",
+                        "Choose the passive for formal register or when the agent is unknown/irrelevant."
+                    ],
+                    "points": [
+                        "Introduce the agent with por + noun if you need to mention it.",
+                        "Avoid the passive with intransitive verbs that lack a direct object.",
+                        "Alternate between ser + participio and se + verbo depending on style and focus."
+                    ],
+                    "practice": [
+                        "Transform ten active sentences into ser-type passives.",
+                        "Decide when to use a se passive instead of ser + participle.",
+                        "Complete participles ensuring gender/number agreement.",
+                        "Write a short formal report that mixes both passive options."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "reported-speech-basics",
+            "title": "Estilo indirecto básico",
+            "summary": "Transmitir lo que otra persona dijo usando cambios de tiempo y pronombres.",
+            "details": [
+                "Introduce con verbos como decir, comentar, preguntar, pedir y conecta con que o si.",
+                "Cuando el verbo introductorio está en pasado, los tiempos suelen retroceder: presente → imperfecto, pretérito → pluscuamperfecto.",
+                "Las preguntas sí/no usan si; las preguntas con palabra interrogativa mantienen la palabra (Me preguntó dónde vivía).",
+                "Ajusta pronombres y referencias temporales (aquí → allí, hoy → ese día)."],
+            "points": [
+                "Si el verbo introductorio está en presente, a veces no hay cambio de tiempo.",
+                "Las órdenes se reportan con que + subjuntivo o con infinitivo: Me pidió que lo ayudara / Me pidió ayudarlo.",
+                "Mantén la coherencia de persona: Yo dije ‘voy’ → Dije que iba."
+            ],
+            "examples": [
+                {
+                    "sentence": "Ana dijo: ‘Estoy cansada’ → Ana dijo que estaba cansada.",
+                    "translation": "Ana said: ‘I am tired’ → Ana said that she was tired."
+                },
+                {
+                    "sentence": "¿Vendrás mañana? → Me preguntó si iría al día siguiente.",
+                    "translation": "‘Will you come tomorrow?’ → He asked me if I would go the next day."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "cambios de tiempo",
+                    "tense": "Tabla",
+                    "forms": [
+                        { "person": "presente", "form": "→ imperfecto" },
+                        { "person": "pretérito perfecto", "form": "→ pluscuamperfecto" },
+                        { "person": "futuro", "form": "→ condicional" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Convierte frases directas en indirectas aplicando cambios de tiempo.",
+                "Redacta un resumen de una conversación usando dijo que / comentó que.",
+                "Transforma preguntas directas a preguntas indirectas con si/dónde/cuándo.",
+                "Escribe mandatos reportados con que + subjuntivo o infinitivo."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "‘Vendré mañana’ → Dijo que ____ mañana.",
+                    "options": ["vendría", "vino", "vendrá"],
+                    "answer": "vendría",
+                    "explanation": "Futuro directo pasa a condicional en estilo indirecto con verbo introductorio en pasado."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "‘¿Dónde vives?’ → Me preguntó dónde ____ (vivir, yo).",
+                    "answer": "vivía",
+                    "hint": "Presente pasa a imperfecto en preguntas indirectas."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Report what someone said by adjusting verb tenses, pronouns, and time references.",
+                    "details": [
+                        "Introduce reported speech with verbs like decir, comentar, preguntar, pedir and link with que or si.",
+                        "When the reporting verb is in the past, tenses usually shift back: presente → imperfecto, pretérito → pluscuamperfecto.",
+                        "Yes/no questions take si, while wh- questions keep the interrogative word (Me preguntó dónde vivía).",
+                        "Update pronouns and temporal references (aquí → allí, hoy → ese día)."
+                    ],
+                    "points": [
+                        "If the reporting verb is in the present, tense changes may be optional.",
+                        "Commands can be reported with que + subjunctive or an infinitive: Me pidió que lo ayudara / Me pidió ayudarlo.",
+                        "Maintain person consistency: Yo dije ‘voy’ → Dije que iba."
+                    ],
+                    "practice": [
+                        "Convert direct statements into indirect speech applying the tense shifts.",
+                        "Write a conversation summary using dijo que / comentó que.",
+                        "Transform direct questions into indirect ones with si, dónde, cuándo, etc.",
+                        "Report commands with que + subjunctive or infinitive forms."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "connectors-cause-consequence",
+            "title": "Conectores de causa, contraste y consecuencia",
+            "summary": "Unir ideas con porque, ya que, por eso, sin embargo y mientras que.",
+            "details": [
+                "Porque, ya que y debido a que introducen causas; van seguidas del verbo conjugado.",
+                "Por eso, por lo tanto y entonces introducen consecuencias y suelen iniciar la segunda oración.",
+                "Para contraste usa pero, sin embargo, aunque (con indicativo en hechos reales).",
+                "Mientras que sirve para comparar dos acciones simultáneas o contrastar hábitos."],
+            "points": [
+                "Evita duplicar porque + por eso en la misma oración.",
+                "Coloca comas antes de sin embargo y después si va en medio de la oración.",
+                "Aunque puede requerir subjuntivo en niveles superiores; aquí se mantiene con indicativo para hechos reales."
+            ],
+            "examples": [
+                {
+                    "sentence": "No salimos porque llovía mucho.",
+                    "translation": "We did not go out because it was raining a lot."
+                },
+                {
+                    "sentence": "Estudia mucho, por eso obtiene buenas notas.",
+                    "translation": "She studies a lot, therefore she gets good grades."
+                }
+            ],
+            "practice": [
+                "Completa espacios con conectores adecuados (porque/sin embargo/por eso).",
+                "Redacta un párrafo contrastando dos ciudades usando mientras que.",
+                "Ordena oraciones mezcladas para mostrar causa y consecuencia claramente.",
+                "Reemplaza conectores repetidos por sinónimos para mejorar la cohesión."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Quería ir al concierto, ____ estaba enfermo.",
+                    "options": ["porque", "sin embargo", "por eso"],
+                    "answer": "sin embargo",
+                    "explanation": "Se necesita un conector de contraste."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Llegamos tarde, ____ perdimos el autobús.",
+                    "answer": "porque",
+                    "hint": "Falta la causa directa del retraso."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Link ideas with connectors of cause, contrast, and consequence such as porque, ya que, por eso, sin embargo, mientras que.",
+                    "details": [
+                        "Porque, ya que, and debido a que introduce causes and must be followed by a conjugated verb.",
+                        "Por eso, por lo tanto, and entonces present consequences and often start the second clause.",
+                        "Use pero, sin embargo, aunque (with indicative for real facts here) to show contrast.",
+                        "Mientras que compares simultaneous actions or contrasting habits."
+                    ],
+                    "points": [
+                        "Avoid stacking porque and por eso in the same sentence.",
+                        "Place commas before sin embargo and after it if it sits mid-sentence.",
+                        "Reserve aunque + subjunctive for higher levels; stay with indicative for real situations now."
+                    ],
+                    "practice": [
+                        "Fill blanks with appropriate connectors (porque/sin embargo/por eso).",
+                        "Write a paragraph contrasting two cities using mientras que.",
+                        "Order scrambled sentences so that cause and consequence appear clearly.",
+                        "Replace repeated connectors with synonyms to improve cohesion."
+                    ]
+                }
+            }
         }
     ]
 }

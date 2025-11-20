@@ -8,7 +8,46 @@
                 { "term": "cronograma", "translation": "schedule" },
                 { "term": "responsabilidad", "translation": "responsibility" },
                 { "term": "acordar", "translation": "to agree" },
-                { "term": "sugerencia", "translation": "suggestion" }
+                { "term": "sugerencia", "translation": "suggestion" },
+                { "term": "compromiso", "translation": "commitment" },
+                { "term": "seguimiento", "translation": "follow-up" },
+                { "term": "retroalimentacion", "translation": "feedback" }
+            ]
+        },
+        {
+            "id": "academic-writing",
+            "title": "Redaccion y presentaciones",
+            "words": [
+                { "term": "hipotesis", "translation": "hypothesis" },
+                { "term": "argumento central", "translation": "main argument" },
+                { "term": "fuente confiable", "translation": "reliable source" },
+                { "term": "citado", "translation": "citation" },
+                { "term": "ensayo", "translation": "essay" },
+                { "term": "transicion", "translation": "transition" }
+            ]
+        },
+        {
+            "id": "innovation-projects",
+            "title": "Innovacion y proyectos",
+            "words": [
+                { "term": "prototipo", "translation": "prototype" },
+                { "term": "viabilidad", "translation": "feasibility" },
+                { "term": "presupuesto", "translation": "budget" },
+                { "term": "metrica", "translation": "metric" },
+                { "term": "entregable", "translation": "deliverable" },
+                { "term": "cronista", "translation": "scribe", "note": "persona que documenta" }
+            ]
+        },
+        {
+            "id": "debate-opinions",
+            "title": "Debate y opinion",
+            "words": [
+                { "term": "postura", "translation": "stance" },
+                { "term": "contraargumento", "translation": "counterargument" },
+                { "term": "matiz", "translation": "nuance" },
+                { "term": "persuadir", "translation": "to persuade" },
+                { "term": "ceder", "translation": "to yield" },
+                { "term": "consenso", "translation": "consensus" }
             ]
         }
     ]

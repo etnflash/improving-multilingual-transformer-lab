@@ -2,24 +2,1392 @@
     "level": "B1",
     "topics": [
         {
-            "id": "subjuntivo-deseos",
-            "title": "Subjuntivo para deseos",
-            "summary": "Usar el subjuntivo despues de expresiones de deseo y emocion.",
+            "id": "subjunctive-desires-emotions",
+            "title": "Subjuntivo: deseos y emociones",
+            "summary": "Aplicar el subjuntivo presente tras verbos de deseo, emoción e influencia.",
+            "details": [
+                "El subjuntivo requiere dos sujetos distintos: Espero que tú vengas.",
+                "Expresiones frecuentes: ojalá que, me preocupa que, es una pena que.",
+                "Usa que + pronombre/ sustantivo para introducir la subordinada."
+            ],
             "points": [
-                "Desencadenantes: espero que, me alegra que, deseo que.",
-                "Concordancia de sujeto: cambia cuando hay dos sujetos diferentes.",
-                "Recuerda acentos en formas de subjuntivo."
+                "Verboso claves: querer que, preferir que, temer que.",
+                "Niega certezas con no creer que / no pensar que + subjuntivo.",
+                "Practica el contraste con indicativo para validar significado."
             ],
             "examples": [
                 {
-                    "sentence": "Espero que tengas un buen viaje.",
-                    "translation": "I hope that you have a good trip."
+                    "sentence": "Ojalá que encuentres un piso céntrico pronto.",
+                    "translation": "I hope you find a central apartment soon."
                 },
                 {
-                    "sentence": "Me alegra que estudien juntos.",
-                    "translation": "I am glad that they study together."
+                    "sentence": "Nos alegra que participen en el proyecto.",
+                    "translation": "We are glad that they take part in the project."
                 }
-            ]
+            ],
+            "conjugations": [
+                {
+                    "verb": "hablar",
+                    "tense": "Presente de subjuntivo",
+                    "forms": [
+                        { "person": "yo", "form": "hable" },
+                        { "person": "tú", "form": "hables" },
+                        { "person": "él/ella/usted", "form": "hable" },
+                        { "person": "nosotros", "form": "hablemos" },
+                        { "person": "vosotros", "form": "habléis" },
+                        { "person": "ellos/ustedes", "form": "hablen" }
+                    ]
+                },
+                {
+                    "verb": "comer",
+                    "tense": "Presente de subjuntivo",
+                    "forms": [
+                        { "person": "yo", "form": "coma" },
+                        { "person": "tú", "form": "comas" },
+                        { "person": "él/ella/usted", "form": "coma" },
+                        { "person": "nosotros", "form": "comamos" },
+                        { "person": "vosotros", "form": "comáis" },
+                        { "person": "ellos/ustedes", "form": "coman" }
+                    ]
+                },
+                {
+                    "verb": "vivir",
+                    "tense": "Presente de subjuntivo",
+                    "forms": [
+                        { "person": "yo", "form": "viva" },
+                        { "person": "tú", "form": "vivas" },
+                        { "person": "él/ella/usted", "form": "viva" },
+                        { "person": "nosotros", "form": "vivamos" },
+                        { "person": "vosotros", "form": "viváis" },
+                        { "person": "ellos/ustedes", "form": "vivan" }
+                    ]
+                },
+                {
+                    "verb": "tener",
+                    "tense": "Presente de subjuntivo (irregular)",
+                    "forms": [
+                        { "person": "yo", "form": "tenga" },
+                        { "person": "tú", "form": "tengas" },
+                        { "person": "él/ella/usted", "form": "tenga" },
+                        { "person": "nosotros", "form": "tengamos" },
+                        { "person": "vosotros", "form": "tengáis" },
+                        { "person": "ellos/ustedes", "form": "tengan" }
+                    ]
+                },
+                {
+                    "verb": "ir",
+                    "tense": "Presente de subjuntivo (irregular)",
+                    "forms": [
+                        { "person": "yo", "form": "vaya" },
+                        { "person": "tú", "form": "vayas" },
+                        { "person": "él/ella/usted", "form": "vaya" },
+                        { "person": "nosotros", "form": "vayamos" },
+                        { "person": "vosotros", "form": "vayáis" },
+                        { "person": "ellos/ustedes", "form": "vayan" }
+                    ]
+                },
+                {
+                    "verb": "ser",
+                    "tense": "Presente de subjuntivo (irregular)",
+                    "forms": [
+                        { "person": "yo", "form": "sea" },
+                        { "person": "tú", "form": "seas" },
+                        { "person": "él/ella/usted", "form": "sea" },
+                        { "person": "nosotros", "form": "seamos" },
+                        { "person": "vosotros", "form": "seáis" },
+                        { "person": "ellos/ustedes", "form": "sean" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Redacta cinco deseos usando ojalá que + subjuntivo.",
+                "Transforma oraciones con indicativo en subjuntivo insertando expresiones de emoción.",
+                "Crea un diálogo entre dos personas donde una exprese preocupaciones con el subjuntivo.",
+                "Completa oraciones con el verbo en subjuntivo correcto según el sujeto dado."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Me molesta que ustedes no ____ (escuchar).",
+                    "options": ["escuchan", "escuchen", "escuchar"],
+                    "answer": "escuchen",
+                    "explanation": "Verbo de emoción exige subjuntivo."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Esperamos que tú ____ (llegar) temprano mañana.",
+                    "answer": "llegues",
+                    "hint": "Aplica la terminación -es para verbos -ar en subjuntivo."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Use the present subjunctive after verbs of desire, emotion, or influence when subjects differ.",
+                    "details": [
+                        "The subjunctive needs two different subjects: Espero que tú vengas.",
+                        "Common triggers include ojalá que, me preocupa que, es una pena que.",
+                        "Introduce the subordinate clause with que + pronoun/noun to link both parts."
+                    ],
+                    "points": [
+                        "Key verbs: querer que, preferir que, temer que.",
+                        "Negate certainty with no creer que / no pensar que + subjunctive.",
+                        "Contrast with the indicative to highlight meaning differences."
+                    ],
+                    "practice": [
+                        "Write five wishes using ojalá que + subjunctive.",
+                        "Transform indicative sentences into subjunctive by adding emotion clauses.",
+                        "Create a dialogue where one speaker shares concerns using the subjunctive.",
+                        "Complete sentences with the correct subjunctive form based on the given subject."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "subjunctive-impersonal-expressions",
+            "title": "Subjuntivo con expresiones impersonales",
+            "summary": "Emplear el subjuntivo después de es importante que / es necesario que, etc.",
+            "details": [
+                "Las expresiones de valoración, necesidad u obligación activan el subjuntivo cuando hay cambio de sujeto (Es fundamental que ellos lleguen).",
+                "Es + adjetivo + que + subjuntivo permite matizar opiniones (Es probable que…).",
+                "Cuando no hay cambio de sujeto, usa infinitivo: Es importante estudiar."
+            ],
+            "points": [
+                "Adjetivos comunes: esencial, urgente, increíble, posible, dudoso.",
+                "Para expresar certeza usa es verdad/cierto/seguro + indicativo.",
+                "Coloca los pronombres antes del verbo en subjuntivo si son necesarios."
+            ],
+            "examples": [
+                {
+                    "sentence": "Es urgente que revisemos el informe hoy mismo.",
+                    "translation": "It is urgent that we review the report today."
+                },
+                {
+                    "sentence": "No es seguro que la reunión continúe mañana.",
+                    "translation": "It is not certain that the meeting will continue tomorrow."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "hablar",
+                    "tense": "Presente de subjuntivo",
+                    "forms": [
+                        { "person": "yo", "form": "hable" },
+                        { "person": "tú", "form": "hables" },
+                        { "person": "él/ella/usted", "form": "hable" },
+                        { "person": "nosotros", "form": "hablemos" },
+                        { "person": "vosotros", "form": "habléis" },
+                        { "person": "ellos/ustedes", "form": "hablen" }
+                    ]
+                },
+                {
+                    "verb": "comer",
+                    "tense": "Presente de subjuntivo",
+                    "forms": [
+                        { "person": "yo", "form": "coma" },
+                        { "person": "tú", "form": "comas" },
+                        { "person": "él/ella/usted", "form": "coma" },
+                        { "person": "nosotros", "form": "comamos" },
+                        { "person": "vosotros", "form": "comáis" },
+                        { "person": "ellos/ustedes", "form": "coman" }
+                    ]
+                },
+                {
+                    "verb": "vivir",
+                    "tense": "Presente de subjuntivo",
+                    "forms": [
+                        { "person": "yo", "form": "viva" },
+                        { "person": "tú", "form": "vivas" },
+                        { "person": "él/ella/usted", "form": "viva" },
+                        { "person": "nosotros", "form": "vivamos" },
+                        { "person": "vosotros", "form": "viváis" },
+                        { "person": "ellos/ustedes", "form": "vivan" }
+                    ]
+                },
+                {
+                    "verb": "tener",
+                    "tense": "Presente de subjuntivo (irregular)",
+                    "forms": [
+                        { "person": "yo", "form": "tenga" },
+                        { "person": "tú", "form": "tengas" },
+                        { "person": "él/ella/usted", "form": "tenga" },
+                        { "person": "nosotros", "form": "tengamos" },
+                        { "person": "vosotros", "form": "tengáis" },
+                        { "person": "ellos/ustedes", "form": "tengan" }
+                    ]
+                },
+                {
+                    "verb": "ir",
+                    "tense": "Presente de subjuntivo (irregular)",
+                    "forms": [
+                        { "person": "yo", "form": "vaya" },
+                        { "person": "tú", "form": "vayas" },
+                        { "person": "él/ella/usted", "form": "vaya" },
+                        { "person": "nosotros", "form": "vayamos" },
+                        { "person": "vosotros", "form": "vayáis" },
+                        { "person": "ellos/ustedes", "form": "vayan" }
+                    ]
+                },
+                {
+                    "verb": "ser",
+                    "tense": "Presente de subjuntivo (irregular)",
+                    "forms": [
+                        { "person": "yo", "form": "sea" },
+                        { "person": "tú", "form": "seas" },
+                        { "person": "él/ella/usted", "form": "sea" },
+                        { "person": "nosotros", "form": "seamos" },
+                        { "person": "vosotros", "form": "seáis" },
+                        { "person": "ellos/ustedes", "form": "sean" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Completa diez oraciones con es + adjetivo + que + subjuntivo.",
+                "Sustituye oraciones de infinitivo por construcciones con cambio de sujeto.",
+                "Clasifica expresiones según si activan subjuntivo o indicativo.",
+                "Escribe recomendaciones formales para un equipo usando este patrón."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Es probable que Marta no ____ (poder) asistir.",
+                    "options": ["puede", "pueda", "poderá"],
+                    "answer": "pueda",
+                    "explanation": "Probabilidad ⇒ subjuntivo."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "No es seguro que nosotros ____ (tener) tiempo suficiente.",
+                    "answer": "tengamos",
+                    "hint": "Verbo tener mantiene la raíz irregular teng-."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Use the subjunctive after impersonal expressions of necessity, value, or doubt when subjects differ.",
+                    "details": [
+                        "Valuation, necessity, or obligation expressions trigger the subjunctive when there is a subject change (Es fundamental que ellos lleguen).",
+                        "Es + adjective + que + subjunctive helps nuance opinions (Es probable que...).",
+                        "Without a subject change, keep the infinitive: Es importante estudiar."
+                    ],
+                    "points": [
+                        "Common adjectives: esencial, urgente, increíble, posible, dudoso.",
+                        "Express certainty with es verdad/cierto/seguro + indicative instead.",
+                        "Place pronouns before the subjunctive verb when needed."
+                    ],
+                    "practice": [
+                        "Complete ten sentences using es + adjective + que + subjunctive.",
+                        "Rewrite infinitive sentences by introducing a new subject.",
+                        "Sort expressions by whether they require the subjunctive or indicative.",
+                        "Write formal recommendations for a team using this pattern."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "temporal-subjunctive-clauses",
+            "title": "Subjuntivo en oraciones temporales",
+            "summary": "Usar subjuntivo tras conectores como cuando, hasta que, en cuanto para acciones futuras.",
+            "details": [
+                "Cuando la acción subordinada está en el futuro o no realizada, emplea subjuntivo: Cuando termines, llámame.",
+                "Si la acción ya ocurrió o es habitual, utiliza indicativo: Cuando termino, descanso.",
+                "Con hasta que, antes de que, después de que mantén consistencia temporal según el contexto."
+            ],
+            "points": [
+                "Con antes de que siempre va subjuntivo porque la acción aún no sucede.",
+                "Después de que admite ambos tiempos según el enfoque (real vs. hipotético).",
+                "Practica líneas de tiempo para visualizar la secuencia de acciones."
+            ],
+            "examples": [
+                {
+                    "sentence": "Te avisaré en cuanto lleguen los resultados.",
+                    "translation": "I will let you know as soon as the results arrive."
+                },
+                {
+                    "sentence": "Siempre que tengo vacaciones, viajo al norte.",
+                    "translation": "Whenever I have vacation, I travel north.",
+                    "explanation": "Acción habitual ⇒ indicativo."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "hablar",
+                    "tense": "Presente de subjuntivo (acción futura)",
+                    "forms": [
+                        { "person": "yo", "form": "hable" },
+                        { "person": "tú", "form": "hables" },
+                        { "person": "él/ella/usted", "form": "hable" },
+                        { "person": "nosotros", "form": "hablemos" },
+                        { "person": "vosotros", "form": "habléis" },
+                        { "person": "ellos/ustedes", "form": "hablen" }
+                    ]
+                },
+                {
+                    "verb": "comer",
+                    "tense": "Presente de subjuntivo (acción futura)",
+                    "forms": [
+                        { "person": "yo", "form": "coma" },
+                        { "person": "tú", "form": "comas" },
+                        { "person": "él/ella/usted", "form": "coma" },
+                        { "person": "nosotros", "form": "comamos" },
+                        { "person": "vosotros", "form": "comáis" },
+                        { "person": "ellos/ustedes", "form": "coman" }
+                    ]
+                },
+                {
+                    "verb": "vivir",
+                    "tense": "Presente de subjuntivo (acción futura)",
+                    "forms": [
+                        { "person": "yo", "form": "viva" },
+                        { "person": "tú", "form": "vivas" },
+                        { "person": "él/ella/usted", "form": "viva" },
+                        { "person": "nosotros", "form": "vivamos" },
+                        { "person": "vosotros", "form": "viváis" },
+                        { "person": "ellos/ustedes", "form": "vivan" }
+                    ]
+                },
+                {
+                    "verb": "tener",
+                    "tense": "Presente de subjuntivo (irregular)",
+                    "forms": [
+                        { "person": "yo", "form": "tenga" },
+                        { "person": "tú", "form": "tengas" },
+                        { "person": "él/ella/usted", "form": "tenga" },
+                        { "person": "nosotros", "form": "tengamos" },
+                        { "person": "vosotros", "form": "tengáis" },
+                        { "person": "ellos/ustedes", "form": "tengan" }
+                    ]
+                },
+                {
+                    "verb": "ir",
+                    "tense": "Presente de subjuntivo (irregular)",
+                    "forms": [
+                        { "person": "yo", "form": "vaya" },
+                        { "person": "tú", "form": "vayas" },
+                        { "person": "él/ella/usted", "form": "vaya" },
+                        { "person": "nosotros", "form": "vayamos" },
+                        { "person": "vosotros", "form": "vayáis" },
+                        { "person": "ellos/ustedes", "form": "vayan" }
+                    ]
+                },
+                {
+                    "verb": "ser",
+                    "tense": "Presente de subjuntivo (irregular)",
+                    "forms": [
+                        { "person": "yo", "form": "sea" },
+                        { "person": "tú", "form": "seas" },
+                        { "person": "él/ella/usted", "form": "sea" },
+                        { "person": "nosotros", "form": "seamos" },
+                        { "person": "vosotros", "form": "seáis" },
+                        { "person": "ellos/ustedes", "form": "sean" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Completa oraciones con conectores temporales eligiendo subjuntivo o indicativo.",
+                "Reescribe frases en futuro para forzar el uso del subjuntivo.",
+                "Diseña una agenda describiendo lo que harás antes de que + verbo.",
+                "Marca en una línea de tiempo qué acción ocurre primero y qué tiempo verbal necesita."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "No salgas hasta que yo ____ (volver).",
+                    "options": ["vuelvo", "vuelva", "volveré"],
+                    "answer": "vuelva",
+                    "explanation": "Acción futura depende de otra ⇒ subjuntivo."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Cuando ____ (terminar, nosotros) el informe, lo enviaremos.",
+                    "answer": "terminemos",
+                    "hint": "Acción aún no realizada ⇒ subjuntivo."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Choose the subjunctive after time connectors like cuando, hasta que, en cuanto when the action is future or pending.",
+                    "details": [
+                        "Use the subjunctive when the subordinate action is in the future or not yet completed: Cuando termines, llámame.",
+                        "Switch to the indicative for completed or habitual actions: Cuando termino, descanso.",
+                        "Maintain temporal consistency with hasta que, antes de que, después de que depending on context."
+                    ],
+                    "points": [
+                        "Antes de que always uses the subjunctive because the action has not occurred yet.",
+                        "Después de que accepts either mood depending on whether the action is real or hypothetical.",
+                        "Build timelines to visualize which action happens first."
+                    ],
+                    "practice": [
+                        "Complete sentences with temporal connectors, choosing subjunctive or indicative.",
+                        "Rewrite present-tense sentences into future contexts to force the subjunctive.",
+                        "Design an agenda describing what you will do before que + verb.",
+                        "Mark which action occurs first on a timeline and select the correct tense."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "conditional-si-clauses",
+            "title": "Condicional simple y cláusulas con si",
+            "summary": "Hablar de hipótesis reales y potenciales combinando tiempos verbales.",
+            "details": [
+                "Para situaciones reales usa si + presente + futuro/imperativo: Si tienes tiempo, llámame.",
+                "Para hipótesis improbables usa si + imperfecto de subjuntivo + condicional simple: Si tuviera más dinero, viajaría más.",
+                "El condicional simple también expresa cortesía o deseo (Me gustaría saber)."
+            ],
+            "points": [
+                "El condicional se forma con infinitivo + terminaciones -ía, -ías, -ía, -íamos, -íais, -ían.",
+                "El imperfecto de subjuntivo suele adoptar la forma -ra (tuviera) en este nivel.",
+                "Mantén el orden lógico de las cláusulas aunque cambie la posición del si."
+            ],
+            "examples": [
+                {
+                    "sentence": "Si estudias cada día, mejorarás rápidamente.",
+                    "translation": "If you study every day, you will improve quickly."
+                },
+                {
+                    "sentence": "Si pudiéramos, viviríamos cerca del mar.",
+                    "translation": "If we could, we would live near the sea."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "hablar",
+                    "tense": "Condicional simple + imperfecto de subjuntivo",
+                    "forms": [
+                        { "person": "yo (condicional)", "form": "hablaría" },
+                        { "person": "tú (condicional)", "form": "hablarías" },
+                        { "person": "él/ella/usted (condicional)", "form": "hablaría" },
+                        { "person": "nosotros (condicional)", "form": "hablaríamos" },
+                        { "person": "vosotros (condicional)", "form": "hablaríais" },
+                        { "person": "ellos/ustedes (condicional)", "form": "hablarían" },
+                        { "person": "yo (impf. subj.)", "form": "hablara" },
+                        { "person": "tú (impf. subj.)", "form": "hablaras" },
+                        { "person": "él/ella/usted (impf. subj.)", "form": "hablara" },
+                        { "person": "nosotros (impf. subj.)", "form": "habláramos" },
+                        { "person": "vosotros (impf. subj.)", "form": "hablarais" },
+                        { "person": "ellos/ustedes (impf. subj.)", "form": "hablaran" }
+                    ]
+                },
+                {
+                    "verb": "comer",
+                    "tense": "Condicional simple + imperfecto de subjuntivo",
+                    "forms": [
+                        { "person": "yo (condicional)", "form": "comería" },
+                        { "person": "tú (condicional)", "form": "comerías" },
+                        { "person": "él/ella/usted (condicional)", "form": "comería" },
+                        { "person": "nosotros (condicional)", "form": "comeríamos" },
+                        { "person": "vosotros (condicional)", "form": "comeríais" },
+                        { "person": "ellos/ustedes (condicional)", "form": "comerían" },
+                        { "person": "yo (impf. subj.)", "form": "comiera" },
+                        { "person": "tú (impf. subj.)", "form": "comieras" },
+                        { "person": "él/ella/usted (impf. subj.)", "form": "comiera" },
+                        { "person": "nosotros (impf. subj.)", "form": "comiéramos" },
+                        { "person": "vosotros (impf. subj.)", "form": "comierais" },
+                        { "person": "ellos/ustedes (impf. subj.)", "form": "comieran" }
+                    ]
+                },
+                {
+                    "verb": "vivir",
+                    "tense": "Condicional simple + imperfecto de subjuntivo",
+                    "forms": [
+                        { "person": "yo (condicional)", "form": "viviría" },
+                        { "person": "tú (condicional)", "form": "vivirías" },
+                        { "person": "él/ella/usted (condicional)", "form": "viviría" },
+                        { "person": "nosotros (condicional)", "form": "viviríamos" },
+                        { "person": "vosotros (condicional)", "form": "viviríais" },
+                        { "person": "ellos/ustedes (condicional)", "form": "vivirían" },
+                        { "person": "yo (impf. subj.)", "form": "viviera" },
+                        { "person": "tú (impf. subj.)", "form": "vivieras" },
+                        { "person": "él/ella/usted (impf. subj.)", "form": "viviera" },
+                        { "person": "nosotros (impf. subj.)", "form": "viviéramos" },
+                        { "person": "vosotros (impf. subj.)", "form": "vivierais" },
+                        { "person": "ellos/ustedes (impf. subj.)", "form": "vivieran" }
+                    ]
+                },
+                {
+                    "verb": "tener",
+                    "tense": "Condicional simple + imperfecto de subjuntivo (irregular)",
+                    "forms": [
+                        { "person": "yo (condicional)", "form": "tendría" },
+                        { "person": "tú (condicional)", "form": "tendrías" },
+                        { "person": "él/ella/usted (condicional)", "form": "tendría" },
+                        { "person": "nosotros (condicional)", "form": "tendríamos" },
+                        { "person": "vosotros (condicional)", "form": "tendríais" },
+                        { "person": "ellos/ustedes (condicional)", "form": "tendrían" },
+                        { "person": "yo (impf. subj.)", "form": "tuviera" },
+                        { "person": "tú (impf. subj.)", "form": "tuvieras" },
+                        { "person": "él/ella/usted (impf. subj.)", "form": "tuviera" },
+                        { "person": "nosotros (impf. subj.)", "form": "tuviéramos" },
+                        { "person": "vosotros (impf. subj.)", "form": "tuvierais" },
+                        { "person": "ellos/ustedes (impf. subj.)", "form": "tuvieran" }
+                    ]
+                },
+                {
+                    "verb": "decir",
+                    "tense": "Condicional simple + imperfecto de subjuntivo (irregular)",
+                    "forms": [
+                        { "person": "yo (condicional)", "form": "diría" },
+                        { "person": "tú (condicional)", "form": "dirías" },
+                        { "person": "él/ella/usted (condicional)", "form": "diría" },
+                        { "person": "nosotros (condicional)", "form": "diríamos" },
+                        { "person": "vosotros (condicional)", "form": "diríais" },
+                        { "person": "ellos/ustedes (condicional)", "form": "dirían" },
+                        { "person": "yo (impf. subj.)", "form": "dijera" },
+                        { "person": "tú (impf. subj.)", "form": "dijeras" },
+                        { "person": "él/ella/usted (impf. subj.)", "form": "dijera" },
+                        { "person": "nosotros (impf. subj.)", "form": "dijéramos" },
+                        { "person": "vosotros (impf. subj.)", "form": "dijerais" },
+                        { "person": "ellos/ustedes (impf. subj.)", "form": "dijeran" }
+                    ]
+                },
+                {
+                    "verb": "hacer",
+                    "tense": "Condicional simple + imperfecto de subjuntivo (irregular)",
+                    "forms": [
+                        { "person": "yo (condicional)", "form": "haría" },
+                        { "person": "tú (condicional)", "form": "harías" },
+                        { "person": "él/ella/usted (condicional)", "form": "haría" },
+                        { "person": "nosotros (condicional)", "form": "haríamos" },
+                        { "person": "vosotros (condicional)", "form": "haríais" },
+                        { "person": "ellos/ustedes (condicional)", "form": "harían" },
+                        { "person": "yo (impf. subj.)", "form": "hiciera" },
+                        { "person": "tú (impf. subj.)", "form": "hicieras" },
+                        { "person": "él/ella/usted (impf. subj.)", "form": "hiciera" },
+                        { "person": "nosotros (impf. subj.)", "form": "hiciéramos" },
+                        { "person": "vosotros (impf. subj.)", "form": "hicierais" },
+                        { "person": "ellos/ustedes (impf. subj.)", "form": "hicieran" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Escribe cinco oraciones de primer tipo (real) y cinco de segundo tipo (hipotético).",
+                "Transforma peticiones directas en condicional para sonar más cortés.",
+                "Completa tablas de conjugación del condicional con verbos irregulares (tener, decir, hacer).",
+                "Inventa soluciones a problemas usando si + imperfecto de subj + condicional."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Si ____ (tener, yo) tiempo, ____ (asistir) al taller.",
+                    "options": ["tengo / asistiré", "tuviera / asistiría", "tenga / asistiría"],
+                    "answer": "tuviera / asistiría",
+                    "explanation": "Hipótesis poco probable ⇒ segundo tipo."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "¿Te ____ (gustar) tomar un café esta tarde?",
+                    "answer": "gustaría",
+                    "hint": "El condicional suaviza invitaciones."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Combine verb tenses to describe real and hypothetical situations with si clauses and the simple conditional.",
+                    "details": [
+                        "Use si + present + future/imperative for real situations: Si tienes tiempo, llámame.",
+                        "Use si + imperfect subjunctive + simple conditional for unlikely scenarios: Si tuviera más dinero, viajaría más.",
+                        "The simple conditional also conveys politeness or soft desires (Me gustaría saber)."
+                    ],
+                    "points": [
+                        "Form the conditional with infinitive + endings -ía, -ías, -ía, -íamos, -íais, -ían.",
+                        "Imperfect subjunctive often uses the -ra form (tuviera) at this level.",
+                        "Keep the logical order of clauses even if the si clause moves."
+                    ],
+                    "practice": [
+                        "Write five type-1 (real) and five type-2 (hypothetical) si sentences.",
+                        "Turn direct requests into conditional phrases to sound more polite.",
+                        "Complete conditional conjugation tables with irregular verbs (tener, decir, hacer).",
+                        "Invent solutions to problems using si + imperfect subjunctive + conditional."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "relative-pronouns-advanced",
+            "title": "Pronombres relativos avanzados",
+            "summary": "Unir oraciones complejas con el que, la cual, lo que, cuyo para mayor precisión.",
+            "details": [
+                "El que / la que / los que / las que se usan con o sin preposición para aclarar género y número.",
+                "Lo que introduce ideas o hechos completos cuando no hay antecedente concreto (Lo que necesito es tiempo).",
+                "Cuyo/a/os/as indica posesión y concuerda con el sustantivo que le sigue, no con el poseedor."
+            ],
+            "points": [
+                "Después de preposición formal prefiere el cual / la cual para evitar ambigüedades.",
+                "No dupliques posesión con su cuando uses cuyo: 'la persona cuyo coche' es suficiente.",
+                "Practica transformar dos oraciones simples en una sola con relativo."
+            ],
+            "examples": [
+                {
+                    "sentence": "La autora, cuya novela leíste, vendrá a clase.",
+                    "translation": "The author, whose novel you read, will come to class."
+                },
+                {
+                    "sentence": "Ese es el museo en el que expusieron fotografías históricas.",
+                    "translation": "That is the museum in which they exhibited historical photographs."
+                }
+            ],
+            "practice": [
+                "Une pares de oraciones usando el relativo adecuado.",
+                "Reescribe párrafos sustituyendo su/sus por cuyo.",
+                "Completa oraciones con lo que vs. lo cual según el antecedente.",
+                "Escribe un mini reportaje usando al menos tres pronombres relativos diferentes."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Conozco a la profesora ____ clase ganó el premio.",
+                    "options": ["cuyo", "cuyos", "cuya"],
+                    "answer": "cuya",
+                    "explanation": "Cuya concuerda con clase (femenino singular)."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "No entendí lo ____ dijiste al final.",
+                    "answer": "que",
+                    "hint": "Lo que retoma la idea completa de la frase anterior."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Link complex sentences precisely with el que, la cual, lo que, cuyo, and related relative pronouns.",
+                    "details": [
+                        "El que / la que / los que / las que appear with or without prepositions to clarify gender and number.",
+                        "Lo que introduces full ideas or facts when there is no concrete antecedent (Lo que necesito es tiempo).",
+                        "Cuyo/a/os/as marks possession and agrees with the noun that follows, not with the owner."
+                    ],
+                    "points": [
+                        "After formal prepositions, prefer el cual / la cual to avoid ambiguity.",
+                        "Do not duplicate possession with su when using cuyo (la persona cuyo coche...).",
+                        "Practice merging two simple sentences into one with a relative clause."
+                    ],
+                    "practice": [
+                        "Join sentence pairs using the appropriate relative pronoun.",
+                        "Rewrite paragraphs by replacing su/sus with cuyo.",
+                        "Complete sentences choosing between lo que and lo cual based on the antecedent.",
+                        "Write a short report using at least three different relative pronouns."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "subjunctive-adjective-clauses",
+            "title": "Subjuntivo en oraciones de relativo",
+            "summary": "Usar el subjuntivo cuando el antecedente es desconocido, inexistente o negado.",
+            "details": [
+                "Cuando se busca algo no identificado se usa subjuntivo: Busco un profesor que hable chino.",
+                "Si el antecedente no existe o se niega, también va subjuntivo: No hay nadie que pueda ayudarme.",
+                "Con antecedentes conocidos o específicos se mantiene el indicativo: Tengo un profesor que habla chino.",
+                "Palabras negativas (ningún, nadie) y expresiones como cualquiera que favorecen el subjuntivo."],
+            "points": [
+                "Concuerda el verbo subordinado con el antecedente plural o singular.",
+                "Añade contexto con para + infinitivo o que + verbo para precisar la búsqueda.",
+                "Contrasta pares de oraciones para percibir el matiz entre certeza y duda."
+            ],
+            "examples": [
+                {
+                    "sentence": "Necesitamos un programa que funcione sin conexión.",
+                    "translation": "We need a program that works offline."
+                },
+                {
+                    "sentence": "Conozco a estudiantes que trabajan y estudian a la vez.",
+                    "translation": "I know students who work and study at the same time.",
+                    "explanation": "Antecedente específico ⇒ indicativo."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "hablar",
+                    "tense": "Subjuntivo en cláusulas de relativo",
+                    "forms": [
+                        { "person": "yo", "form": "hable" },
+                        { "person": "tú", "form": "hables" },
+                        { "person": "él/ella/usted", "form": "hable" },
+                        { "person": "nosotros", "form": "hablemos" },
+                        { "person": "vosotros", "form": "habléis" },
+                        { "person": "ellos/ustedes", "form": "hablen" }
+                    ]
+                },
+                {
+                    "verb": "comer",
+                    "tense": "Subjuntivo en cláusulas de relativo",
+                    "forms": [
+                        { "person": "yo", "form": "coma" },
+                        { "person": "tú", "form": "comas" },
+                        { "person": "él/ella/usted", "form": "coma" },
+                        { "person": "nosotros", "form": "comamos" },
+                        { "person": "vosotros", "form": "comáis" },
+                        { "person": "ellos/ustedes", "form": "coman" }
+                    ]
+                },
+                {
+                    "verb": "vivir",
+                    "tense": "Subjuntivo en cláusulas de relativo",
+                    "forms": [
+                        { "person": "yo", "form": "viva" },
+                        { "person": "tú", "form": "vivas" },
+                        { "person": "él/ella/usted", "form": "viva" },
+                        { "person": "nosotros", "form": "vivamos" },
+                        { "person": "vosotros", "form": "viváis" },
+                        { "person": "ellos/ustedes", "form": "vivan" }
+                    ]
+                },
+                {
+                    "verb": "tener",
+                    "tense": "Subjuntivo en cláusulas de relativo (irregular)",
+                    "forms": [
+                        { "person": "yo", "form": "tenga" },
+                        { "person": "tú", "form": "tengas" },
+                        { "person": "él/ella/usted", "form": "tenga" },
+                        { "person": "nosotros", "form": "tengamos" },
+                        { "person": "vosotros", "form": "tengáis" },
+                        { "person": "ellos/ustedes", "form": "tengan" }
+                    ]
+                },
+                {
+                    "verb": "ir",
+                    "tense": "Subjuntivo en cláusulas de relativo (irregular)",
+                    "forms": [
+                        { "person": "yo", "form": "vaya" },
+                        { "person": "tú", "form": "vayas" },
+                        { "person": "él/ella/usted", "form": "vaya" },
+                        { "person": "nosotros", "form": "vayamos" },
+                        { "person": "vosotros", "form": "vayáis" },
+                        { "person": "ellos/ustedes", "form": "vayan" }
+                    ]
+                },
+                {
+                    "verb": "ser",
+                    "tense": "Subjuntivo en cláusulas de relativo (irregular)",
+                    "forms": [
+                        { "person": "yo", "form": "sea" },
+                        { "person": "tú", "form": "seas" },
+                        { "person": "él/ella/usted", "form": "sea" },
+                        { "person": "nosotros", "form": "seamos" },
+                        { "person": "vosotros", "form": "seáis" },
+                        { "person": "ellos/ustedes", "form": "sean" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Reescribe oraciones cambiando de indicativo a subjuntivo según la información disponible.",
+                "Crea anuncios de trabajo usando se busca... que + subjuntivo.",
+                "Completa espacios con hable/habla, puedan/pueden dependiendo del contexto.",
+                "Redacta un diálogo en el que un personaje describe la casa que quiere comprar (subjuntivo) y otro la que ya tiene (indicativo)."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "No hay ningún restaurante que ____ (servir) comida vegana aquí.",
+                    "options": ["sirve", "sirva", "servir"],
+                    "answer": "sirva",
+                    "explanation": "Antecedente negado ⇒ subjuntivo."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Busco un libro que ____ (tratar) sobre diseño sostenible.",
+                    "answer": "trate",
+                    "hint": "Objeto aún no identificado."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Choose the subjunctive in relative clauses when the antecedent is unknown, nonexistent, or denied.",
+                    "details": [
+                        "When searching for something unidentified, use the subjunctive: Busco un profesor que hable chino.",
+                        "If the antecedent does not exist or is negated, stay in the subjunctive: No hay nadie que pueda ayudarme.",
+                        "Stick with the indicative for known or specific antecedents: Tengo un profesor que habla chino.",
+                        "Negative words (ningún, nadie) and expressions like cualquiera que tend to require the subjunctive."
+                    ],
+                    "points": [
+                        "Match the subordinate verb with the antecedent’s number.",
+                        "Add context with para + infinitive or que + verb to clarify the search.",
+                        "Contrast sentence pairs to feel the nuance between certainty and doubt."
+                    ],
+                    "practice": [
+                        "Rewrite sentences switching between indicative and subjunctive depending on the information available.",
+                        "Create job ads using se busca... que + subjunctive.",
+                        "Fill blanks with hable/habla, puedan/pueden based on context clues.",
+                        "Draft a dialogue where one character describes the house they want (subjunctive) and another the one they already have (indicative)."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "reported-speech-advanced",
+            "title": "Estilo indirecto avanzado",
+            "summary": "Reportar declaraciones, preguntas y mandatos con cambios de tiempo y deícticos complejos.",
+            "details": [
+                "Al reportar desde el pasado aplica la tabla de retroceso: presente → imperfecto, pretérito → pluscuamperfecto, futuro → condicional, imperativo → que + subjuntivo.",
+                "Los marcadores de tiempo/lugar cambian: hoy → ese día, aquí → allí, mañana → al día siguiente, ayer → el día anterior.",
+                "Para preguntas informativas mantén la palabra interrogativa y ajusta el orden sujeto-verbo (Me preguntó cómo estaba).",
+                "Las preguntas sí/no usan si y las peticiones se pueden expresar con infinitivo (Me pidió hablar con el director)."],
+            "points": [
+                "En narraciones, decide si conviene mantener el mismo tiempo para resaltar inmediatez (estilo histórico).",
+                "Cuida los pronombres de objeto cuando cambian las referencias (me/te → le/nos).",
+                "Reporta citas textuales combinando comillas y estilo indirecto para matizar."],
+            "examples": [
+                {
+                    "sentence": "‘Haremos el informe mañana’, dijeron → Dijeron que harían el informe al día siguiente.",
+                    "translation": "‘We will do the report tomorrow,’ they said → They said they would do the report the following day."
+                },
+                {
+                    "sentence": "‘No vengas tarde’, me pidió → Me pidió que no llegara tarde.",
+                    "translation": "‘Don’t come late,’ she asked me → She asked me not to arrive late."
+                }
+            ],
+            "practice": [
+                "Convierte un diálogo completo a estilo indirecto aplicando todos los cambios necesarios.",
+                "Completa tablas que relacionan tiempo verbal directo e indirecto.",
+                "Reescribe órdenes con que + subjuntivo y también con infinitivo cuando sea posible.",
+                "Actualiza entradas de diario cambiando de primera a tercera persona."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "‘Estoy leyendo el informe’, explicó → Explicó que ____ el informe.",
+                    "options": ["lee", "leyó", "estaba leyendo"],
+                    "answer": "estaba leyendo",
+                    "explanation": "Presente progresivo pasa a imperfecto progresivo." 
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "‘¿Vendrás con nosotros?’ → Me preguntaron si ____ con ellos.",
+                    "answer": "iría",
+                    "hint": "El futuro se transforma en condicional."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Report statements, questions, and commands with the proper tense shifts and deictic changes.",
+                    "details": [
+                        "When reporting from the past, apply the backshift table: presente → imperfecto, pretérito → pluscuamperfecto, futuro → condicional, imperativo → que + subjuntivo.",
+                        "Adjust time/place markers: hoy → ese día, aquí → allí, mañana → al día siguiente, ayer → el día anterior.",
+                        "Keep interrogative words for information questions and switch the word order to subject + verb (Me preguntó cómo estaba).",
+                        "Yes/no questions use si, and requests can appear with an infinitive (Me pidió hablar con el director)."
+                    ],
+                    "points": [
+                        "In narratives you may keep the same tense for dramatic effect (historical present).",
+                        "Update object pronouns when references change (me/te → le/nos).",
+                        "Blend direct quotes with indirect speech to add nuance when needed."
+                    ],
+                    "practice": [
+                        "Convert an entire dialogue into reported speech applying all shifts.",
+                        "Complete tables that map direct to indirect verb tenses.",
+                        "Rewrite commands with que + subjunctive and also with infinitives when possible.",
+                        "Rewrite diary entries changing first-person narration to third person."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "periphrasis-resultative",
+            "title": "Perífrasis aspectuales avanzadas",
+            "summary": "Matizar duración, repetición y resultado con llevar + gerundio, andar + gerundio, acabar de + infinitivo, ir/venir + gerundio.",
+            "details": [
+                "Llevar + tiempo + gerundio indica duración acumulada: Llevo tres años estudiando español.",
+                "Andar + gerundio expresa acciones reiteradas o desordenadas: Anda buscando piso.",
+                "Ir/venir + gerundio muestran procesos graduales: Vamos mejorando el diseño.",
+                "Acabar de + infinitivo señala acciones recién terminadas (acabo de llegar)."],
+            "points": [
+                "Las perífrasis mantienen la preposición o estructura fija; no insertes nada entre el auxiliar y el gerundio/infinitivo.",
+                "Combina marcadores temporales para precisar duración (desde hace, durante).",
+                "Evita traducir literalmente al inglés; enfócate en el matiz aspectual que aporta cada perífrasis."
+            ],
+            "examples": [
+                {
+                    "sentence": "Llevamos dos meses preparando el informe anual.",
+                    "translation": "We have been preparing the annual report for two months."
+                },
+                {
+                    "sentence": "Últimamente anda diciendo que se mudará a Portugal.",
+                    "translation": "Lately he keeps saying that he will move to Portugal."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "hablar",
+                    "tense": "Llevar + gerundio (-ar)",
+                    "forms": [
+                        { "person": "yo", "form": "llevo hablando" },
+                        { "person": "tú", "form": "llevas hablando" },
+                        { "person": "él/ella/usted", "form": "lleva hablando" },
+                        { "person": "nosotros", "form": "llevamos hablando" },
+                        { "person": "vosotros", "form": "lleváis hablando" },
+                        { "person": "ellos/ustedes", "form": "llevan hablando" }
+                    ]
+                },
+                {
+                    "verb": "comer",
+                    "tense": "Llevar + gerundio (-er)",
+                    "forms": [
+                        { "person": "yo", "form": "llevo comiendo" },
+                        { "person": "tú", "form": "llevas comiendo" },
+                        { "person": "él/ella/usted", "form": "lleva comiendo" },
+                        { "person": "nosotros", "form": "llevamos comiendo" },
+                        { "person": "vosotros", "form": "lleváis comiendo" },
+                        { "person": "ellos/ustedes", "form": "llevan comiendo" }
+                    ]
+                },
+                {
+                    "verb": "vivir",
+                    "tense": "Llevar + gerundio (-ir)",
+                    "forms": [
+                        { "person": "yo", "form": "llevo viviendo" },
+                        { "person": "tú", "form": "llevas viviendo" },
+                        { "person": "él/ella/usted", "form": "lleva viviendo" },
+                        { "person": "nosotros", "form": "llevamos viviendo" },
+                        { "person": "vosotros", "form": "lleváis viviendo" },
+                        { "person": "ellos/ustedes", "form": "llevan viviendo" }
+                    ]
+                },
+                {
+                    "verb": "ir",
+                    "tense": "Ir + gerundio (progreso)",
+                    "forms": [
+                        { "person": "yo", "form": "voy yendo" },
+                        { "person": "tú", "form": "vas yendo" },
+                        { "person": "él/ella/usted", "form": "va yendo" },
+                        { "person": "nosotros", "form": "vamos yendo" },
+                        { "person": "vosotros", "form": "vais yendo" },
+                        { "person": "ellos/ustedes", "form": "van yendo" }
+                    ]
+                },
+                {
+                    "verb": "venir",
+                    "tense": "Venir + gerundio (acumulación)",
+                    "forms": [
+                        { "person": "yo", "form": "vengo diciendo" },
+                        { "person": "tú", "form": "vienes diciendo" },
+                        { "person": "él/ella/usted", "form": "viene diciendo" },
+                        { "person": "nosotros", "form": "venimos diciendo" },
+                        { "person": "vosotros", "form": "venís diciendo" },
+                        { "person": "ellos/ustedes", "form": "vienen diciendo" }
+                    ]
+                },
+                {
+                    "verb": "decir",
+                    "tense": "Andar + gerundio (repetición)",
+                    "forms": [
+                        { "person": "yo", "form": "ando diciendo" },
+                        { "person": "tú", "form": "andas diciendo" },
+                        { "person": "él/ella/usted", "form": "anda diciendo" },
+                        { "person": "nosotros", "form": "andamos diciendo" },
+                        { "person": "vosotros", "form": "andáis diciendo" },
+                        { "person": "ellos/ustedes", "form": "andan diciendo" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Escribe frases con llevar + gerundio indicando distintas duraciones.",
+                "Transforma oraciones simples en perífrasis aspectuales adecuadas.",
+                "Redacta una crónica de proyecto usando ir/venir + gerundio para mostrar progreso.",
+                "Crea diálogos que incluyan acabar de + infinitivo para noticias recientes."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Tenemos nuevas ideas y ____ (ir) afinando la propuesta.",
+                    "options": ["vamos", "venimos", "andamos"],
+                    "answer": "vamos",
+                    "explanation": "Ir + gerundio muestra evolución progresiva."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "____ (Llevar, nosotros) tres horas esperando el autobús.",
+                    "answer": "Llevamos",
+                    "hint": "Recuerda usar llevar + periodo + gerundio."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Fine-tune duration, repetition, result, and gradual change with advanced verbal periphrases.",
+                    "details": [
+                        "Llevar + time + gerundio marks accumulated duration: Llevo tres años estudiando español.",
+                        "Andar + gerundio signals repeated or scattered actions: Anda buscando piso.",
+                        "Ir/venir + gerundio show gradual processes: Vamos mejorando el diseño.",
+                        "Acabar de + infinitive highlights actions just finished (acabo de llegar)."
+                    ],
+                    "points": [
+                        "Periphrases keep a fixed structure; do not insert words between the auxiliary and gerund/infinitive.",
+                        "Combine time markers (desde hace, durante) to specify duration.",
+                        "Avoid literal translations to English—focus on the aspectual nuance each form adds."
+                    ],
+                    "practice": [
+                        "Write sentences with llevar + gerundio showing different time spans.",
+                        "Transform simple sentences into the appropriate aspectual periphrasis.",
+                        "Draft a project chronicle using ir/venir + gerundio to show progress.",
+                        "Create dialogues that include acabar de + infinitive for recent news."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "discourse-markers-cohesion",
+            "title": "Marcadores discursivos para argumentar",
+            "summary": "Organizar ideas con conectores de orden, contraste, concesión y conclusión.",
+            "details": [
+                "Marcadores de orden: en primer lugar, luego, por último.",
+                "Conectores de adición: además, asimismo, incluso; de contraste: sin embargo, no obstante, en cambio.",
+                "Para concesión usa a pesar de, aunque, si bien; para conclusión emplea en resumen, por lo tanto, en definitiva.",
+                "Elige marcadores según el registro (formal/informal) y evita repeticiones excesivas."],
+            "points": [
+                "Coloca comas adecuadas al introducir marcadores largos (En primer lugar, debemos...).",
+                "Aunque puede ir con indicativo (hecho real) o subjuntivo (hipótesis); explica el matiz al estudiante.",
+                "Practica la combinación de marcadores para lograr párrafos cohesionados."
+            ],
+            "examples": [
+                {
+                    "sentence": "En primer lugar, revisaremos los datos; además, compararemos con años anteriores.",
+                    "translation": "First, we will review the data; moreover, we will compare with previous years."
+                },
+                {
+                    "sentence": "Aunque el presupuesto es limitado, en definitiva continuaremos con el plan.",
+                    "translation": "Although the budget is limited, ultimately we will continue with the plan."
+                }
+            ],
+            "practice": [
+                "Ordena fragmentos desordenados y añade marcadores apropiados.",
+                "Redacta un ensayo corto usando al menos cinco conectores distintos.",
+                "Sustituye marcadores repetidos por sinónimos para evitar monotonía.",
+                "Clasifica marcadores en tablas (adición, contraste, concesión, conclusión)."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Completa: ____ el equipo es pequeño, logramos excelentes resultados.",
+                    "options": ["Además", "Aunque", "Luego"],
+                    "answer": "Aunque",
+                    "explanation": "Se necesita un conector concesivo."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "____, podemos afirmar que el plan es viable.",
+                    "answer": "En conclusión",
+                    "hint": "Busca un marcador de cierre."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Organize arguments with discourse markers for ordering, addition, contrast, concession, and conclusion.",
+                    "details": [
+                        "Ordering markers: en primer lugar, luego, por último.",
+                        "Addition markers: además, asimismo, incluso; contrast markers: sin embargo, no obstante, en cambio.",
+                        "Use a pesar de, aunque, si bien for concession; conclude with en resumen, por lo tanto, en definitiva.",
+                        "Choose markers according to formality and avoid excessive repetition."
+                    ],
+                    "points": [
+                        "Add commas when introducing long markers (En primer lugar, debemos...).",
+                        "Aunque pairs with the indicative for real facts and the subjunctive for hypotheticals—explain the nuance.",
+                        "Combine several markers to build cohesive paragraphs."
+                    ],
+                    "practice": [
+                        "Order scrambled fragments and add appropriate markers.",
+                        "Write a short essay using at least five different connectors.",
+                        "Replace repeated markers with synonyms to avoid monotony.",
+                        "Classify markers in tables (addition, contrast, concession, conclusion)."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "conditional-perfect",
+            "title": "Condicional perfecto y oraciones irreales del pasado",
+            "summary": "Expresar hipótesis sobre el pasado con si + pluscuamperfecto de subjuntivo + condicional perfecto.",
+            "details": [
+                "La tercera condicional describe resultados no ocurridos: Si hubiéramos salido antes, habríamos llegado a tiempo.",
+                "El condicional perfecto se forma con haber en condicional + participio (habría llegado).",
+                "Puedes invertir el orden de las cláusulas sin cambiar el significado.",
+                "Usa además expresiones como de haberlo sabido, en tu lugar habría... para sonar más natural."],
+            "points": [
+                "El pluscuamperfecto de subjuntivo adopta formas -ra o -se; mantén consistencia (hubiera/hubiese).",
+                "Evita mezclar tiempos (no combines si + hubiera + condicional simple).",
+                "El condicional perfecto también expresa conjeturas pasadas (Habría sido un malentendido)."
+            ],
+            "examples": [
+                {
+                    "sentence": "Si me lo hubieras dicho, te habría ayudado.",
+                    "translation": "If you had told me, I would have helped you."
+                },
+                {
+                    "sentence": "De haber tenido más tiempo, habríamos visitado otros museos.",
+                    "translation": "If we had had more time, we would have visited other museums."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "hablar",
+                    "tense": "Condicional perfecto (resultado)",
+                    "forms": [
+                        { "person": "yo", "form": "habría hablado" },
+                        { "person": "tú", "form": "habrías hablado" },
+                        { "person": "él/ella/usted", "form": "habría hablado" },
+                        { "person": "nosotros", "form": "habríamos hablado" },
+                        { "person": "vosotros", "form": "habríais hablado" },
+                        { "person": "ellos/ustedes", "form": "habrían hablado" }
+                    ]
+                },
+                {
+                    "verb": "comer",
+                    "tense": "Condicional perfecto (resultado)",
+                    "forms": [
+                        { "person": "yo", "form": "habría comido" },
+                        { "person": "tú", "form": "habrías comido" },
+                        { "person": "él/ella/usted", "form": "habría comido" },
+                        { "person": "nosotros", "form": "habríamos comido" },
+                        { "person": "vosotros", "form": "habríais comido" },
+                        { "person": "ellos/ustedes", "form": "habrían comido" }
+                    ]
+                },
+                {
+                    "verb": "vivir",
+                    "tense": "Condicional perfecto (resultado)",
+                    "forms": [
+                        { "person": "yo", "form": "habría vivido" },
+                        { "person": "tú", "form": "habrías vivido" },
+                        { "person": "él/ella/usted", "form": "habría vivido" },
+                        { "person": "nosotros", "form": "habríamos vivido" },
+                        { "person": "vosotros", "form": "habríais vivido" },
+                        { "person": "ellos/ustedes", "form": "habrían vivido" }
+                    ]
+                },
+                {
+                    "verb": "tener",
+                    "tense": "Pluscuamperfecto de subjuntivo (cláusula si)",
+                    "forms": [
+                        { "person": "yo", "form": "hubiera tenido" },
+                        { "person": "tú", "form": "hubieras tenido" },
+                        { "person": "él/ella/usted", "form": "hubiera tenido" },
+                        { "person": "nosotros", "form": "hubiéramos tenido" },
+                        { "person": "vosotros", "form": "hubierais tenido" },
+                        { "person": "ellos/ustedes", "form": "hubieran tenido" }
+                    ]
+                },
+                {
+                    "verb": "ir",
+                    "tense": "Pluscuamperfecto de subjuntivo (cláusula si)",
+                    "forms": [
+                        { "person": "yo", "form": "hubiera ido" },
+                        { "person": "tú", "form": "hubieras ido" },
+                        { "person": "él/ella/usted", "form": "hubiera ido" },
+                        { "person": "nosotros", "form": "hubiéramos ido" },
+                        { "person": "vosotros", "form": "hubierais ido" },
+                        { "person": "ellos/ustedes", "form": "hubieran ido" }
+                    ]
+                },
+                {
+                    "verb": "ser",
+                    "tense": "Pluscuamperfecto de subjuntivo (cláusula si)",
+                    "forms": [
+                        { "person": "yo", "form": "hubiera sido" },
+                        { "person": "tú", "form": "hubieras sido" },
+                        { "person": "él/ella/usted", "form": "hubiera sido" },
+                        { "person": "nosotros", "form": "hubiéramos sido" },
+                        { "person": "vosotros", "form": "hubierais sido" },
+                        { "person": "ellos/ustedes", "form": "hubieran sido" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Completa frases condicionales irreales con las formas adecuadas.",
+                "Inventa finales alternativos para historias usando condicional perfecto.",
+                "Escribe reflexiones personales (Si hubiera..., habría...).",
+                "Transforma condicionales del tipo 2 en tipo 3 según el contexto narrativo."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Si ____ (saber, nosotros) la noticia, te ____ (llamar) inmediatamente.",
+                    "options": ["supimos / llamamos", "hubiéramos sabido / habríamos llamado", "sabríamos / llamaríamos"],
+                    "answer": "hubiéramos sabido / habríamos llamado",
+                    "explanation": "Estructura tipo 3 para pasado irreal."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "De haberlo sabido, no ____ (aceptar, yo) el trabajo.",
+                    "answer": "habría aceptado",
+                    "hint": "Condicional perfecto expresa resultado hipotético."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Express past hypotheticals with si + pluperfect subjunctive + conditional perfect.",
+                    "details": [
+                        "Third conditional sentences describe unreal past results: Si hubiéramos salido antes, habríamos llegado a tiempo.",
+                        "Form the conditional perfect with haber in the conditional + participle (habría llegado).",
+                        "Swap clause order freely without changing meaning.",
+                        "Use expressions like de haberlo sabido or en tu lugar habría... to sound natural."
+                    ],
+                    "points": [
+                        "The pluperfect subjunctive can use -ra or -se endings—stay consistent.",
+                        "Avoid mixing structures (do not pair si + hubiera with a simple conditional result).",
+                        "Conditional perfect also conveys past speculation (Habría sido un malentendido)."
+                    ],
+                    "practice": [
+                        "Complete unreal past conditionals with the proper forms.",
+                        "Invent alternate endings to stories using the conditional perfect.",
+                        "Write personal reflections following Si hubiera..., habría....",
+                        "Transform type-2 conditionals into type-3 as the narrative demands."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "concessive-subjunctive-clauses",
+            "title": "Subjuntivo en oraciones concesivas",
+            "summary": "Elegir indicativo o subjuntivo con aunque, a pesar de que, por más que según la información.",
+            "details": [
+                "Aunque + indicativo expresa hechos conocidos; aunque + subjuntivo introduce posibilidades o información nueva: Aunque llueva (posible), iremos.",
+                "A pesar de que y por más que funcionan de forma similar, pero requieren estructuras más formales.",
+                "Combina concesión con conectores de consecuencia para reforzar el contraste (Aunque..., seguiremos...)."],
+            "points": [
+                "Cuando la información es hipotética o no confirmada, usa subjuntivo.",
+                "A pesar de + infinitivo/pronombre funciona sin cambio de sujeto (A pesar de estar cansados...).",
+                "Practica audios o lecturas subrayando dónde aparece cada modo verbal."
+            ],
+            "examples": [
+                {
+                    "sentence": "Aunque el informe es largo, lo terminaremos hoy.",
+                    "translation": "Even though the report is long, we will finish it today." 
+                },
+                {
+                    "sentence": "Aunque el informe sea largo, lo terminaremos hoy.",
+                    "translation": "Even if the report is long (maybe it is), we will finish it today." 
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "hablar",
+                    "tense": "Indicativo vs. subjuntivo con aunque",
+                    "forms": [
+                        { "person": "yo (indicativo)", "form": "hablo" },
+                        { "person": "yo (subjuntivo)", "form": "hable" },
+                        { "person": "tú (indicativo)", "form": "hablas" },
+                        { "person": "tú (subjuntivo)", "form": "hables" },
+                        { "person": "él/ella/usted (indicativo)", "form": "habla" },
+                        { "person": "él/ella/usted (subjuntivo)", "form": "hable" },
+                        { "person": "nosotros (indicativo)", "form": "hablamos" },
+                        { "person": "nosotros (subjuntivo)", "form": "hablemos" },
+                        { "person": "vosotros (indicativo)", "form": "habláis" },
+                        { "person": "vosotros (subjuntivo)", "form": "habléis" },
+                        { "person": "ellos/ustedes (indicativo)", "form": "hablan" },
+                        { "person": "ellos/ustedes (subjuntivo)", "form": "hablen" }
+                    ]
+                },
+                {
+                    "verb": "comer",
+                    "tense": "Indicativo vs. subjuntivo con a pesar de que",
+                    "forms": [
+                        { "person": "yo (indicativo)", "form": "como" },
+                        { "person": "yo (subjuntivo)", "form": "coma" },
+                        { "person": "tú (indicativo)", "form": "comes" },
+                        { "person": "tú (subjuntivo)", "form": "comas" },
+                        { "person": "él/ella/usted (indicativo)", "form": "come" },
+                        { "person": "él/ella/usted (subjuntivo)", "form": "coma" },
+                        { "person": "nosotros (indicativo)", "form": "comemos" },
+                        { "person": "nosotros (subjuntivo)", "form": "comamos" },
+                        { "person": "vosotros (indicativo)", "form": "coméis" },
+                        { "person": "vosotros (subjuntivo)", "form": "comáis" },
+                        { "person": "ellos/ustedes (indicativo)", "form": "comen" },
+                        { "person": "ellos/ustedes (subjuntivo)", "form": "coman" }
+                    ]
+                },
+                {
+                    "verb": "vivir",
+                    "tense": "Indicativo vs. subjuntivo con por más que",
+                    "forms": [
+                        { "person": "yo (indicativo)", "form": "vivo" },
+                        { "person": "yo (subjuntivo)", "form": "viva" },
+                        { "person": "tú (indicativo)", "form": "vives" },
+                        { "person": "tú (subjuntivo)", "form": "vivas" },
+                        { "person": "él/ella/usted (indicativo)", "form": "vive" },
+                        { "person": "él/ella/usted (subjuntivo)", "form": "viva" },
+                        { "person": "nosotros (indicativo)", "form": "vivimos" },
+                        { "person": "nosotros (subjuntivo)", "form": "vivamos" },
+                        { "person": "vosotros (indicativo)", "form": "vivís" },
+                        { "person": "vosotros (subjuntivo)", "form": "viváis" },
+                        { "person": "ellos/ustedes (indicativo)", "form": "viven" },
+                        { "person": "ellos/ustedes (subjuntivo)", "form": "vivan" }
+                    ]
+                },
+                {
+                    "verb": "tener",
+                    "tense": "Subjuntivo irregular en concesivas",
+                    "forms": [
+                        { "person": "yo", "form": "tenga" },
+                        { "person": "tú", "form": "tengas" },
+                        { "person": "él/ella/usted", "form": "tenga" },
+                        { "person": "nosotros", "form": "tengamos" },
+                        { "person": "vosotros", "form": "tengáis" },
+                        { "person": "ellos/ustedes", "form": "tengan" }
+                    ]
+                },
+                {
+                    "verb": "ir",
+                    "tense": "Subjuntivo irregular en concesivas",
+                    "forms": [
+                        { "person": "yo", "form": "vaya" },
+                        { "person": "tú", "form": "vayas" },
+                        { "person": "él/ella/usted", "form": "vaya" },
+                        { "person": "nosotros", "form": "vayamos" },
+                        { "person": "vosotros", "form": "vayáis" },
+                        { "person": "ellos/ustedes", "form": "vayan" }
+                    ]
+                },
+                {
+                    "verb": "ser",
+                    "tense": "Subjuntivo irregular en concesivas",
+                    "forms": [
+                        { "person": "yo", "form": "sea" },
+                        { "person": "tú", "form": "seas" },
+                        { "person": "él/ella/usted", "form": "sea" },
+                        { "person": "nosotros", "form": "seamos" },
+                        { "person": "vosotros", "form": "seáis" },
+                        { "person": "ellos/ustedes", "form": "sean" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Escribe pares de oraciones usando indicativo vs. subjuntivo y explica la diferencia.",
+                "Completa huecos con sea/es, tenga/tiene, etc., según el grado de certeza.",
+                "Redacta argumentos con por más que + subjuntivo.",
+                "Transforma frases con aunque en estructuras con a pesar de + infinitivo."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Aunque ____ (ser) tarde, continuaron trabajando (hecho real).",
+                    "options": ["es", "sea", "era"],
+                    "answer": "era",
+                    "explanation": "Hecho confirmado en pasado ⇒ indicativo imperfecto." 
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Por más que ____ (ensayar, ellos), siempre están nerviosos.",
+                    "answer": "ensayen",
+                    "hint": "Expresa un esfuerzo hipotético que no cambia el resultado ⇒ subjuntivo."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Pick indicative or subjunctive with aunque, a pesar de que, por más que depending on certainty.",
+                    "details": [
+                        "Aunque + indicative states known facts; aunque + subjunctive introduces possibilities or new information: Aunque llueva, iremos.",
+                        "A pesar de que and por más que behave similarly but sound more formal.",
+                        "Link concession clauses with consequence connectors to highlight contrast (Aunque..., seguiremos...)."
+                    ],
+                    "points": [
+                        "Use the subjunctive when the information is hypothetical or unconfirmed.",
+                        "A pesar de + infinitive/pronoun works without a subject change (A pesar de estar cansados...).",
+                        "In listening or reading activities, underline which mood appears and why."
+                    ],
+                    "practice": [
+                        "Write sentence pairs using indicative vs. subjunctive and explain the difference.",
+                        "Fill blanks with sea/es, tenga/tiene, etc., according to certainty.",
+                        "Craft arguments with por más que + subjunctive.",
+                        "Transform aunque clauses into a pesar de + infinitive structures."
+                    ]
+                }
+            }
         }
     ]
 }

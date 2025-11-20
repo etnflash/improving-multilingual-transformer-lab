@@ -1,4 +1,5 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react'
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { Link, useSearchParams } from 'react-router-dom'
 
 const PANEL_KEYS = ['grammar', 'vocabulary', 'conversation', 'patterns']
 const PANEL_TITLES = {
@@ -20,7 +21,23 @@ function Appendix() {
   const [selectedLevel, setSelectedLevel] = useState('')
   const [panelStatus, setPanelStatus] = useState(defaultPanelStatus)
   const [bundle, setBundle] = useState({})
+  const [expandedGrammarId, setExpandedGrammarId] = useState(null)
+  const [expandedVocabularyId, setExpandedVocabularyId] = useState(null)
   const cacheRef = useRef(new Map())
+  const [searchParams, setSearchParams] = useSearchParams()
+  const updateSearchParams = useCallback((updates) => {
+    setSearchParams((current) => {
+      const next = new URLSearchParams(current)
+      Object.entries(updates).forEach(([key, value]) => {
+        if (value === null || value === undefined || value === '') {
+          next.delete(key)
+        } else {
+          next.set(key, value)
+        }
+      })
+      return next
+    })
+  }, [setSearchParams])
 
   useEffect(() => {
     async function loadManifest() {
@@ -32,9 +49,11 @@ function Appendix() {
         }
         const payload = await response.json()
         setManifest(payload)
-        const initialCode = resolveInitialLanguage(payload)
+        const requestedLanguage = searchParams.get('language')
+        const initialCode = resolveInitialLanguage(payload, requestedLanguage)
         if (initialCode) {
           setSelectedLanguage(initialCode)
+          updateSearchParams({ language: initialCode })
         }
         setManifestStatus({ message: 'Manifest ready.', busy: false, error: false })
       } catch (error) {
@@ -52,14 +71,48 @@ function Appendix() {
     }
     const meta = manifest.languages?.find((lang) => lang.code === selectedLanguage)
     const defaultLevel = meta?.levels?.[0]?.id || ''
-    setSelectedLevel((current) => (meta?.levels?.some((level) => level.id === current) ? current : defaultLevel))
-  }, [manifest, selectedLanguage])
+    const requestedLevel = searchParams.get('level')
+    const nextLevel = meta?.levels?.some((level) => level.id === requestedLevel) ? requestedLevel : defaultLevel
+    if (nextLevel && nextLevel !== selectedLevel) {
+      setSelectedLevel(nextLevel)
+    }
+    if (nextLevel && searchParams.get('level') !== nextLevel) {
+      updateSearchParams({ language: selectedLanguage, level: nextLevel })
+    }
+  }, [manifest, selectedLanguage, selectedLevel, searchParams, updateSearchParams])
 
   useEffect(() => {
     if (selectedLanguage && selectedLevel) {
       loadAppendixBundle(selectedLanguage, selectedLevel)
     }
+    setExpandedGrammarId(null)
+    setExpandedVocabularyId(null)
   }, [selectedLanguage, selectedLevel])
+
+  const handleGrammarToggle = useCallback((topicId) => {
+    if (!topicId) {
+      return
+    }
+    setExpandedGrammarId((current) => (current === topicId ? null : topicId))
+  }, [])
+
+  const handleVocabularyToggle = useCallback((setId) => {
+    if (!setId) {
+      return
+    }
+    setExpandedVocabularyId((current) => (current === setId ? null : setId))
+  }, [])
+
+  function handleLanguageChange(code) {
+    setSelectedLanguage(code)
+    setSelectedLevel('')
+    updateSearchParams({ language: code, level: null })
+  }
+
+  function handleLevelChange(level) {
+    setSelectedLevel(level)
+    updateSearchParams({ language: selectedLanguage, level })
+  }
 
   const languageOptions = manifest?.languages ?? []
   const levelOptions = useMemo(() => {
@@ -139,7 +192,7 @@ function Appendix() {
           <select
             id="appendix-language"
             value={selectedLanguage}
-            onChange={(event) => setSelectedLanguage(event.target.value)}
+            onChange={(event) => handleLanguageChange(event.target.value)}
             disabled={!languageOptions.length || manifestStatus.busy}
           >
             <option value="" disabled>
@@ -157,7 +210,7 @@ function Appendix() {
           <select
             id="appendix-level"
             value={selectedLevel}
-            onChange={(event) => setSelectedLevel(event.target.value)}
+            onChange={(event) => handleLevelChange(event.target.value)}
             disabled={!levelOptions.length}
           >
             {levelOptions.length === 0 && <option value="">No levels</option>}
@@ -173,7 +226,14 @@ function Appendix() {
       <div className="appendix-panels">
         {PANEL_KEYS.map((panelKey) => (
           <AppendixPanel key={panelKey} title={PANEL_TITLES[panelKey]} status={panelStatus[panelKey]}>
-            {renderPanel(panelKey, bundle[panelKey])}
+            {renderPanel(panelKey, bundle[panelKey], {
+              selectedLanguage,
+              selectedLevel,
+              expandedGrammarId,
+              expandedVocabularyId,
+              onGrammarToggle: handleGrammarToggle,
+              onVocabularyToggle: handleVocabularyToggle
+            })}
           </AppendixPanel>
         ))}
       </div>
@@ -181,61 +241,120 @@ function Appendix() {
   )
 }
 
-function renderPanel(panelKey, payload) {
+function renderPanel(panelKey, payload, context = {}) {
   if (!payload) {
     return null
   }
 
   if (panelKey === 'grammar') {
     const topics = payload.topics ?? []
-    return topics.map((topic) => (
-      <div key={topic.id || topic.title} className="appendix-card">
-        <h4>{topic.title}</h4>
-        <p>{topic.summary}</p>
-        {Array.isArray(topic.points) && topic.points.length > 0 && (
-          <ul>
-            {topic.points.map((point, index) => (
-              <li key={index}>{point}</li>
-            ))}
-          </ul>
-        )}
-        {Array.isArray(topic.examples) && topic.examples.length > 0 && (
-          <div className="appendix-examples">
-            <p className="appendix-meta">Examples</p>
-            {topic.examples.map((example, index) => (
-              <p key={index}>
-                <strong>{example.sentence}</strong>
-                <br />
-                {example.translation}
-                {example.explanation && (
-                  <>
-                    <br />
-                    <span className="appendix-meta">{example.explanation}</span>
-                  </>
-                )}
-              </p>
-            ))}
-          </div>
-        )}
-      </div>
-    ))
+    const { expandedGrammarId, onGrammarToggle, selectedLanguage, selectedLevel } = context
+    return (
+      <ul className="appendix-list">
+        {topics.map((topic, index) => {
+          const topicKey = topic.id || topic.title || `grammar-${index}`
+          const isExpanded = expandedGrammarId === topicKey
+          const handleToggle = () => {
+            onGrammarToggle?.(topicKey)
+          }
+          const detailUrl = selectedLanguage && selectedLevel && topic.id
+            ? `/appendix/${selectedLanguage}/${selectedLevel}/grammar/${topic.id}`
+            : null
+          return (
+            <li key={topicKey}>
+              <button type="button" className={`appendix-toggle ${isExpanded ? 'is-open' : ''}`} onClick={handleToggle}>
+                <span className="appendix-list-title">{topic.title}</span>
+                <span className="appendix-toggle-icon" aria-hidden="true">{isExpanded ? '−' : '+'}</span>
+              </button>
+              {isExpanded && (
+                <div className="appendix-collapse">
+                  {topic.summary && <p className="appendix-list-summary">{topic.summary}</p>}
+                  {Array.isArray(topic.points) && topic.points.length > 0 && (
+                    <ul>
+                      {topic.points.map((point, pointIndex) => (
+                        <li key={pointIndex}>{point}</li>
+                      ))}
+                    </ul>
+                  )}
+                  {Array.isArray(topic.examples) && topic.examples.length > 0 && (
+                    <div className="appendix-examples">
+                      <p className="appendix-meta">Examples</p>
+                      {topic.examples.map((example, exampleIndex) => (
+                        <p key={exampleIndex}>
+                          <strong>{example.sentence}</strong>
+                          <br />
+                          {example.translation}
+                          {example.explanation && (
+                            <>
+                              <br />
+                              <span className="appendix-meta">{example.explanation}</span>
+                            </>
+                          )}
+                        </p>
+                      ))}
+                    </div>
+                  )}
+                  {detailUrl && (
+                    <div className="appendix-link-row">
+                      <Link className="appendix-detail-link" to={detailUrl}>
+                        Open full topic →
+                      </Link>
+                    </div>
+                  )}
+                </div>
+              )}
+            </li>
+          )
+        })}
+      </ul>
+    )
   }
 
   if (panelKey === 'vocabulary') {
     const sets = payload.sets ?? []
-    return sets.map((set) => (
-      <div key={set.id || set.title} className="appendix-card">
-        <h4>{set.title}</h4>
-        <ul>
-          {(set.words || []).map((entry, index) => (
-            <li key={index}>
-              <strong>{entry.term}</strong> — {entry.translation}
-              {entry.note && <span className="appendix-meta"> ({entry.note})</span>}
+    const { expandedVocabularyId, onVocabularyToggle, selectedLanguage, selectedLevel } = context
+    return (
+      <ul className="appendix-list">
+        {sets.map((set, index) => {
+          const setKey = set.id || set.title || `vocabulary-${index}`
+          const isExpanded = expandedVocabularyId === setKey
+          const handleToggle = () => {
+            onVocabularyToggle?.(setKey)
+          }
+          const detailUrl = selectedLanguage && selectedLevel && set.id
+            ? `/appendix/${selectedLanguage}/${selectedLevel}/vocabulary/${set.id}`
+            : null
+          return (
+            <li key={setKey}>
+              <button type="button" className={`appendix-toggle ${isExpanded ? 'is-open' : ''}`} onClick={handleToggle}>
+                <span className="appendix-list-title">{set.title}</span>
+                <span className="appendix-toggle-icon" aria-hidden="true">{isExpanded ? '−' : '+'}</span>
+              </button>
+              {isExpanded && (
+                <div className="appendix-collapse">
+                  {set.summary && <p className="appendix-list-summary">{set.summary}</p>}
+                  <ul>
+                    {(set.words || []).map((entry, wordIndex) => (
+                      <li key={`${entry.term}-${wordIndex}`}>
+                        <strong>{entry.term}</strong> — {entry.translation}
+                        {entry.note && <span className="appendix-meta"> ({entry.note})</span>}
+                      </li>
+                    ))}
+                  </ul>
+                  {detailUrl && (
+                    <div className="appendix-link-row">
+                      <Link className="appendix-detail-link" to={detailUrl}>
+                        Open full list →
+                      </Link>
+                    </div>
+                  )}
+                </div>
+              )}
             </li>
-          ))}
-        </ul>
-      </div>
-    ))
+          )
+        })}
+      </ul>
+    )
   }
 
   if (panelKey === 'conversation') {
@@ -325,9 +444,12 @@ async function fetchOptionalJSON(url) {
   }
 }
 
-function resolveInitialLanguage(manifest) {
+function resolveInitialLanguage(manifest, requestedCode) {
   if (!manifest?.languages) {
     return ''
+  }
+  if (requestedCode && manifest.languages.some((lang) => lang.code === requestedCode)) {
+    return requestedCode
   }
   if (manifest.defaultLanguage) {
     return manifest.defaultLanguage

@@ -3,23 +3,1299 @@
     "topics": [
         {
             "id": "ser-estar-basics",
-            "title": "Ser y estar basico",
+            "title": "Ser y estar básico",
             "summary": "Diferenciar usos principales de ser y estar en nivel inicial.",
+            "details": [
+                "Ser introduce datos permanentes como origen, profesión o características inherentes; se combina con sustantivos o adjetivos descriptivos.",
+                "Estar localiza personas y objetos en el espacio o describe estados temporales y emociones, y también construye el progresivo con gerundios (estoy estudiando).",
+                "Algunos adjetivos cambian de significado según ser o estar, así que escucha el contexto: ser listo = inteligente, estar listo = preparado."
+            ],
             "points": [
                 "Ser describe identidad y origen.",
-                "Estar describe ubicacion temporal y estados.",
-                "Usa articulos definidos para profesiones simples."
+                "Estar describe ubicación temporal y estados.",
+                "Usa artículos definidos para profesiones simples."
             ],
             "examples": [
                 {
-                    "sentence": "Soy estudiante de musica.",
+                    "sentence": "Soy estudiante de música.",
                     "translation": "I am a music student."
                 },
                 {
                     "sentence": "Estoy en casa con mi familia.",
                     "translation": "I am at home with my family."
                 }
-            ]
+            ],
+            "conjugations": [
+                {
+                    "verb": "ser",
+                    "tense": "Presente de indicativo",
+                    "note": "Verbo irregular usado para identidad y descripción.",
+                    "forms": [
+                        { "person": "yo", "form": "soy" },
+                        { "person": "tú", "form": "eres" },
+                        { "person": "él/ella/usted", "form": "es" },
+                        { "person": "nosotros", "form": "somos" },
+                        { "person": "vosotros", "form": "sois" },
+                        { "person": "ellos/ustedes", "form": "son" }
+                    ]
+                },
+                {
+                    "verb": "estar",
+                    "tense": "Presente de indicativo",
+                    "note": "Describe ubicación y estados temporales.",
+                    "forms": [
+                        { "person": "yo", "form": "estoy" },
+                        { "person": "tú", "form": "estás" },
+                        { "person": "él/ella/usted", "form": "está" },
+                        { "person": "nosotros", "form": "estamos" },
+                        { "person": "vosotros", "form": "estáis" },
+                        { "person": "ellos/ustedes", "form": "están" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Completa: Mis padres ____ profesores de historia.",
+                "Completa: Nosotros ____ en la biblioteca esta tarde.",
+                "Transforma al plural: Ella está contenta -> ____."
+            ],
+            "interactions": [
+                {
+                    "type": "cloze",
+                    "prompt": "Yo ____ de México, pero ahora ____ en Madrid.",
+                    "answer": "soy, estoy",
+                    "hint": "Identidad usa ser, ubicación usa estar."
+                },
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Selecciona la opción correcta: Nosotros ____ cansados hoy.",
+                    "options": ["somos", "estamos", "están"],
+                    "answer": "estamos",
+                    "explanation": "Estados temporales usan estar."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Tell permanent traits with ser and temporary locations or feelings with estar.",
+                    "details": [
+                        "Ser introduces permanent facts such as origin, jobs, or inherent traits and it pairs with descriptive nouns or adjectives.",
+                        "Estar pinpoints people and objects in space or describes temporary states and emotions, and it also builds the present progressive (estoy estudiando).",
+                        "Some adjectives change meaning with the verb, so rely on context: ser listo = smart, estar listo = ready."
+                    ],
+                    "points": [
+                        "Use ser for identity and origin.",
+                        "Use estar for temporary location or conditions.",
+                        "Include definite articles when mentioning simple professions."
+                    ],
+                    "practice": [
+                        "Fill in: My parents ____ history teachers.",
+                        "Fill in: We ____ at the library this afternoon.",
+                        "Change to plural: Ella está contenta → _____."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "gender-number-agreement",
+            "title": "Género y número",
+            "summary": "Hacer concordar artículos, sustantivos y adjetivos.",
+            "details": [
+                "El género gramatical se aprende junto al sustantivo; muchos que terminan en -o son masculinos y los que terminan en -a son femeninos, pero hay excepciones como el día o la mano.",
+                "Artículos y adjetivos copian el género y número del sustantivo para mantener la concordancia natural: la casa blanca, los libros verdes.",
+                "Los sustantivos que acaban en consonante suelen formar el plural agregando -es (el salón -> los salones); los que terminan en vocal usan -s."
+            ],
+            "points": [
+                "El artículo indica el género del sustantivo (el, la, los, las).",
+                "Los adjetivos cambian a -o/-a y -os/-as según el sustantivo.",
+                "Memoriza excepciones frecuentes: el día, la mano."
+            ],
+            "examples": [
+                {
+                    "sentence": "La casa blanca es pequeña.",
+                    "translation": "The white house is small."
+                },
+                {
+                    "sentence": "Los carros nuevos son caros.",
+                    "translation": "The new cars are expensive."
+                }
+            ],
+            "practice": [
+                "Elige artículo y adjetivo: ____ libro ____ (verde).",
+                "Cambia a plural: La flor roja.",
+                "Completa con género correcto: Tengo ____ hermano y ____ hermana."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Selecciona la combinación correcta para '____ mesa ____ (nuevo)'.",
+                    "options": ["el / nuevo", "la / nueva", "la / nuevo"],
+                    "answer": "la / nueva",
+                    "explanation": "Mesa es femenina y singular."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Match articles, nouns, and adjectives in gender and number.",
+                    "details": [
+                        "Gender travels with the noun; many -o nouns are masculine and many -a nouns are feminine, but there are exceptions like el día or la mano.",
+                        "Articles and adjectives copy the noun’s gender and number to keep agreement natural: la casa blanca, los libros verdes.",
+                        "Nouns ending in a consonant usually form the plural with -es, while vowel endings take -s."
+                    ],
+                    "points": [
+                        "Articles signal the noun’s gender (el, la, los, las).",
+                        "Adjectives switch endings -o/-a and -os/-as just like the noun.",
+                        "Memorize common exceptions such as el día and la mano."
+                    ],
+                    "practice": [
+                        "Pick the correct article and adjective: ____ libro ____ (verde).",
+                        "Change to plural: La flor roja.",
+                        "Complete with the right gender: Tengo ____ hermano y ____ hermana."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "present-regular",
+            "title": "Presente regular",
+            "summary": "Conjugar verbos regulares -ar, -er, -ir en presente.",
+            "details": [
+                "Los verbos regulares se organizan según su terminación en infinitivo (-ar, -er, -ir) y comparten el mismo patrón de terminaciones.",
+                "Para conjugar, quita -ar/-er/-ir y agrega la terminación correspondiente sobre la raíz (habl-, com-, viv-).",
+                "El presente regular describe rutinas, verdades generales y acciones cercanas al momento de hablar."
+            ],
+            "points": [
+                "Termina en -o, -as, -a, -amos, -áis, -an para -ar.",
+                "Termina en -o, -es, -e, -emos, -éis, -en para -er.",
+                "Termina en -o, -es, -e, -imos, -ís, -en para -ir."
+            ],
+            "examples": [
+                {
+                    "sentence": "Nosotros hablamos español en clase.",
+                    "translation": "We speak Spanish in class."
+                },
+                {
+                    "sentence": "Ellos viven cerca de la playa.",
+                    "translation": "They live near the beach."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "hablar",
+                    "tense": "Presente (-ar)",
+                    "note": "Modelo para verbos -ar.",
+                    "forms": [
+                        { "person": "yo", "form": "hablo" },
+                        { "person": "tú", "form": "hablas" },
+                        { "person": "él/ella/usted", "form": "habla" },
+                        { "person": "nosotros", "form": "hablamos" },
+                        { "person": "vosotros", "form": "habláis" },
+                        { "person": "ellos/ustedes", "form": "hablan" }
+                    ]
+                },
+                {
+                    "verb": "comer",
+                    "tense": "Presente (-er)",
+                    "note": "Modelo para verbos -er.",
+                    "forms": [
+                        { "person": "yo", "form": "como" },
+                        { "person": "tú", "form": "comes" },
+                        { "person": "él/ella/usted", "form": "come" },
+                        { "person": "nosotros", "form": "comemos" },
+                        { "person": "vosotros", "form": "coméis" },
+                        { "person": "ellos/ustedes", "form": "comen" }
+                    ]
+                },
+                {
+                    "verb": "vivir",
+                    "tense": "Presente (-ir)",
+                    "note": "Modelo para verbos -ir.",
+                    "forms": [
+                        { "person": "yo", "form": "vivo" },
+                        { "person": "tú", "form": "vives" },
+                        { "person": "él/ella/usted", "form": "vive" },
+                        { "person": "nosotros", "form": "vivimos" },
+                        { "person": "vosotros", "form": "vivís" },
+                        { "person": "ellos/ustedes", "form": "viven" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Conjuga hablar para nosotros.",
+                "Conjuga comer para tú.",
+                "Escribe una oración con vivir en primera persona."
+            ],
+            "interactions": [
+                {
+                    "type": "cloze",
+                    "prompt": "Ellas ____ (comer) fruta cada mañana.",
+                    "answer": "comen",
+                    "hint": "Verbo -er en ellas."
+                },
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Forma correcta de vivir para nosotros es...",
+                    "options": ["vivimos", "vive", "viven"],
+                    "answer": "vivimos",
+                    "explanation": "Nosotros -> -imos."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Conjugate regular -ar, -er, and -ir verbs in the present tense.",
+                    "details": [
+                        "Regular verbs group by their infinitive ending (-ar, -er, -ir) and share the same ending patterns.",
+                        "Remove -ar/-er/-ir and attach the proper ending to the stem (habl-, com-, viv-).",
+                        "The simple present covers routines, general truths, and actions happening around now."
+                    ],
+                    "points": [
+                        "-ar endings: -o, -as, -a, -amos, -áis, -an.",
+                        "-er endings: -o, -es, -e, -emos, -éis, -en.",
+                        "-ir endings: -o, -es, -e, -imos, -ís, -en."
+                    ],
+                    "practice": [
+                        "Conjugate hablar for nosotros.",
+                        "Conjugate comer for tú.",
+                        "Write a sentence with vivir in first person."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "present-irregulars",
+            "title": "Presentes irregulares frecuentes",
+            "summary": "Practicar tener, ir, hacer y estar en presente.",
+            "details": [
+                "Tener, ir, hacer y estar rompen los patrones regulares, por lo que debes memorizarlos como bloques completos.",
+                "Ir casi siempre va seguido de la preposición a para indicar destino, mientras que estar aparece en expresiones idiomáticas y para describir estados.",
+                "Repite las formas en voz alta o escribe mini diálogos para fijar los acentos y las irregularidades (voy, hago, estoy)."
+            ],
+            "points": [
+                "Tener: tengo, tienes, tiene, tenemos, tenéis, tienen.",
+                "Ir: voy, vas, va, vamos, vais, van.",
+                "Hacer: hago en primera persona, resto regular."
+            ],
+            "examples": [
+                {
+                    "sentence": "Tengo dos hermanas.",
+                    "translation": "I have two sisters."
+                },
+                {
+                    "sentence": "Vamos al parque los sábados.",
+                    "translation": "We go to the park on Saturdays."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "tener",
+                    "tense": "Presente irregular",
+                    "note": "Cambio g en primera persona y diptongo en otras.",
+                    "forms": [
+                        { "person": "yo", "form": "tengo" },
+                        { "person": "tú", "form": "tienes" },
+                        { "person": "él/ella/usted", "form": "tiene" },
+                        { "person": "nosotros", "form": "tenemos" },
+                        { "person": "vosotros", "form": "tenéis" },
+                        { "person": "ellos/ustedes", "form": "tienen" }
+                    ]
+                },
+                {
+                    "verb": "ir",
+                    "tense": "Presente irregular",
+                    "forms": [
+                        { "person": "yo", "form": "voy" },
+                        { "person": "tú", "form": "vas" },
+                        { "person": "él/ella/usted", "form": "va" },
+                        { "person": "nosotros", "form": "vamos" },
+                        { "person": "vosotros", "form": "vais" },
+                        { "person": "ellos/ustedes", "form": "van" }
+                    ]
+                },
+                {
+                    "verb": "hacer",
+                    "tense": "Presente irregular",
+                    "forms": [
+                        { "person": "yo", "form": "hago" },
+                        { "person": "tú", "form": "haces" },
+                        { "person": "él/ella/usted", "form": "hace" },
+                        { "person": "nosotros", "form": "hacemos" },
+                        { "person": "vosotros", "form": "hacéis" },
+                        { "person": "ellos/ustedes", "form": "hacen" }
+                    ]
+                },
+                {
+                    "verb": "estar",
+                    "tense": "Recordatorio",
+                    "forms": [
+                        { "person": "yo", "form": "estoy" },
+                        { "person": "tú", "form": "estás" },
+                        { "person": "él/ella/usted", "form": "está" },
+                        { "person": "nosotros", "form": "estamos" },
+                        { "person": "vosotros", "form": "estáis" },
+                        { "person": "ellos/ustedes", "form": "están" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Completa: Yo ____ que estudiar (tener).",
+                "Completa: Nosotros ____ al cine esta noche (ir).",
+                "Conjuga estar para ella y escribe una oración."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "¿Cuál es la forma de 'hacer' para nosotros?",
+                    "options": ["hacemos", "hacen", "hago"],
+                    "answer": "hacemos",
+                    "explanation": "Solo primera persona lleva g."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Ustedes ____ (tener) mucha tarea hoy.",
+                    "answer": "tienen",
+                    "hint": "Ellos/ustedes comparten forma."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Practice the irregular presents of tener, ir, hacer, and estar.",
+                    "details": [
+                        "Tener, ir, hacer, and estar break the regular patterns, so memorize their full sets.",
+                        "Ir almost always takes the preposition a to express destination, while estar appears in idioms and to describe states.",
+                        "Repeat the forms aloud or write mini dialogues to lock in accents and irregular letters (voy, hago, estoy)."
+                    ],
+                    "points": [
+                        "Tener: tengo, tienes, tiene, tenemos, tenéis, tienen.",
+                        "Ir: voy, vas, va, vamos, vais, van.",
+                        "Hacer only changes to hago in the first person; the rest are regular endings."
+                    ],
+                    "practice": [
+                        "Complete: Yo ____ que estudiar (tener).",
+                        "Complete: Nosotros ____ al cine esta noche (ir).",
+                        "Conjugate estar for ella and write a sample sentence."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "possessive-adjectives",
+            "title": "Adjetivos posesivos",
+            "summary": "Usar mi, tu, su, nuestro para hablar de familia y objetos.",
+            "details": [
+                "Los posesivos cortos mi, tu, su se colocan antes del sustantivo y solo marcan singular o plural (mi casa, mis casas).",
+                "Nuestro y vuestro concuerdan con género y número: nuestro hermano, nuestra amiga, nuestros padres.",
+                "Para enfatizar la pertenencia puedes agregar a + pronombre: a él le gusta su trabajo, pero en A1 basta con la forma corta.",
+                "En contextos familiares se repite el sustantivo solo cuando es necesario; si ya está claro, basta con el posesivo: Es mi libro. ¿Este también es el tuyo?",
+                "Recuerda que su y sus pueden referirse a él, ella o usted, por lo que conviene agregar a + nombre cuando necesites claridad (A María le gusta su trabajo)."
+            ],
+            "points": [
+                "Formas singulares: mi, tu, su.",
+                "Formas plurales: mis, tus, sus.",
+                "Nuestro/a/os/as concuerda con el sustantivo."
+            ],
+            "examples": [
+                {
+                    "sentence": "Mi hermano vive en México.",
+                    "translation": "My brother lives in Mexico."
+                },
+                {
+                    "sentence": "Nuestras amigas trabajan juntas.",
+                    "translation": "Our friends work together."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "posesivos cortos",
+                    "tense": "Formas singulares",
+                    "note": "Se usan antes del sustantivo.",
+                    "forms": [
+                        { "person": "yo", "form": "mi" },
+                        { "person": "tú", "form": "tu" },
+                        { "person": "él/ella/usted", "form": "su" },
+                        { "person": "nosotros", "form": "nuestro / nuestra" },
+                        { "person": "vosotros", "form": "vuestro / vuestra" },
+                        { "person": "ellos/ustedes", "form": "su" }
+                    ]
+                },
+                {
+                    "verb": "posesivos cortos",
+                    "tense": "Formas plurales",
+                    "forms": [
+                        { "person": "yo", "form": "mis" },
+                        { "person": "tú", "form": "tus" },
+                        { "person": "él/ella/usted", "form": "sus" },
+                        { "person": "nosotros", "form": "nuestros / nuestras" },
+                        { "person": "vosotros", "form": "vuestros / vuestras" },
+                        { "person": "ellos/ustedes", "form": "sus" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Completa: ____ casa es pequeña (nosotros).",
+                "Escribe la forma plural de mi amigo.",
+                "Cambia a femenino plural: Nuestro primo simpático.",
+                "Agrega el posesivo correcto: ____ padres viven lejos (ella)."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "¿Qué opción describe correctamente '____ abuelos tienen jardín'?",
+                    "options": ["Mis", "Tu", "Su"],
+                    "answer": "Mis",
+                    "explanation": "El sujeto implícito es yo en plural."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "A Pedro y Ana les gusta ____ casa nueva.",
+                    "answer": "su",
+                    "hint": "Su equivale a their o his/her según contexto."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Use mi, tu, su, nuestro to talk about family and belongings.",
+                    "details": [
+                        "Short possessives mi, tu, su go before the noun and only mark singular or plural (mi casa, mis casas).",
+                        "Nuestro and vuestro agree in gender and number with the noun: nuestro hermano, nuestra amiga, nuestros padres.",
+                        "To emphasize ownership you can add a + pronoun (A él le gusta su trabajo), though at A1 the short form is enough.",
+                        "Repeat the noun only when needed in family contexts; once it’s clear, the possessive alone works: Es mi libro. ¿Este también es el tuyo?",
+                        "Remember su/sus can mean his, her, your (formal), or their, so add a + name when you need clarity."
+                    ],
+                    "points": [
+                        "Singular forms: mi, tu, su.",
+                        "Plural forms: mis, tus, sus.",
+                        "Nuestro/a/os/as agree with the noun they modify."
+                    ],
+                    "practice": [
+                        "Fill in: ____ casa es pequeña (nosotros).",
+                        "Write the plural form of mi amigo.",
+                        "Change to feminine plural: Nuestro primo simpático.",
+                        "Add the correct possessive: ____ padres viven lejos (ella)."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "questions-negation",
+            "title": "Preguntas y negación",
+            "summary": "Formar preguntas sencillas e introducir no antes del verbo.",
+            "details": [
+                "Las preguntas de sí/no pueden invertir el orden (¿Trabajas? o ¿Trabajas tú?) y usan entonación ascendente al final.",
+                "Las preguntas con palabras interrogativas comienzan con qué, dónde, cuándo, por qué, etc., seguidas del verbo conjugado.",
+                "Para negar basta con colocar no antes del verbo principal: No estudio hoy. Con pronombres de objeto, no permanece delante: No lo quiero.",
+                "En español escrito las preguntas se enmarcan con signos de apertura y cierre ¿ ? incluso en frases largas (¿Qué música escuchas?).",
+                "Puedes combinar negación y preguntas agregando ¿verdad? o ¿no? al final para confirmar información: Vienes, ¿no?"
+            ],
+            "points": [
+                "Inversión básica: Verbo + sujeto.",
+                "Palabras interrogativas: qué, dónde, cuándo, por qué.",
+                "Negación: No + verbo (No trabajo hoy)."
+            ],
+            "examples": [
+                {
+                    "sentence": "¿Dónde vives?",
+                    "translation": "Where do you live?"
+                },
+                {
+                    "sentence": "No estudio los domingos.",
+                    "translation": "I do not study on Sundays."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "estructura sí/no",
+                    "tense": "Modelo básico",
+                    "forms": [
+                        { "person": "patrón", "form": "¿Verbo + sujeto + complemento?" },
+                        { "person": "variante", "form": "¿Verbo + complemento + sujeto?" }
+                    ]
+                },
+                {
+                    "verb": "estructura interrogativa",
+                    "tense": "Wh-words",
+                    "forms": [
+                        { "person": "qué", "form": "¿Qué + verbo + sujeto?" },
+                        { "person": "dónde", "form": "¿Dónde + verbo + sujeto?" },
+                        { "person": "por qué", "form": "¿Por qué + verbo + sujeto?" }
+                    ]
+                },
+                {
+                    "verb": "negación",
+                    "tense": "Patrón",
+                    "forms": [
+                        { "person": "simple", "form": "No + verbo + complemento" },
+                        { "person": "con pronombre", "form": "No + pronombre + verbo" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Transforma en pregunta: Tú trabajas hoy.",
+                "Escribe una respuesta negativa para: ¿Vas al cine?",
+                "Completa con palabra interrogativa: ¿____ estudias español?",
+                "Invierte para preguntar con él: El estudiante lee en clase."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "¿Qué opción niega correctamente 'Ellos viajan mañana'?",
+                    "options": ["No viajan mañana.", "Viajan no mañana.", "No mañana viajan."],
+                    "answer": "No viajan mañana.",
+                    "explanation": "No se coloca directamente antes del verbo conjugado."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "¿____ trabajas en Madrid?",
+                    "answer": "Dónde",
+                    "hint": "Necesitas palabra para lugar."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Build yes/no questions, use wh- words, and place no before the verb.",
+                    "details": [
+                        "Yes/no questions can flip the order (¿Trabajas? or ¿Trabajas tú?) and rise in pitch at the end.",
+                        "Questions with interrogatives start with qué, dónde, cuándo, por qué, etc., followed by the conjugated verb.",
+                        "Negation simply puts no in front of the main verb: No estudio hoy. With object pronouns, no stays in front: No lo quiero.",
+                        "Written Spanish uses opening and closing question marks ¿ ? even in long sentences (¿Qué música escuchas?).",
+                        "You can combine negation and confirmation tags by adding ¿verdad? or ¿no? at the end: Vienes, ¿no?"
+                    ],
+                    "points": [
+                        "Basic inversion: Verb + subject.",
+                        "Common interrogatives: qué, dónde, cuándo, por qué.",
+                        "Negation pattern: No + verb (No trabajo hoy)."
+                    ],
+                    "practice": [
+                        "Turn into a question: Tú trabajas hoy.",
+                        "Write a negative answer for: ¿Vas al cine?",
+                        "Complete with an interrogative word: ¿____ estudias español?",
+                        "Invert to ask about him: El estudiante lee en clase."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "gustar-basics",
+            "title": "Gustar y actividades",
+            "summary": "Expresar gustos con me gusta / me gustan.",
+            "details": [
+                "El verbo gustar concuerda con la cosa que agrada, por eso normalmente se usa en tercera persona.",
+                "Los pronombres de objeto indirecto (me, te, le, nos, os, les) indican a quién le gusta algo.",
+                "Para enfatizar la persona agrega a + nombre: A Ana le gusta bailar salsa.",
+                "Cuando gustar va seguido de infinitivo mantiene la forma singular gusta: Me gusta bailar y cantar.",
+                "Para evitar ambigüedad entre le y les, agrega a él/ella/ustedes frente al pronombre: A ellos les gusta viajar."
+            ],
+            "points": [
+                "Usar pronombres de objeto indirecto: me, te, le.",
+                "Gusta para cosas singulares, gustan para plurales.",
+                "Agregar infinitivo para actividades (Me gusta bailar)."
+            ],
+            "examples": [
+                {
+                    "sentence": "Me gustan los libros nuevos.",
+                    "translation": "I like the new books."
+                },
+                {
+                    "sentence": "A Ana le gusta bailar salsa.",
+                    "translation": "Ana likes to dance salsa."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "gustar",
+                    "tense": "Pronombres + forma singular",
+                    "note": "Usa gusta cuando el sujeto gramatical es singular o infinitivo.",
+                    "forms": [
+                        { "person": "yo", "form": "me gusta" },
+                        { "person": "tú", "form": "te gusta" },
+                        { "person": "él/ella/usted", "form": "le gusta" },
+                        { "person": "nosotros", "form": "nos gusta" },
+                        { "person": "vosotros", "form": "os gusta" },
+                        { "person": "ellos/ustedes", "form": "les gusta" }
+                    ]
+                },
+                {
+                    "verb": "gustar",
+                    "tense": "Pronombres + forma plural",
+                    "note": "Usa gustan con cosas en plural.",
+                    "forms": [
+                        { "person": "yo", "form": "me gustan" },
+                        { "person": "tú", "form": "te gustan" },
+                        { "person": "él/ella/usted", "form": "le gustan" },
+                        { "person": "nosotros", "form": "nos gustan" },
+                        { "person": "vosotros", "form": "os gustan" },
+                        { "person": "ellos/ustedes", "form": "les gustan" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Completa: A nosotros ____ gusta la música clásica.",
+                "Elige la forma correcta: Me gusta / gustan las zapatillas nuevas.",
+                "Escribe una oración con me gusta + infinitivo.",
+                "Reescribe con plural: Me gusta el color azul -> ____."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "¿Qué forma completa mejor 'A ellos ____ viajar'?",
+                    "options": ["les gusta", "les gustan", "les gustas"],
+                    "answer": "les gusta",
+                    "explanation": "Viajar es infinitivo singular, usa gusta."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "A mi familia y a mí ____ gustan las películas antiguas.",
+                    "answer": "nos",
+                    "hint": "Piensa en pronombre de objeto indirecto plural para nosotros."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Express likes with me gusta / me gustan.",
+                    "details": [
+                        "Gustar agrees with the thing that is pleasing, so it normally appears in third person forms.",
+                        "Indirect object pronouns (me, te, le, nos, os, les) show who enjoys something.",
+                        "Add a + name for emphasis: A Ana le gusta bailar salsa.",
+                        "When gustar is followed by an infinitive it stays singular gusta: Me gusta bailar y cantar.",
+                        "To avoid ambiguity with le/les, add a él/ella/ustedes before the pronoun: A ellos les gusta viajar."
+                    ],
+                    "points": [
+                        "Always pair gustar with indirect object pronouns.",
+                        "Use gusta with singular items or infinitives, gustan with plural nouns.",
+                        "Use gustar + infinitive to talk about activities (Me gusta bailar)."
+                    ],
+                    "practice": [
+                        "Complete: A nosotros ____ gusta la música clásica.",
+                        "Choose between Me gusta / Me gustan las zapatillas nuevas.",
+                        "Write a sentence with me gusta + infinitive.",
+                        "Rewrite in plural: Me gusta el color azul → _____."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "ir-a-infinitive",
+            "title": "Ir a + infinitivo",
+            "summary": "Hablar de planes y futuro próximo.",
+            "details": [
+                "La fórmula básica es sujeto + ir conjugado + a + verbo en infinitivo: Voy a descansar.",
+                "Incluye expresiones temporales como mañana, esta tarde o el sábado para situar el plan.",
+                "Se usa para prometer acciones y para describir agendas cercanas sin necesidad de tiempo futuro formal.",
+                "Puedes invertir el orden para enfatizar el tiempo: Este fin de semana vamos a visitar a mis abuelos.",
+                "En preguntas, coloca el verbo ir antes del sujeto: ¿Vas a estudiar esta noche?"
+            ],
+            "points": [
+                "Conjuga ir y agrega a + verbo en infinitivo.",
+                "Usa expresiones de tiempo para claridad (mañana, esta noche).",
+                "Mantiene el orden sujeto + ir + a + actividad."
+            ],
+            "examples": [
+                {
+                    "sentence": "Voy a estudiar después de cenar.",
+                    "translation": "I am going to study after dinner."
+                },
+                {
+                    "sentence": "Ellos van a viajar en diciembre.",
+                    "translation": "They are going to travel in December."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "ir",
+                    "tense": "Presente + a",
+                    "note": "Memoriza las formas para combinar con infinitivos.",
+                    "forms": [
+                        { "person": "yo", "form": "voy a" },
+                        { "person": "tú", "form": "vas a" },
+                        { "person": "él/ella/usted", "form": "va a" },
+                        { "person": "nosotros", "form": "vamos a" },
+                        { "person": "vosotros", "form": "vais a" },
+                        { "person": "ellos/ustedes", "form": "van a" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Completa: Mañana ____ a visitar a mi abuela (yo).",
+                "Escribe un plan con vamos a + infinitivo.",
+                "Transforma: Ella estudia esta noche -> Ella va a estudiar esta noche.",
+                "Haz una pregunta a un amigo usando ir a + infinitivo."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Completa: Nosotros ____ a practicar fútbol mañana.",
+                    "options": ["vamos", "vamos a", "vamos en"],
+                    "answer": "vamos a",
+                    "explanation": "La estructura siempre incluye a antes del infinitivo."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "¿____ a viajar con tus padres este verano?",
+                    "answer": "Vas",
+                    "hint": "Segunda persona singular del verbo ir."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Talk about plans and the near future with ir a + infinitive.",
+                    "details": [
+                        "The basic formula is subject + conjugated ir + a + infinitive: Voy a descansar.",
+                        "Add time expressions like mañana, esta tarde, or el sábado to place the plan.",
+                        "Use it to promise actions and describe upcoming agendas without the formal future tense.",
+                        "You can move the time expression up front for emphasis: Este fin de semana vamos a visitar a mis abuelos.",
+                        "In questions, place ir before the subject: ¿Vas a estudiar esta noche?"
+                    ],
+                    "points": [
+                        "Conjugate ir, add a, then the infinitive.",
+                        "Use clear time markers (mañana, esta noche).",
+                        "Keep the order subject + ir + a + activity unless you are asking a question."
+                    ],
+                    "practice": [
+                        "Complete: Mañana ____ a visitar a mi abuela (yo).",
+                        "Write a plan with vamos a + infinitive.",
+                        "Transform: Ella estudia esta noche → Ella va a estudiar esta noche.",
+                        "Ask a friend a question using ir a + infinitive."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "tener-que",
+            "title": "Tener que + infinitivo",
+            "summary": "Expresar obligación básica.",
+            "details": [
+                "Tener que + infinitivo indica responsabilidades personales o cosas que son necesarias para cada sujeto.",
+                "Solo tener se conjuga; el verbo principal queda en infinitivo (Tengo que limpiar).",
+                "Combina la estructura con marcadores de tiempo o frecuencia para dar contexto: Tenemos que practicar cada día.",
+                "En preguntas coloca tener antes del sujeto: ¿Tienes que trabajar el sábado?",
+                "Puedes suavizar la obligación agregando expresiones como tal vez o quizás al inicio: Tal vez tenemos que salir más temprano."
+            ],
+            "points": [
+                "Conjuga tener según el sujeto.",
+                "Agrega que + verbo en infinitivo.",
+                "Usa para hablar de tareas y responsabilidades diarias."
+            ],
+            "examples": [
+                {
+                    "sentence": "Tengo que preparar la cena.",
+                    "translation": "I have to prepare dinner."
+                },
+                {
+                    "sentence": "Mis padres tienen que trabajar temprano.",
+                    "translation": "My parents have to work early."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "tener que",
+                    "tense": "Presente",
+                    "note": "Solo cambia el verbo tener.",
+                    "forms": [
+                        { "person": "yo", "form": "tengo que" },
+                        { "person": "tú", "form": "tienes que" },
+                        { "person": "él/ella/usted", "form": "tiene que" },
+                        { "person": "nosotros", "form": "tenemos que" },
+                        { "person": "vosotros", "form": "tenéis que" },
+                        { "person": "ellos/ustedes", "form": "tienen que" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Completa: Ellos ____ que limpiar la cocina.",
+                "Escribe una oración con tengo que + actividad.",
+                "Cambia a tercera persona plural: Tenemos que practicar -> ____.",
+                "Haz una pregunta con tienes que + infinitivo."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Selecciona la forma correcta: Ella ____ que estudiar para el examen.",
+                    "options": ["tiene", "tiene que", "tienen que"],
+                    "answer": "tiene que",
+                    "explanation": "La estructura completa requiere que antes del infinitivo."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Nosotros ____ que salir temprano mañana.",
+                    "answer": "tenemos",
+                    "hint": "Piensa en conjugación de tener para nosotros."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Express basic obligation with tener que + infinitive.",
+                    "details": [
+                        "Tener que + infinitive states personal responsibilities or things each subject must do.",
+                        "Only tener conjugates; the main verb stays in the infinitive (Tengo que limpiar).",
+                        "Combine the structure with time markers or frequency for context: Tenemos que practicar cada día.",
+                        "In questions place tener before the subject: ¿Tienes que trabajar el sábado?",
+                        "Soften the obligation by adding phrases like tal vez or quizás at the beginning."
+                    ],
+                    "points": [
+                        "Conjugate tener for the subject.",
+                        "Add que + infinitive right after.",
+                        "Use it to talk about daily chores and responsibilities."
+                    ],
+                    "practice": [
+                        "Complete: Ellos ____ que limpiar la cocina.",
+                        "Write a sentence with tengo que + activity.",
+                        "Change to third-person plural: Tenemos que practicar → _____.",
+                        "Ask a question with tienes que + infinitive."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "demonstratives-quantifiers",
+            "title": "Demostrativos y cuantificadores",
+            "summary": "Identificar objetos cercanos o lejanos y expresar cantidad básica.",
+            "details": [
+                "Este/esta/estos/estas señalan algo cercano al hablante; ese/esa/esos/esas se refieren a distancia media; aquel/aquella/aquellos/aquellas marcan lejanía.",
+                "Cuantificadores frecuentes en A1: mucho/a/os/as, poco/a/os/as, algunos/as, ningún/ninguna (en oraciones negativas).",
+                "Coloca los demostrativos antes del sustantivo y concuerda género y número: esta casa, esos amigos.",
+                "Puedes usar pronombres demostrativos sin sustantivo cuando el contexto es claro: Prefiero esta.",
+                "Practica combinando demostrativos y cantidades para describir objetos cotidianos."],
+            "points": [
+                "Este/esta se emplea para objetos que tocas o tienes cerca.",
+                "Ese/esa para lo que está cerca del oyente o acaba de mencionarse.",
+                "Mucho/poco concuerdan con el sustantivo; muy se usa con adjetivos (muy alto)."
+            ],
+            "examples": [
+                {
+                    "sentence": "Quiero esta camiseta roja.",
+                    "translation": "I want this red T-shirt."
+                },
+                {
+                    "sentence": "Hay pocos asientos en ese salón.",
+                    "translation": "There are few seats in that hall."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "demostrativos",
+                    "tense": "Formas",
+                    "forms": [
+                        { "person": "cercanía", "form": "este / esta / estos / estas" },
+                        { "person": "distancia media", "form": "ese / esa / esos / esas" },
+                        { "person": "lejanía", "form": "aquel / aquella / aquellos / aquellas" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Describe tu escritorio usando al menos tres demostrativos.",
+                "Completa oraciones con mucho/poco/algunos según la pista.",
+                "Transforma frases cambiando de este a aquel para expresar distancia.",
+                "Clasifica sustantivos según requieran singular o plural y añade el demostrativo correcto."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "____ libros aquí son nuevos.",
+                    "options": ["Esos", "Estos", "Aquellos"],
+                    "answer": "Estos",
+                    "explanation": "Se refiere a objetos cerca del hablante."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Hay ____ (mucho/pocos) estudiantes en aquella clase.",
+                    "answer": "pocos",
+                    "hint": "Escoge la forma plural que concuerde con estudiantes."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Point to nearby or distant objects and express basic quantity.",
+                    "details": [
+                        "Este/esta/estos/estas indicate something close to the speaker; ese/esa/esos/esas refer to middle distance; aquel/aquella/aquellos/aquellas mark far distance.",
+                        "Common A1 quantifiers: mucho/a/os/as, poco/a/os/as, algunos/as, ningún/ninguna (in negatives).",
+                        "Place demonstratives before the noun and match gender/number: esta casa, esos amigos.",
+                        "Use demonstrative pronouns without a noun when the context is clear: Prefiero esta.",
+                        "Practice combining demonstratives and amounts to describe everyday objects."
+                    ],
+                    "points": [
+                        "Este/esta describe items you can touch or have nearby.",
+                        "Ese/esa refers to what is near the listener or just mentioned.",
+                        "Mucho/poco agree with the noun; muy only modifies adjectives (muy alto)."
+                    ],
+                    "practice": [
+                        "Describe your desk using at least three demonstratives.",
+                        "Fill sentences with mucho/poco/algunos based on the clue.",
+                        "Rewrite sentences swapping este for aquel to express distance.",
+                        "Sort nouns by singular/plural and add the correct demonstrative."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "time-frequency",
+            "title": "Expresiones de tiempo y frecuencia",
+            "summary": "Decir la hora, hablar de la rutina y usar adverbios de frecuencia.",
+            "details": [
+                "La hora usa el verbo ser: Es la una / Son las tres y media.",
+                "Adverbios básicos: siempre, casi siempre, a menudo, a veces, rara vez, nunca.",
+                "Coloca los adverbios antes o después del verbo según énfasis: Siempre desayuno temprano / Desayuno temprano siempre.",
+                "Expresiones útiles: por la mañana, los lunes, cada fin de semana, todos los días.",
+                "Para fechas di la preposición el + número + de + mes: el 12 de junio.",
+                "Momentos del día ampliados: al amanecer, a media mañana, al mediodía, a media tarde, al anochecer, de madrugada.",
+                "Frecuencia cuantificada: una vez al día, dos veces por semana, cada dos horas, casi cada fin de semana, cada mes.",
+                "Marcadores semanales y periódicos: de lunes a viernes, entre semana, los lunes por la tarde, cada dos días, los días laborables.",
+                "Expresiones aproximadas y rangos: sobre las ocho, a eso de las diez, desde las siete hasta las nueve, antes de/después de comer.",
+                "Combina a + la(s) + hora para compromisos: Trabajo a las nueve / Tenemos clase a la una en punto."],
+            "points": [
+                "Usa y cuarto / y media / menos cuarto para minutos especiales.",
+                "Nunca y siempre suelen ir antes del verbo; a veces puede abrir la oración.",
+                "Los días de la semana no llevan mayúscula y en plural usan los (los martes).",
+                "Explica frecuencia con números: una vez al día, dos veces a la semana, tres veces al mes.",
+                "Para marcar inicio y fin usa desde...hasta... o de...a..., y refuerza con antes de / después de."
+            ],
+            "examples": [
+                {
+                    "sentence": "Son las siete menos cuarto y siempre salgo a esa hora.",
+                    "translation": "It is quarter to seven and I always leave at that time."
+                },
+                {
+                    "sentence": "A veces estudio español los domingos por la tarde.",
+                    "translation": "Sometimes I study Spanish on Sunday afternoons."
+                },
+                {
+                    "sentence": "Entreno dos veces por semana, casi siempre por la noche.",
+                    "translation": "I train twice a week, almost always at night."
+                },
+                {
+                    "sentence": "Nos vemos sobre las ocho y media y después de cenar estudiamos un rato.",
+                    "translation": "We meet at about eight-thirty and after dinner we study for a while."
+                }
+            ],
+            "visualVocabulary": {
+                "title": "Adverbios de frecuencia clave",
+                "subtitle": "Asocia cada palabra con un porcentaje aproximado para hablar de hábitos.",
+                "items": [
+                    { "term": "siempre", "translation": "always", "note": "100%" },
+                    { "term": "casi siempre", "translation": "almost always", "note": "90%" },
+                    { "term": "a menudo", "translation": "often", "note": "70%" },
+                    { "term": "frecuentemente", "translation": "frequently", "note": "65%" },
+                    { "term": "normalmente", "translation": "usually", "note": "rutina" },
+                    { "term": "a veces", "translation": "sometimes", "note": "50%" },
+                    { "term": "de vez en cuando", "translation": "once in a while", "note": "30%" },
+                    { "term": "rara vez", "translation": "rarely", "note": "10%" },
+                    { "term": "casi nunca", "translation": "almost never", "note": "5%" },
+                    { "term": "nunca", "translation": "never", "note": "0%" },
+                    { "term": "cada dos días", "translation": "every other day", "note": "patrón" },
+                    { "term": "una vez al mes", "translation": "once a month", "note": "calendario" }
+                ]
+            },
+            "conjugations": [
+                {
+                    "verb": "verbo ser",
+                    "tense": "Hora",
+                    "forms": [
+                        { "person": "una", "form": "Es la una" },
+                        { "person": "plural", "form": "Son las + número" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Di la hora en cinco momentos distintos usando y media, menos cuarto y expresiones como sobre las...",
+                "Crea una tabla que relacione cada adverbio de frecuencia con un porcentaje aproximado.",
+                "Escribe tu rutina semanal usando los lunes..., de lunes a viernes, cada dos días, antes de/después de...",
+                "Convierte horarios digitales (07:30-09:00, 21:15) en frases con desde...hasta... y adverbios de frecuencia."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "¿Cómo dices 8:30?",
+                    "options": ["Son las ocho y media", "Es las ocho y treinta", "Son los ocho media"],
+                    "answer": "Son las ocho y media",
+                    "explanation": "Se usa ser en plural y la expresión y media."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "____ (Siempre/A veces) tomo café antes de trabajar.",
+                    "answer": "Siempre",
+                    "hint": "El enunciado indica hábito diario."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Tell time, talk about routines, and use adverbs of frequency.",
+                    "details": [
+                        "Use the verb ser to tell time: Es la una / Son las tres y media.",
+                        "Core adverbs: siempre, casi siempre, a menudo, a veces, rara vez, nunca.",
+                        "Place adverbs before or after the verb depending on emphasis: Siempre desayuno temprano / Desayuno temprano siempre.",
+                        "Helpful expressions: por la mañana, los lunes, cada fin de semana, todos los días.",
+                        "Dates take el + number + de + month: el 12 de junio.",
+                        "Extended moments of the day: al amanecer (dawn), midmorning, noon, midafternoon, dusk, de madrugada (very early).",
+                        "Quantified frequency frames: una vez al día (once a day), dos veces por semana (twice a week), cada dos horas (every two hours), almost every weekend, every month.",
+                        "Weekly and periodic markers: de lunes a viernes, entre semana (on weekdays), los lunes por la tarde, cada dos días, los días laborables.",
+                        "Approximate time and ranges: sobre las ocho, a eso de las diez, desde las siete hasta las nueve, antes de/después de comer.",
+                        "Combine a + la(s) + hour to fix commitments: Trabajo a las nueve / Tenemos clase a la una en punto."
+                    ],
+                    "points": [
+                        "Use y cuarto / y media / menos cuarto for special minute phrases.",
+                        "Nunca and siempre usually come before the verb; a veces may start the sentence.",
+                        "Days of the week are lowercase and pluralize with los (los martes).",
+                        "Quantify frequency with numbers: una vez al día, dos veces a la semana, tres veces al mes.",
+                        "Mark start/end with desde...hasta... or de...a... and reinforce with antes de / después de."
+                    ],
+                    "practice": [
+                        "Say the time at five different moments using y media, menos cuarto, and phrases like sobre las....",
+                        "Build a chart that links adverbs of frequency to an approximate percentage.",
+                        "Write your weekly routine using los lunes..., de lunes a viernes, cada dos días, antes de/después de...",
+                        "Turn digital schedules (07:30-09:00, 21:15) into Spanish sentences with desde...hasta... and frequency adverbs."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "object-pronouns-intro",
+            "title": "Pronombres de objeto directo básicos",
+            "summary": "Reemplazar objetos sencillos con lo, la, los, las.",
+            "details": [
+                "El objeto directo responde a qué; se coloca antes del verbo conjugado: Lo necesito.",
+                "Sustituye sustantivos para evitar repeticiones: Tengo el libro → Lo tengo.",
+                "En infinitivos y gerundios puedes adjuntar el pronombre: Quiero verlo / Estoy leyéndola.",
+                "Para personas se usan lo/la en registros informales en muchos países, aunque el leísmo es común en España (no se trata en A1).",
+                "Combina los pronombres con negación manteniendo el orden: No la compro."],
+            "points": [
+                "Concuerda género y número del pronombre con el sustantivo que reemplaza.",
+                "Los nombres masculinos singulares usan lo; femeninos singulares usan la.",
+                "En frases con dos verbos, puedes colocar el pronombre antes del primero o unido al infinitivo."
+            ],
+            "examples": [
+                {
+                    "sentence": "¿El abrigo? Lo compro mañana.",
+                    "translation": "The coat? I am buying it tomorrow."
+                },
+                {
+                    "sentence": "No quiero ver esas películas. No las veo.",
+                    "translation": "I do not want to see those movies. I do not watch them."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "pronombres directos",
+                    "tense": "Formas",
+                    "forms": [
+                        { "person": "masculino singular", "form": "lo" },
+                        { "person": "femenino singular", "form": "la" },
+                        { "person": "masculino plural", "form": "los" },
+                        { "person": "femenino plural", "form": "las" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Reemplaza el objeto directo en cinco frases modelo.",
+                "Escribe diálogos cortos donde un pronombre evita repetir el sustantivo.",
+                "Combina infinitivos con pronombres (ver + lo, comprar + la).",
+                "Transforma oraciones negativas manteniendo el pronombre en su lugar."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "¿Has visto mi mochila? Sí, ____ tengo aquí.",
+                    "options": ["lo", "la", "las"],
+                    "answer": "la",
+                    "explanation": "Mochila es femenina singular."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Quiero comprar estos zapatos. ____ voy a comprar hoy.",
+                    "answer": "Los",
+                    "hint": "Plural masculino requiere los antes del verbo."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Replace simple direct objects with lo, la, los, las.",
+                    "details": [
+                        "The direct object answers what and appears before the conjugated verb: Lo necesito.",
+                        "Swap nouns for pronouns to avoid repetition: Tengo el libro → Lo tengo.",
+                        "Attach the pronoun to infinitives and gerunds: Quiero verlo / Estoy leyéndola.",
+                        "For people, lo/la is common in informal registers in many countries; leísmo in Spain is outside A1.",
+                        "Combine pronouns with negation by keeping the order: No la compro."
+                    ],
+                    "points": [
+                        "Match the pronoun’s gender/number with the noun it replaces.",
+                        "Masculine singular nouns use lo; feminine singular use la.",
+                        "With two-verb phrases, place the pronoun before the first verb or attach it to the infinitive."
+                    ],
+                    "practice": [
+                        "Replace the direct object in five sample sentences.",
+                        "Write mini dialogues where a pronoun avoids repeating the noun.",
+                        "Combine infinitives with pronouns (ver + lo, comprar + la).",
+                        "Transform negative sentences while keeping the pronoun in place."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "numbers-dates-weather",
+            "title": "Números, fechas y clima",
+            "summary": "Dar información básica sobre cantidades, fechas y el tiempo atmosférico.",
+            "details": [
+                "Aprende los números 0-100 y patrones para centenas (ciento diez, doscientos).",
+                "Para fechas usa el artículo: Hoy es el 5 de mayo; para años no se añaden puntos.",
+                "Vocabulario de clima: hace frío, hace calor, llueve, nieva, está nublado.",
+                "Usa expresiones para temperaturas aproximadas: Hace unos veinte grados.",
+                "Los meses y días se escriben en minúscula."],
+            "points": [
+                "Uno cambia a un/una antes de sustantivo (un libro, una casa).",
+                "Treinta y uno, cuarenta y dos siguen el patrón treinta y + número.",
+                "Clima + temporada: En invierno hace frío; en verano hace calor."
+            ],
+            "examples": [
+                {
+                    "sentence": "Mi cumpleaños es el 14 de febrero y casi siempre hace frío.",
+                    "translation": "My birthday is February 14th and it is almost always cold."
+                },
+                {
+                    "sentence": "Hoy hay veinte grados y está soleado.",
+                    "translation": "Today it is twenty degrees and sunny."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "números",
+                    "tense": "Rangos",
+                    "forms": [
+                        { "person": "0-10", "form": "cero, uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez" },
+                        { "person": "11-20", "form": "once, doce, trece, catorce, quince, dieciséis, diecisiete, dieciocho, diecinueve, veinte" },
+                        { "person": "decenas", "form": "treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Escribe tu número de teléfono y precio favorito en palabras.",
+                "Completa un calendario con fechas y clima estimado.",
+                "Asocia imágenes meteorológicas con expresiones como llueve o hace sol.",
+                "Convierte cantidades numéricas (42) a palabras (cuarenta y dos) y viceversa."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "¿Cómo se escribe 57?",
+                    "options": ["cincuenta siete", "cincuenta y siete", "cinco siete"],
+                    "answer": "cincuenta y siete",
+                    "explanation": "Las decenas se conectan con y antes de la unidad."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "En otoño generalmente ____ (llover) mucho aquí.",
+                    "answer": "llueve",
+                    "hint": "Usa la tercera persona singular del verbo llover."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Share basic information about numbers, dates, and the weather.",
+                    "details": [
+                        "Learn the numbers 0–100 and the patterns for hundreds (ciento diez, doscientos).",
+                        "Dates take the article: Hoy es el 5 de mayo; years are written without commas.",
+                        "Weather vocabulary: hace frío, hace calor, llueve, nieva, está nublado.",
+                        "Use expressions for approximate temperatures: Hace unos veinte grados.",
+                        "Months and days are written in lowercase."
+                    ],
+                    "points": [
+                        "Uno becomes un/una before a noun (un libro, una casa).",
+                        "Thirty-one, forty-two, etc. follow treinta y + number.",
+                        "Combine weather + season: En invierno hace frío; en verano hace calor."
+                    ],
+                    "practice": [
+                        "Write your phone number and a price in words.",
+                        "Fill a calendar with dates and expected weather.",
+                        "Match weather icons with expressions like llueve or hace sol.",
+                        "Convert numerals (42) to words (cuarenta y dos) and back."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "imperative-basics",
+            "title": "Imperativo afirmativo básico",
+            "summary": "Dar instrucciones sencillas con las formas de tú y usted.",
+            "details": [
+                "El imperativo afirmativo para tú usa la tercera persona del presente: hablar → habla, comer → come, vivir → vive.",
+                "Para usted se utilizan las formas del presente de subjuntivo: hable, coma, viva.",
+                "Al añadir pronombres, se unen al final: dime, dígame, levántate.",
+                "Negaciones básicas usan no + presente subjuntivo (no hables), pero en A1 priorizamos lo afirmativo.",
+                "Emplea imperativos en contextos cotidianos: dar indicaciones, ofrecer comida, pedir ayuda."],
+            "points": [
+                "Los verbos irregulares comunes: haz, ve (ir), pon, sal, sé (ser), ten, ven.",
+                "Añade signos de exclamación para resaltar instrucciones orales/escritas.",
+                "Sé cortés agregando por favor o una explicación breve."
+            ],
+            "examples": [
+                {
+                    "sentence": "Abre la ventana, por favor.",
+                    "translation": "Open the window, please."
+                },
+                {
+                    "sentence": "Señor, siéntese aquí.",
+                    "translation": "Sir, please sit here."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "imperativo tú",
+                    "tense": "Modelos",
+                    "forms": [
+                        { "person": "hablar", "form": "habla" },
+                        { "person": "comer", "form": "come" },
+                        { "person": "vivir", "form": "vive" },
+                        { "person": "irregular", "form": "haz, pon, ten, ven, sé" }
+                    ]
+                },
+                {
+                    "verb": "imperativo usted",
+                    "tense": "Modelos",
+                    "forms": [
+                        { "person": "hablar", "form": "hable" },
+                        { "person": "comer", "form": "coma" },
+                        { "person": "vivir", "form": "viva" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Crea instrucciones para un compañero (habla, escribe, escucha).",
+                "Transforma frases en infinitivo a imperativo de tú y de usted.",
+                "Combina pronombres con el imperativo (levántate, dígame).",
+                "Escribe señales para un aula usando imperativos cortos."],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "¿Cuál es el imperativo de tú para 'poner'?",
+                    "options": ["pon", "pone", "ponga"],
+                    "answer": "pon",
+                    "explanation": "Pon es la forma irregular para tú."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Señora, ____ (pasar) por aquí, por favor.",
+                    "answer": "pase",
+                    "hint": "Use la forma de usted del presente de subjuntivo."
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Give simple instructions with tú and usted affirmative commands.",
+                    "details": [
+                        "The affirmative tú command uses the third-person singular of the present: hablar → habla, comer → come, vivir → vive.",
+                        "Usted commands use the present-subjunctive forms: hable, coma, viva.",
+                        "Attach pronouns to the end of affirmative commands: dime, dígame, levántate.",
+                        "Negative commands use no + present subjunctive (no hables), but this lesson focuses on affirmative forms.",
+                        "Use imperatives for everyday contexts like giving directions, offering food, or requesting help."
+                    ],
+                    "points": [
+                        "Memorize common irregulars: haz, ve (ir), pon, sal, sé (ser), ten, ven.",
+                        "Add exclamation marks to highlight instructions in text.",
+                        "Stay polite with por favor or a short reason." 
+                    ],
+                    "practice": [
+                        "Write classroom instructions for a partner (habla, escribe, escucha).",
+                        "Turn infinitive phrases into tú and usted commands.",
+                        "Combine pronouns with commands (levántate, dígame).",
+                        "Write classroom signs using short imperatives."
+                    ]
+                }
+            }
         }
     ]
 }
+

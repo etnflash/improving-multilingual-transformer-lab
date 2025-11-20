@@ -8,7 +8,10 @@ import DialogSimulation from './modules/DialogSimulation'
 import TransformerIntrospection from './modules/TransformerIntrospection'
 import LabOverview from './pages/LabOverview'
 import Appendix from './pages/Appendix'
+import GrammarTopic from './pages/GrammarTopic'
+import VocabularyTopic from './pages/VocabularyTopic'
 import languagesData from './data/languages.json'
+import LanguageContext from './context/LanguageContext'
 import './App.css'
 
 function App() {
@@ -16,13 +19,14 @@ function App() {
   const languages = Object.values(languagesData)
 
   return (
-    <Router>
-      <div className="app">
-        <Header 
-          languages={languages}
-          selectedLanguage={selectedLanguage}
-          onLanguageChange={setSelectedLanguage}
-        />
+    <LanguageContext.Provider value={{ uiLanguage: selectedLanguage, setUiLanguage: setSelectedLanguage }}>
+      <Router>
+        <div className="app">
+          <Header 
+            languages={languages}
+            selectedLanguage={selectedLanguage}
+            onLanguageChange={setSelectedLanguage}
+          />
         
         <nav className="main-nav">
           <NavLink to="/" end>Overview</NavLink>
@@ -55,10 +59,13 @@ function App() {
               element={<TransformerIntrospection />} 
             />
             <Route path="/appendix" element={<Appendix />} />
+            <Route path="/appendix/:languageCode/:levelId/grammar/:topicId" element={<GrammarTopic />} />
+            <Route path="/appendix/:languageCode/:levelId/vocabulary/:setId" element={<VocabularyTopic />} />
           </Routes>
         </main>
       </div>
     </Router>
+    </LanguageContext.Provider>
   )
 }
 
