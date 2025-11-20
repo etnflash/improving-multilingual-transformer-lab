@@ -867,6 +867,74 @@
                     "translation": "There are few seats in that hall."
                 }
             ],
+            "pointAndChat": {
+                "title": "Tarjetas para señalar y describir",
+                "subtitle": "Repite en voz alta mientras apuntas a objetos cerca, a media distancia o lejos.",
+                "cards": [
+                    {
+                        "label": "zona cerca",
+                        "spanish": "Esta taza aquí es tuya; mira, está junto a mi cuaderno.",
+                        "english": "This cup right here is yours; look, it sits next to my notebook.",
+                        "gesture": "mano junto al pecho",
+                        "tip": "Usa este/esta cuando puedes tocar el objeto."
+                    },
+                    {
+                        "label": "distancia media",
+                        "spanish": "Ese reloj sobre la mesa marca las siete y media.",
+                        "english": "That clock on the table shows seven-thirty.",
+                        "gesture": "señala con el brazo semi extendido",
+                        "tip": "Ese/esa funciona para lo que ve el oyente sin estar pegado a ti."
+                    },
+                    {
+                        "label": "más lejos",
+                        "spanish": "Aquella lámpara cerca de la ventana tiene poca luz.",
+                        "english": "That lamp over by the window has little light.",
+                        "gesture": "brazo extendido y palma abierta",
+                        "tip": "Aquel/aquella resaltan la lejanía o contraste."
+                    },
+                    {
+                        "label": "cantidad + demostrativo",
+                        "spanish": "Estos cuadernos tienen mucha información; esas hojas solo un poco.",
+                        "english": "These notebooks have a lot of info; those sheets only a little.",
+                        "gesture": "toca los cuadernos y luego mueve la mano hacia el oyente",
+                        "tip": "Combina demostrativos con mucho/poco para precisar."
+                    }
+                ]
+            },
+            "swapChart": {
+                "title": "Cerca / media / lejos con cantidades",
+                "subtitle": "Intercambia el demostrativo y ajusta la cantidad según el contexto.",
+                "rows": [
+                    {
+                        "distance": "cerca (este/esta)",
+                        "spanish": "Este cuenco pequeño tiene poca sopa, ¿quieres más?",
+                        "english": "This bowl here has little soup, do you want more?",
+                        "quantity": "poco/poca",
+                        "cue": "Sostén el objeto entre las manos."
+                    },
+                    {
+                        "distance": "media (ese/esa)",
+                        "spanish": "Esa planta junto a ti tiene muchas hojas nuevas.",
+                        "english": "That plant next to you has many new leaves.",
+                        "quantity": "mucho/mucha",
+                        "cue": "Señala con el brazo hacia el oyente."
+                    },
+                    {
+                        "distance": "media plural",
+                        "spanish": "Esos lápices intermedios cuestan pocos euros.",
+                        "english": "Those pencils in the middle cost a few euros.",
+                        "quantity": "pocos/pocas",
+                        "cue": "Muestra el grupo central en la mesa."
+                    },
+                    {
+                        "distance": "lejos (aquel/aquella)",
+                        "spanish": "Aquella silla cerca de la puerta es la única sin respaldo.",
+                        "english": "That chair near the door is the only one without a backrest.",
+                        "quantity": "ninguno/ninguna",
+                        "cue": "Extiende el brazo por completo hacia el fondo."
+                    }
+                ]
+            },
             "conjugations": [
                 {
                     "verb": "demostrativos",
@@ -979,6 +1047,77 @@
                     { "term": "nunca", "translation": "never", "note": "0%" },
                     { "term": "cada dos días", "translation": "every other day", "note": "patrón" },
                     { "term": "una vez al mes", "translation": "once a month", "note": "calendario" }
+                ]
+            },
+            "dailyPlanner": {
+                "title": "Planificador del día",
+                "subtitle": "Agrupa expresiones por franjas para interiorizar rutinas.",
+                "slots": [
+                    {
+                        "timeRange": "06:15 - 06:45",
+                        "label": "al amanecer",
+                        "phrase": "A las seis y cuarto me levanto y siempre preparo té.",
+                        "frequency": "siempre",
+                        "tip": "Usa 'a las' + número exacto para compromisos fijos."
+                    },
+                    {
+                        "timeRange": "08:00 - 09:00",
+                        "label": "mañana",
+                        "phrase": "Sobre las ocho salgo; casi siempre tomo el autobús.",
+                        "frequency": "casi siempre",
+                        "tip": "'Sobre' y 'a eso de' indican hora aproximada."
+                    },
+                    {
+                        "timeRange": "13:00 - 14:00",
+                        "label": "mediodía",
+                        "phrase": "Al mediodía almuerzo y a veces camino después.",
+                        "frequency": "a veces",
+                        "tip": "Alterna adverbios antes y después del verbo para variedad."
+                    },
+                    {
+                        "timeRange": "18:30 - 20:00",
+                        "label": "tarde",
+                        "phrase": "Desde las seis y media hasta las ocho estudio casi cada día.",
+                        "frequency": "casi cada día",
+                        "tip": "Combina 'desde...hasta...' para intervalos claros."
+                    },
+                    {
+                        "timeRange": "22:00",
+                        "label": "noche",
+                        "phrase": "A eso de las diez leo y rara vez uso el teléfono.",
+                        "frequency": "rara vez",
+                        "tip": "'Rara vez' suaviza la idea de casi nunca."
+                    }
+                ]
+            },
+            "prosodyNotes": {
+                "title": "Prosodia de la hora",
+                "subtitle": "Marca el acento correcto para sonar natural.",
+                "items": [
+                    {
+                        "phrase": "A las ocho",
+                        "stress": "A las Ó-cho",
+                        "tip": "La sílaba tónica cae en ó; alarga ligeramente la vocal.",
+                        "tag": "exacto"
+                    },
+                    {
+                        "phrase": "Sobre las ocho",
+                        "stress": "SÓ-bre las Ó-cho",
+                        "tip": "Mantén dos golpes fuertes para indicar aproximación.",
+                        "tag": "aprox"
+                    },
+                    {
+                        "phrase": "A las ocho en punto",
+                        "stress": "A las Ó-cho en PUN-to",
+                        "tip": "Marca 'punto' para señalar puntualidad.",
+                        "tag": "puntual"
+                    },
+                    {
+                        "phrase": "Antes de las ocho",
+                        "stress": "Án-tes de las Ó-cho",
+                        "tip": "Sube el tono en antes para marcar la referencia.",
+                        "tag": "orden"
+                    }
                 ]
             },
             "conjugations": [

@@ -3,6 +3,10 @@ import { Link, useParams } from 'react-router-dom'
 import ConjugationTable from '../components/ConjugationTable'
 import QuickCheck from '../components/QuickCheck'
 import ExerciseAccordion from '../components/ExerciseAccordion'
+import PointAndChat from '../components/PointAndChat'
+import SwapChart from '../components/SwapChart'
+import DailyPlanner from '../components/DailyPlanner'
+import ProsodyNotes from '../components/ProsodyNotes'
 import LanguageContext from '../context/LanguageContext'
 
 function GrammarTopic() {
@@ -49,6 +53,10 @@ function GrammarTopic() {
   const practicePrompts = topic?.practice
   const interactionItems = topic?.interactions
   const visualVocabulary = topic?.visualVocabulary
+  const pointAndChat = topic?.pointAndChat
+  const swapChart = topic?.swapChart
+  const dailyPlanner = topic?.dailyPlanner
+  const prosodyNotes = topic?.prosodyNotes
 
   const tabs = useMemo(() => {
     const hasConjugations = Array.isArray(topic?.conjugations) && topic.conjugations.length > 0
@@ -155,6 +163,14 @@ function GrammarTopic() {
           </div>
         </section>
       )}
+
+      {pointAndChat?.cards?.length > 0 && <PointAndChat data={pointAndChat} />}
+
+      {swapChart?.rows?.length > 0 && <SwapChart data={swapChart} />}
+
+      {dailyPlanner?.slots?.length > 0 && <DailyPlanner data={dailyPlanner} />}
+
+      {prosodyNotes?.items?.length > 0 && <ProsodyNotes data={prosodyNotes} />}
 
       {Array.isArray(pointsList) && pointsList.length > 0 && (
         <div className="topic-section">
