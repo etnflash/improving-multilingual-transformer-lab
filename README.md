@@ -1,249 +1,92 @@
 # Multilingual Transformer Lab
 
-A multilingual transformer-based language learning web application that combines interactive language learning with transformer model introspection.
+A playful, multilingual transformer lab delivered entirely as a static web application. Explore grammar data, dialog drills, sentence correction, and transformer introspection demos without running any backend services.
 
-## Features
+## Highlights
 
-- 🌍 **Language-Agnostic Architecture**: All language content stored in external JSON files
-- 📚 **Pattern Learning**: Master grammatical patterns with examples and practice
-- ✏️ **Sentence Correction**: Get AI-powered writing suggestions
-- 💬 **Dialog Simulation**: Practice real-world conversations
-- 🔬 **Transformer Introspection**: Explore tokenization, embeddings, and attention visualization
+- 🌍 **Language-Agnostic Content** – All lesson material lives in versioned JSON files under `frontend/public/data`.
+- 🔬 **Transformer Introspection** – Tokenization, embedding, and attention visualizations are generated client-side with deterministic mock data.
+- 🧠 **Interactive Modules** – Pattern learning, dialog practice, and correction helpers work offline once the bundle loads.
+- 📦 **Pure Static Build** – `npm run build` (executed from `frontend/`) outputs everything to `frontend/dist`, ready for Azure Static Web Apps or any static host.
 
-## Architecture
+## Project Layout
 
-### Frontend
-- **Framework**: React 18 with Vite
-- **Routing**: React Router v6
-- **HTTP Client**: Axios
-- **Structure**:
-  - `src/components/`: Reusable UI components
-  - `src/modules/`: Learning modules (Pattern, Correction, Dialog, Introspection)
-  - `src/data/`: Language content in JSON format
+```
+frontend/
+├── index.html            # Overview entry point
+├── lab.html              # Dedicated lab entry point
+├── appendix.html         # Appendix entry point
+├── public/
+│   ├── data/             # CEFR/manifest JSON served as-is
+│   ├── icons/            # PWA icons
+│   └── manifest.json     # Web app manifest, copied to dist/
+├── src/
+│   ├── components/       # Header, layout, shared UI
+│   ├── modules/          # Pattern, correction, dialog, introspection
+│   ├── pages/            # Overview + appendix detail views
+│   ├── utils/nlpMockApi  # Deterministic mock NLP helpers
+│   ├── App.jsx           # React Router config
+│   └── main.jsx          # Single entry script reused by every HTML file
+└── vite.config.js        # Multi-page + relative asset build config
 
-### Backend
-- **Framework**: Flask (Python)
-- **ML Models**: Hugging Face Transformers (bert-base-multilingual-cased)
-- **Features**: Tokenization, embeddings extraction, attention visualization, sentence correction
-
-### Data Structure
-All language content is stored in `frontend/src/data/languages.json`:
-```json
-{
-  "en": {
-    "name": "English",
-    "code": "en",
-    "flag": "🇬🇧",
-    "patterns": [...],
-    "dialogs": [...]
-  }
-}
+backend/ contains the historical Flask prototype but is no longer required or referenced during local development or deployment.
 ```
 
-## Setup and Installation
+## Prerequisites
 
-### Prerequisites
-- Node.js 18+ and npm
-- Python 3.8+
-- pip
+- Node.js 18+
+- npm 9+
 
-### Backend Setup
+## Local Development
 
-1. Navigate to the backend directory:
-```bash
-cd backend
-```
-
-2. Install Python dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Start the Flask server:
-```bash
-python app.py
-```
-
-The backend will run on `http://localhost:5000`
-
-### Frontend Setup
-
-1. Navigate to the frontend directory:
 ```bash
 cd frontend
-```
-
-2. Install Node dependencies:
-```bash
 npm install
-```
-
-3. Start the development server:
-```bash
 npm run dev
 ```
 
-The frontend will run on `http://localhost:3000`
+Visit the printed localhost URL (defaults to <http://localhost:3000>). All data loads from the bundled JSON files; no separate API process is necessary.
 
-## Usage
+## Production Build & Deployment
 
-1. **Start both servers** (backend and frontend)
-2. **Open** `http://localhost:3000` in your browser
-3. **Select a language** from the dropdown in the header
-4. **Navigate** through different modules using the navigation bar
-
-### Modules
-
-#### Pattern Learning
-- Browse grammatical patterns
-- View examples with translations
-- Practice with interactive exercises
-- Get instant feedback on answers
-
-#### Sentence Correction
-- Enter text to check for errors
-- Receive correction suggestions
-- Learn about common mistakes
-- See corrected versions
-
-#### Dialog Simulation
-- Choose conversation scenarios
-- Step through realistic dialogs
-- Practice with comprehension questions
-- Learn context-appropriate phrases
-
-#### Transformer Introspection
-- **Tokenization**: See how text is broken into tokens
-- **Embeddings**: View vector representations (768-dimensional)
-- **Attention**: Visualize attention weights between tokens
-- Understand transformer internals
-
-## Adding New Languages
-
-To add a new language, edit `frontend/src/data/languages.json`:
-
-```json
-{
-  "de": {
-    "name": "German",
-    "code": "de",
-    "flag": "🇩🇪",
-    "patterns": [
-      {
-        "id": "pattern_id",
-        "title": "Pattern Title",
-        "explanation": "Pattern explanation",
-        "examples": [
-          { "sentence": "Example", "translation": "Translation" }
-        ],
-        "practice": [
-          { "prompt": "Question", "answer": "Answer" }
-        ]
-      }
-    ],
-    "dialogs": [
-      {
-        "id": "dialog_id",
-        "title": "Dialog Title",
-        "scenario": "Dialog scenario",
-        "conversation": [
-          { "speaker": "Person A", "text": "Text" }
-        ],
-        "practice": [
-          { "prompt": "Question", "answers": ["Answer1", "Answer2"] }
-        ]
-      }
-    ]
-  }
-}
+```bash
+cd frontend
+npm run build
 ```
 
-## API Endpoints
-
-### Backend API
-
-- `GET /api/health` - Health check
-- `POST /api/tokenize` - Tokenize text
-  ```json
-  { "text": "Hello world", "model": "bert-base-multilingual-cased" }
-  ```
-- `POST /api/embeddings` - Get embeddings
-  ```json
-  { "text": "Hello world", "model": "bert-base-multilingual-cased" }
-  ```
-- `POST /api/attention` - Get attention weights
-  ```json
-  { "text": "Hello world", "layer": 0, "model": "bert-base-multilingual-cased" }
-  ```
-- `POST /api/correct` - Correct sentence
-  ```json
-  { "text": "hello world", "language": "en" }
-  ```
-
-## Project Structure
+This command produces `frontend/dist/` with the following structure:
 
 ```
-.
-├── backend/
-│   ├── app.py                 # Flask application
-│   └── requirements.txt       # Python dependencies
-├── frontend/
-│   ├── public/               # Static assets
-│   ├── src/
-│   │   ├── components/       # Reusable components
-│   │   │   ├── Header.jsx
-│   │   │   └── Home.jsx
-│   │   ├── modules/          # Learning modules
-│   │   │   ├── PatternLearning.jsx
-│   │   │   ├── SentenceCorrection.jsx
-│   │   │   ├── DialogSimulation.jsx
-│   │   │   └── TransformerIntrospection.jsx
-│   │   ├── data/             # Language data
-│   │   │   └── languages.json
-│   │   ├── App.jsx           # Main app component
-│   │   ├── App.css           # Styles
-│   │   ├── main.jsx          # Entry point
-│   │   └── index.css         # Global styles
-│   ├── index.html            # HTML template
-│   ├── package.json          # Node dependencies
-│   └── vite.config.js        # Vite configuration
-├── SETUP.md                  # Detailed setup guide
-├── README.md                 # This file
-└── LICENSE                   # MIT License
+dist/
+├── index.html
+├── lab.html
+├── appendix.html
+├── manifest.json
+└── assets/...
 ```
 
-## Technologies Used
+Upload the `dist/` folder to your static host. For Azure Static Web Apps, use:
 
-### Frontend
-- React 18
-- React Router v6
-- Axios
-- Vite
+```yaml
+app_location: "frontend"
+output_location: "dist"
+api_location: ""
+```
 
-### Backend
-- Flask
-- Flask-CORS
-- Transformers (Hugging Face)
-- PyTorch
-- NumPy
+The Vite config already includes every `.html` file in the project root, sets `base: './'` for relative asset paths, and copies everything from `frontend/public/` (manifest, icons, JSON data) into the build.
 
-### Model
-- bert-base-multilingual-cased (supports 104 languages)
+## Data & Content
 
-## Contributing
+- `frontend/public/data/languages/manifest.json` drives the appendix pickers.
+- Each language level includes `grammar.json`, `vocabulary.json`, `conversation.json`, and optional `patterns.json` bundles that are fetched at runtime via relative URLs (no server required).
+- UI copy for languages and nav controls lives in `frontend/src/data/languages.json`.
 
-Contributions are welcome! Here are some ideas:
-- Add more languages to `languages.json`
-- Add more patterns and dialogs
-- Implement additional transformer introspection features
-- Improve sentence correction with better models
-- Add more visualization options
+To add or update content, edit the JSON files and rebuild. Because they sit under `public/`, they are copied verbatim to `dist/data/...` and can be versioned independently from the React bundle.
+
+## Legacy Backend Note
+
+The `backend/` directory remains in the repository for reference but is no longer part of the build or deployment process. All NLP behaviors have deterministic, in-browser equivalents under `frontend/src/utils/nlpMockApi.js`. Do not start the Flask server when working with the current version of the app.
 
 ## License
 
-MIT License - see LICENSE file for details
-
-## Acknowledgments
-
-- Hugging Face for the Transformers library
-- BERT multilingual model by Google Research
+MIT License – see `LICENSE` for details.

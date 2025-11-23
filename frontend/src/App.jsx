@@ -41,6 +41,8 @@ function App() {
         <main className="main-content">
           <Routes>
             <Route path="/" element={<LabOverview />} />
+            <Route path="/index.html" element={<LabOverview />} />
+            <Route path="/lab.html" element={<LabOverview />} />
             <Route path="/modules" element={<Home />} />
             <Route 
               path="/patterns" 
@@ -59,6 +61,7 @@ function App() {
               element={<TransformerIntrospection />} 
             />
             <Route path="/appendix" element={<Appendix />} />
+            <Route path="/appendix.html" element={<Appendix />} />
             <Route path="/appendix/:languageCode/:levelId/grammar/:topicId" element={<GrammarTopic />} />
             <Route path="/appendix/:languageCode/:levelId/vocabulary/:setId" element={<VocabularyTopic />} />
           </Routes>

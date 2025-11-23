@@ -1,0 +1,17 @@
+{
+  "name": "Multilingual Transformer Lab",
+  "short_name": "Lab",
+  "description": "Playful experiments for multilingual transformer models, built entirely as a static experience.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0ea5e9",
+  "icons": [
+    {
+      "src": "/icons/lab-icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
