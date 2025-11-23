@@ -1,5 +1,11 @@
 import React, { useEffect, useState } from 'react'
-import axios from 'axios'
+
+import {
+  analyzeAttention,
+  analyzeEmbeddings,
+  analyzeTokenization,
+  listModels
+} from '../utils/nlpMockApi'
 
 const SLOT_LABELS = {
   primary: 'Model A',
@@ -34,12 +40,12 @@ function TransformerIntrospection() {
 
     const fetchModels = async () => {
       try {
-        const response = await axios.get('/api/models')
+        const response = await listModels()
         if (!isMounted) {
           return
         }
-        const availableModels = response.data?.models ?? []
-        const defaultModel = response.data?.default ?? availableModels[0]?.id ?? 'bert-base-multilingual-cased'
+        const availableModels = response?.models ?? []
+        const defaultModel = response?.default ?? availableModels[0]?.id ?? 'bert-base-multilingual-cased'
         const fallbackSecondary = availableModels[1]?.id || defaultModel
         let savedSelections = null
         if (typeof window !== 'undefined') {
@@ -109,7 +115,8 @@ function TransformerIntrospection() {
 
   const slotsToRender = comparisonEnabled ? ['primary', 'secondary'] : ['primary']
   const referenceResult = results.primary || results.secondary
-  const maxLayerIndex = referenceResult ? referenceResult.num_layers - 1 : 11
+  const fallbackLayers = referenceResult?.num_layers ?? 12
+  const maxLayerIndex = Math.max(0, fallbackLayers - 1)
   const modelSummary = comparisonEnabled
     ? `${getModelLabel(selectedModels.primary) || 'Loading…'} vs ${getModelLabel(selectedModels.secondary) || 'Loading…'}`
     : getModelLabel(selectedModels.primary) || 'Loading…'
@@ -153,12 +160,12 @@ function TransformerIntrospection() {
       const requests = activeSlots.map((slot) => {
         const payload = { text, model: selectedModels[slot] }
         if (mode === 'tokenize') {
-          return axios.post('/api/tokenize', payload)
+          return analyzeTokenization(payload)
         }
         if (mode === 'embeddings') {
-          return axios.post('/api/embeddings', payload)
+          return analyzeEmbeddings(payload)
         }
-        return axios.post('/api/attention', { ...payload, layer })
+        return analyzeAttention({ ...payload, layer })
       })
 
       const responses = await Promise.all(requests)
@@ -167,7 +174,7 @@ function TransformerIntrospection() {
 
       responses.forEach((response, index) => {
         const slot = activeSlots[index]
-        updatedResults[slot] = response.data
+        updatedResults[slot] = response
         updatedHeads[slot] = 'average'
       })
 
@@ -177,7 +184,7 @@ function TransformerIntrospection() {
       }
     } catch (err) {
       console.error(err)
-      setError('Failed to analyze. Make sure the backend is running.')
+      setError('Analysis failed. Please try again with different text.')
     } finally {
       setLoading(false)
     }

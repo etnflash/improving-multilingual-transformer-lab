@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import axios from 'axios'
+
+import { correctSentence } from '../utils/nlpMockApi'
 
 function SentenceCorrection({ language }) {
   const [text, setText] = useState('')
@@ -12,15 +13,15 @@ function SentenceCorrection({ language }) {
 
     setLoading(true)
     setError(null)
-    
+
     try {
-      const response = await axios.post('/api/correct', {
+      const response = await correctSentence({
         text,
         language: language.code
       })
-      setResult(response.data)
+      setResult(response)
     } catch (err) {
-      setError('Failed to correct sentence. Make sure the backend is running.')
+      setError('Error while analyzing the sentence. Please try again.')
       console.error(err)
     } finally {
       setLoading(false)
