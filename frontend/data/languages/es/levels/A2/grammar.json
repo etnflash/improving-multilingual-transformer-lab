@@ -8,12 +8,15 @@
             "details": [
                 "El pretérito indefinido enfatiza acciones puntuales, con inicio y final claros (llegué, comimos).",
                 "El imperfecto describe hábitos, contextos, edad, hora o acciones en progreso (iba, llovía).",
-                "Cuando una acción interrumpe otra en desarrollo usa pretérito para la interrupción e imperfecto para el trasfondo (Estudiaba cuando sonó el teléfono)."
+                "Cuando una acción interrumpe otra en desarrollo usa pretérito para la interrupción e imperfecto para el trasfondo (Estudiaba cuando sonó el teléfono).",
+                "El imperfecto también se emplea para describir emociones, clima y estados mentales que sirven de escenario narrativo.",
+                "Usa el pretérito para cadenas de acciones consecutivas y narra el contexto con imperfecto para que la línea temporal sea clara."
             ],
             "points": [
                 "Marcadores del pretérito: ayer, anoche, el lunes pasado.",
                 "Marcadores del imperfecto: siempre, mientras, cada verano.",
-                "Combina ambos tiempos para contar historias fluidas y claras."
+                "Combina ambos tiempos para contar historias fluidas y claras.",
+                "Si dudas, pregúntate si puedes colocar 'de repente': suele exigir pretérito; si es 'siempre', probablemente imperfecto."
             ],
             "examples": [
                 {
@@ -25,6 +28,11 @@
                     "sentence": "Cuando era niña, visitaba a mis abuelos cada domingo.",
                     "translation": "When I was a child, I used to visit my grandparents every Sunday.",
                     "explanation": "Hábito en el pasado, se usa imperfecto."
+                },
+                {
+                    "sentence": "Estábamos celebrando cuando de repente se fue la luz y todos gritamos.",
+                    "translation": "We were celebrating when suddenly the power went out and everyone screamed.",
+                    "explanation": "Imperfecto para la acción en progreso y pretérito para la interrupción puntual."
                 }
             ],
             "conjugations": [
@@ -51,13 +59,303 @@
                         { "person": "vosotros", "form": "hablabais" },
                         { "person": "ellos/ustedes", "form": "hablaban" }
                     ]
+                },
+                {
+                    "verb": "comer",
+                    "tense": "Pretérito indefinido",
+                    "forms": [
+                        { "person": "yo", "form": "comí" },
+                        { "person": "tú", "form": "comiste" },
+                        { "person": "él/ella/usted", "form": "comió" },
+                        { "person": "nosotros", "form": "comimos" },
+                        { "person": "vosotros", "form": "comisteis" },
+                        { "person": "ellos/ustedes", "form": "comieron" }
+                    ]
+                },
+                {
+                    "verb": "comer",
+                    "tense": "Imperfecto",
+                    "forms": [
+                        { "person": "yo", "form": "comía" },
+                        { "person": "tú", "form": "comías" },
+                        { "person": "él/ella/usted", "form": "comía" },
+                        { "person": "nosotros", "form": "comíamos" },
+                        { "person": "vosotros", "form": "comíais" },
+                        { "person": "ellos/ustedes", "form": "comían" }
+                    ]
+                },
+                {
+                    "verb": "vivir",
+                    "tense": "Pretérito indefinido",
+                    "forms": [
+                        { "person": "yo", "form": "viví" },
+                        { "person": "tú", "form": "viviste" },
+                        { "person": "él/ella/usted", "form": "vivió" },
+                        { "person": "nosotros", "form": "vivimos" },
+                        { "person": "vosotros", "form": "vivisteis" },
+                        { "person": "ellos/ustedes", "form": "vivieron" }
+                    ]
+                },
+                {
+                    "verb": "vivir",
+                    "tense": "Imperfecto",
+                    "forms": [
+                        { "person": "yo", "form": "vivía" },
+                        { "person": "tú", "form": "vivías" },
+                        { "person": "él/ella/usted", "form": "vivía" },
+                        { "person": "nosotros", "form": "vivíamos" },
+                        { "person": "vosotros", "form": "vivíais" },
+                        { "person": "ellos/ustedes", "form": "vivían" }
+                    ]
+                },
+                {
+                    "verb": "ser",
+                    "tense": "Pretérito indefinido",
+                    "forms": [
+                        { "person": "yo", "form": "fui" },
+                        { "person": "tú", "form": "fuiste" },
+                        { "person": "él/ella/usted", "form": "fue" },
+                        { "person": "nosotros", "form": "fuimos" },
+                        { "person": "vosotros", "form": "fuisteis" },
+                        { "person": "ellos/ustedes", "form": "fueron" }
+                    ]
+                },
+                {
+                    "verb": "ser",
+                    "tense": "Imperfecto",
+                    "forms": [
+                        { "person": "yo", "form": "era" },
+                        { "person": "tú", "form": "eras" },
+                        { "person": "él/ella/usted", "form": "era" },
+                        { "person": "nosotros", "form": "éramos" },
+                        { "person": "vosotros", "form": "erais" },
+                        { "person": "ellos/ustedes", "form": "eran" }
+                    ]
+                },
+                {
+                    "verb": "ir",
+                    "tense": "Pretérito indefinido",
+                    "forms": [
+                        { "person": "yo", "form": "fui" },
+                        { "person": "tú", "form": "fuiste" },
+                        { "person": "él/ella/usted", "form": "fue" },
+                        { "person": "nosotros", "form": "fuimos" },
+                        { "person": "vosotros", "form": "fuisteis" },
+                        { "person": "ellos/ustedes", "form": "fueron" }
+                    ]
+                },
+                {
+                    "verb": "ir",
+                    "tense": "Imperfecto",
+                    "forms": [
+                        { "person": "yo", "form": "iba" },
+                        { "person": "tú", "form": "ibas" },
+                        { "person": "él/ella/usted", "form": "iba" },
+                        { "person": "nosotros", "form": "íbamos" },
+                        { "person": "vosotros", "form": "ibais" },
+                        { "person": "ellos/ustedes", "form": "iban" }
+                    ]
+                },
+                {
+                    "verb": "estar",
+                    "tense": "Pretérito indefinido",
+                    "forms": [
+                        { "person": "yo", "form": "estuve" },
+                        { "person": "tú", "form": "estuviste" },
+                        { "person": "él/ella/usted", "form": "estuvo" },
+                        { "person": "nosotros", "form": "estuvimos" },
+                        { "person": "vosotros", "form": "estuvisteis" },
+                        { "person": "ellos/ustedes", "form": "estuvieron" }
+                    ]
+                },
+                {
+                    "verb": "estar",
+                    "tense": "Imperfecto",
+                    "forms": [
+                        { "person": "yo", "form": "estaba" },
+                        { "person": "tú", "form": "estabas" },
+                        { "person": "él/ella/usted", "form": "estaba" },
+                        { "person": "nosotros", "form": "estábamos" },
+                        { "person": "vosotros", "form": "estabais" },
+                        { "person": "ellos/ustedes", "form": "estaban" }
+                    ]
+                },
+                {
+                    "verb": "tener",
+                    "tense": "Pretérito indefinido",
+                    "forms": [
+                        { "person": "yo", "form": "tuve" },
+                        { "person": "tú", "form": "tuviste" },
+                        { "person": "él/ella/usted", "form": "tuvo" },
+                        { "person": "nosotros", "form": "tuvimos" },
+                        { "person": "vosotros", "form": "tuvisteis" },
+                        { "person": "ellos/ustedes", "form": "tuvieron" }
+                    ]
+                },
+                {
+                    "verb": "tener",
+                    "tense": "Imperfecto",
+                    "forms": [
+                        { "person": "yo", "form": "tenía" },
+                        { "person": "tú", "form": "tenías" },
+                        { "person": "él/ella/usted", "form": "tenía" },
+                        { "person": "nosotros", "form": "teníamos" },
+                        { "person": "vosotros", "form": "teníais" },
+                        { "person": "ellos/ustedes", "form": "tenían" }
+                    ]
+                },
+                {
+                    "verb": "hacer",
+                    "tense": "Pretérito indefinido",
+                    "forms": [
+                        { "person": "yo", "form": "hice" },
+                        { "person": "tú", "form": "hiciste" },
+                        { "person": "él/ella/usted", "form": "hizo" },
+                        { "person": "nosotros", "form": "hicimos" },
+                        { "person": "vosotros", "form": "hicisteis" },
+                        { "person": "ellos/ustedes", "form": "hicieron" }
+                    ]
+                },
+                {
+                    "verb": "hacer",
+                    "tense": "Imperfecto",
+                    "forms": [
+                        { "person": "yo", "form": "hacía" },
+                        { "person": "tú", "form": "hacías" },
+                        { "person": "él/ella/usted", "form": "hacía" },
+                        { "person": "nosotros", "form": "hacíamos" },
+                        { "person": "vosotros", "form": "hacíais" },
+                        { "person": "ellos/ustedes", "form": "hacían" }
+                    ]
+                },
+                {
+                    "verb": "venir",
+                    "tense": "Pretérito indefinido",
+                    "forms": [
+                        { "person": "yo", "form": "vine" },
+                        { "person": "tú", "form": "viniste" },
+                        { "person": "él/ella/usted", "form": "vino" },
+                        { "person": "nosotros", "form": "vinimos" },
+                        { "person": "vosotros", "form": "vinisteis" },
+                        { "person": "ellos/ustedes", "form": "vinieron" }
+                    ]
+                },
+                {
+                    "verb": "venir",
+                    "tense": "Imperfecto",
+                    "forms": [
+                        { "person": "yo", "form": "venía" },
+                        { "person": "tú", "form": "venías" },
+                        { "person": "él/ella/usted", "form": "venía" },
+                        { "person": "nosotros", "form": "veníamos" },
+                        { "person": "vosotros", "form": "veníais" },
+                        { "person": "ellos/ustedes", "form": "venían" }
+                    ]
+                },
+                {
+                    "verb": "decir",
+                    "tense": "Pretérito indefinido",
+                    "forms": [
+                        { "person": "yo", "form": "dije" },
+                        { "person": "tú", "form": "dijiste" },
+                        { "person": "él/ella/usted", "form": "dijo" },
+                        { "person": "nosotros", "form": "dijimos" },
+                        { "person": "vosotros", "form": "dijisteis" },
+                        { "person": "ellos/ustedes", "form": "dijeron" }
+                    ]
+                },
+                {
+                    "verb": "decir",
+                    "tense": "Imperfecto",
+                    "forms": [
+                        { "person": "yo", "form": "decía" },
+                        { "person": "tú", "form": "decías" },
+                        { "person": "él/ella/usted", "form": "decía" },
+                        { "person": "nosotros", "form": "decíamos" },
+                        { "person": "vosotros", "form": "decíais" },
+                        { "person": "ellos/ustedes", "form": "decían" }
+                    ]
+                },
+                {
+                    "verb": "poder",
+                    "tense": "Pretérito indefinido",
+                    "forms": [
+                        { "person": "yo", "form": "pude" },
+                        { "person": "tú", "form": "pudiste" },
+                        { "person": "él/ella/usted", "form": "pudo" },
+                        { "person": "nosotros", "form": "pudimos" },
+                        { "person": "vosotros", "form": "pudisteis" },
+                        { "person": "ellos/ustedes", "form": "pudieron" }
+                    ]
+                },
+                {
+                    "verb": "poder",
+                    "tense": "Imperfecto",
+                    "forms": [
+                        { "person": "yo", "form": "podía" },
+                        { "person": "tú", "form": "podías" },
+                        { "person": "él/ella/usted", "form": "podía" },
+                        { "person": "nosotros", "form": "podíamos" },
+                        { "person": "vosotros", "form": "podíais" },
+                        { "person": "ellos/ustedes", "form": "podían" }
+                    ]
+                },
+                {
+                    "verb": "poner",
+                    "tense": "Pretérito indefinido",
+                    "forms": [
+                        { "person": "yo", "form": "puse" },
+                        { "person": "tú", "form": "pusiste" },
+                        { "person": "él/ella/usted", "form": "puso" },
+                        { "person": "nosotros", "form": "pusimos" },
+                        { "person": "vosotros", "form": "pusisteis" },
+                        { "person": "ellos/ustedes", "form": "pusieron" }
+                    ]
+                },
+                {
+                    "verb": "poner",
+                    "tense": "Imperfecto",
+                    "forms": [
+                        { "person": "yo", "form": "ponía" },
+                        { "person": "tú", "form": "ponías" },
+                        { "person": "él/ella/usted", "form": "ponía" },
+                        { "person": "nosotros", "form": "poníamos" },
+                        { "person": "vosotros", "form": "poníais" },
+                        { "person": "ellos/ustedes", "form": "ponían" }
+                    ]
+                },
+                {
+                    "verb": "querer",
+                    "tense": "Pretérito indefinido",
+                    "forms": [
+                        { "person": "yo", "form": "quise" },
+                        { "person": "tú", "form": "quisiste" },
+                        { "person": "él/ella/usted", "form": "quiso" },
+                        { "person": "nosotros", "form": "quisimos" },
+                        { "person": "vosotros", "form": "quisisteis" },
+                        { "person": "ellos/ustedes", "form": "quisieron" }
+                    ]
+                },
+                {
+                    "verb": "querer",
+                    "tense": "Imperfecto",
+                    "forms": [
+                        { "person": "yo", "form": "quería" },
+                        { "person": "tú", "form": "querías" },
+                        { "person": "él/ella/usted", "form": "quería" },
+                        { "person": "nosotros", "form": "queríamos" },
+                        { "person": "vosotros", "form": "queríais" },
+                        { "person": "ellos/ustedes", "form": "querían" }
+                    ]
                 }
             ],
             "practice": [
                 "Escribe dos oraciones: una con pretérito y otra con imperfecto describiendo un viaje.",
                 "Transforma la frase al imperfecto: Ellos comieron en casa.",
                 "Completa con el tiempo correcto: Mientras yo ____ (leer), mi hermano ____ (llegar).",
-                "Cuenta una anécdota corta usando ambos tiempos explicitando los marcadores temporales."
+                "Cuenta una anécdota corta usando ambos tiempos explicitando los marcadores temporales.",
+                "Crea una línea de tiempo con tres eventos consecutivos en pretérito y agrega el trasfondo en imperfecto.",
+                "Describe el clima, la edad y el estado de ánimo en imperfecto y luego narra en pretérito lo que ocurrió."
             ],
             "interactions": [
                 {
@@ -72,6 +370,13 @@
                     "prompt": "Estudiábamos cuando ____ (apagar) las luces.",
                     "answer": "se apagaron",
                     "hint": "La acción que interrumpe va en pretérito."
+                },
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Ayer hacía mucho frío, pero a las ocho ____ el sol y salimos.",
+                    "options": ["salía", "salió", "saldrá"],
+                    "answer": "salió",
+                    "explanation": "El cambio puntual dentro del relato requiere pretérito indefinido."
                 }
             ],
             "translations": {
@@ -91,7 +396,9 @@
                         "Write two sentences about a trip: one in the preterite and one in the imperfect.",
                         "Change the sentence to imperfect: Ellos comieron en casa.",
                         "Complete the blanks: Mientras yo ____ (leer), mi hermano ____ (llegar).",
-                        "Tell a short anecdote using both tenses and explicit time cues."
+                        "Tell a short anecdote using both tenses and explicit time cues.",
+                        "Sketch a quick timeline with three preterite events and add imperfect background sentences.",
+                        "Describe weather, age, and feelings in the imperfect, then narrate what suddenly happened in the preterite."
                     ]
                 }
             }
@@ -636,11 +943,14 @@
             "details": [
                 "Ir a + infinitivo expresa planes cercanos o decisiones tomadas: Vamos a salir en diez minutos.",
                 "El futuro simple (hablaré, comerás) se usa para predicciones, promesas y conjeturas sobre el presente: Llegarán tarde, estarán en casa.",
-                "Marcadores de tiempo: mañana, la próxima semana, dentro de poco, algún día."],
+                "Asocia ir a + infinitivo con marcadores inmediatos (esta tarde, ahora mismo) y el futuro simple con horizontes lejanos (la próxima década, algún día).",
+                "Ambas estructuras pueden expresar probabilidad; el futuro simple añade un matiz de conjetura: Estarán en casa (≈ probablemente están en casa).",
+                "Marcadores útiles: hoy por la tarde, mañana, la próxima semana, dentro de poco, algún día."],
             "points": [
                 "Con el futuro simple los verbos irregulares cambian la raíz: tendré, harás, dirán.",
                 "Ambas estructuras pueden coexistir en una narrativa: Este sábado voy a estudiar y por la noche descansaré.",
-                "Para expresar probabilidad en el presente se usa el futuro: Serán las ocho (≈ probablemente son las ocho)."
+                "Para expresar probabilidad en el presente se usa el futuro: Serán las ocho (≈ probablemente son las ocho).",
+                "Cuando combines ir a + infinitivo con pronombres, mantén el orden: Lo voy a terminar / Voy a terminarlo."
             ],
             "examples": [
                 {
@@ -650,12 +960,16 @@
                 {
                     "sentence": "El tren llegará a las diez en punto.",
                     "translation": "The train will arrive at ten o'clock."
+                },
+                {
+                    "sentence": "Voy a ahorrar desde ahora porque dentro de un año compraré un coche.",
+                    "translation": "I'm going to save starting now because in a year I will buy a car."
                 }
             ],
             "conjugations": [
                 {
                     "verb": "hablar",
-                    "tense": "Futuro simple",
+                    "tense": "Futuro simple (-ar)",
                     "forms": [
                         { "person": "yo", "form": "hablaré" },
                         { "person": "tú", "form": "hablarás" },
@@ -663,6 +977,30 @@
                         { "person": "nosotros", "form": "hablaremos" },
                         { "person": "vosotros", "form": "hablaréis" },
                         { "person": "ellos/ustedes", "form": "hablarán" }
+                    ]
+                },
+                {
+                    "verb": "comer",
+                    "tense": "Futuro simple (-er)",
+                    "forms": [
+                        { "person": "yo", "form": "comeré" },
+                        { "person": "tú", "form": "comerás" },
+                        { "person": "él/ella/usted", "form": "comerá" },
+                        { "person": "nosotros", "form": "comeremos" },
+                        { "person": "vosotros", "form": "comeréis" },
+                        { "person": "ellos/ustedes", "form": "comerán" }
+                    ]
+                },
+                {
+                    "verb": "vivir",
+                    "tense": "Futuro simple (-ir)",
+                    "forms": [
+                        { "person": "yo", "form": "viviré" },
+                        { "person": "tú", "form": "vivirás" },
+                        { "person": "él/ella/usted", "form": "vivirá" },
+                        { "person": "nosotros", "form": "viviremos" },
+                        { "person": "vosotros", "form": "viviréis" },
+                        { "person": "ellos/ustedes", "form": "vivirán" }
                     ]
                 },
                 {
@@ -676,12 +1014,121 @@
                         { "person": "vosotros", "form": "tendréis" },
                         { "person": "ellos/ustedes", "form": "tendrán" }
                     ]
+                },
+                {
+                    "verb": "venir",
+                    "tense": "Futuro irregular",
+                    "forms": [
+                        { "person": "yo", "form": "vendré" },
+                        { "person": "tú", "form": "vendrás" },
+                        { "person": "él/ella/usted", "form": "vendrá" },
+                        { "person": "nosotros", "form": "vendremos" },
+                        { "person": "vosotros", "form": "vendréis" },
+                        { "person": "ellos/ustedes", "form": "vendrán" }
+                    ]
+                },
+                {
+                    "verb": "salir",
+                    "tense": "Futuro irregular",
+                    "forms": [
+                        { "person": "yo", "form": "saldré" },
+                        { "person": "tú", "form": "saldrás" },
+                        { "person": "él/ella/usted", "form": "saldrá" },
+                        { "person": "nosotros", "form": "saldremos" },
+                        { "person": "vosotros", "form": "saldréis" },
+                        { "person": "ellos/ustedes", "form": "saldrán" }
+                    ]
+                },
+                {
+                    "verb": "poner",
+                    "tense": "Futuro irregular",
+                    "forms": [
+                        { "person": "yo", "form": "pondré" },
+                        { "person": "tú", "form": "pondrás" },
+                        { "person": "él/ella/usted", "form": "pondrá" },
+                        { "person": "nosotros", "form": "pondremos" },
+                        { "person": "vosotros", "form": "pondréis" },
+                        { "person": "ellos/ustedes", "form": "pondrán" }
+                    ]
+                },
+                {
+                    "verb": "poder",
+                    "tense": "Futuro irregular",
+                    "forms": [
+                        { "person": "yo", "form": "podré" },
+                        { "person": "tú", "form": "podrás" },
+                        { "person": "él/ella/usted", "form": "podrá" },
+                        { "person": "nosotros", "form": "podremos" },
+                        { "person": "vosotros", "form": "podréis" },
+                        { "person": "ellos/ustedes", "form": "podrán" }
+                    ]
+                },
+                {
+                    "verb": "querer",
+                    "tense": "Futuro irregular",
+                    "forms": [
+                        { "person": "yo", "form": "querré" },
+                        { "person": "tú", "form": "querrás" },
+                        { "person": "él/ella/usted", "form": "querrá" },
+                        { "person": "nosotros", "form": "querremos" },
+                        { "person": "vosotros", "form": "querréis" },
+                        { "person": "ellos/ustedes", "form": "querrán" }
+                    ]
+                },
+                {
+                    "verb": "saber",
+                    "tense": "Futuro irregular",
+                    "forms": [
+                        { "person": "yo", "form": "sabré" },
+                        { "person": "tú", "form": "sabrás" },
+                        { "person": "él/ella/usted", "form": "sabrá" },
+                        { "person": "nosotros", "form": "sabremos" },
+                        { "person": "vosotros", "form": "sabréis" },
+                        { "person": "ellos/ustedes", "form": "sabrán" }
+                    ]
+                },
+                {
+                    "verb": "decir",
+                    "tense": "Futuro irregular",
+                    "forms": [
+                        { "person": "yo", "form": "diré" },
+                        { "person": "tú", "form": "dirás" },
+                        { "person": "él/ella/usted", "form": "dirá" },
+                        { "person": "nosotros", "form": "diremos" },
+                        { "person": "vosotros", "form": "diréis" },
+                        { "person": "ellos/ustedes", "form": "dirán" }
+                    ]
+                },
+                {
+                    "verb": "hacer",
+                    "tense": "Futuro irregular",
+                    "forms": [
+                        { "person": "yo", "form": "haré" },
+                        { "person": "tú", "form": "harás" },
+                        { "person": "él/ella/usted", "form": "hará" },
+                        { "person": "nosotros", "form": "haremos" },
+                        { "person": "vosotros", "form": "haréis" },
+                        { "person": "ellos/ustedes", "form": "harán" }
+                    ]
+                },
+                {
+                    "verb": "haber",
+                    "tense": "Futuro irregular",
+                    "forms": [
+                        { "person": "yo", "form": "habré" },
+                        { "person": "tú", "form": "habrás" },
+                        { "person": "él/ella/usted", "form": "habrá" },
+                        { "person": "nosotros", "form": "habremos" },
+                        { "person": "vosotros", "form": "habréis" },
+                        { "person": "ellos/ustedes", "form": "habrán" }
+                    ]
                 }
             ],
             "practice": [
-                "Reescribe planes cortos con ambas formas de futuro.",
-                "Conjuga cinco verbos irregulares en futuro y úsalos en predicciones.",
-                "Completa frases mezclando marcadores temporales y la estructura correcta.",
+                "Reescribe planes cortos usando primero ir a + infinitivo y luego futuro simple para el mismo contexto.",
+                "Conjuga cinco verbos irregulares en futuro y úsalos en predicciones de largo plazo.",
+                "Completa frases mezclando marcadores temporales y la estructura correcta (ir a / futuro simple).",
+                "Traza una línea de tiempo con planes inmediatos y metas lejanas indicando qué forma usarás y por qué.",
                 "Graba o escribe una agenda semanal diferenciando planes cercanos de metas a largo plazo."
             ],
             "interactions": [
@@ -697,6 +1144,13 @@
                     "prompt": "Algún día ____ (viajar, yo) por América Latina.",
                     "answer": "viajaré",
                     "hint": "Usa futuro simple para meta a largo plazo."
+                },
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Para una conjetura sobre dónde está alguien ahora (probablemente en casa) usamos ____.",
+                    "options": ["voy a estar", "estaré", "estaba"],
+                    "answer": "estaré",
+                    "explanation": "El futuro simple añade matiz de probabilidad en el presente: Estará en casa."
                 }
             ],
             "translations": {
@@ -705,17 +1159,21 @@
                     "details": [
                         "Ir a + infinitive covers near-term plans or decisions already made: Vamos a salir en diez minutos.",
                         "The simple future (hablaré, comerás) expresses predictions, promises, or present speculation: Llegarán tarde, estarán en casa.",
-                        "Use time markers such as mañana, la próxima semana, dentro de poco, algún día to anchor the tense."
+                        "Link ir a + infinitive to immediate markers (esta tarde, ahora mismo) and the simple future to longer horizons (la próxima década, algún día).",
+                        "Both forms can convey probability, but the simple future adds a stronger conjectural tone: Estarán en casa ≈ They are probably home.",
+                        "Rely on anchors such as hoy por la tarde, mañana, la próxima semana, dentro de poco, algún día."
                     ],
                     "points": [
                         "Simple-future irregulars change the stem: tendré, harás, dirán.",
                         "Both structures can appear in the same narrative: Este sábado voy a estudiar y por la noche descansaré.",
-                        "Use the future for probability about the present: Serán las ocho ≈ It is probably eight o'clock."
+                        "Use the future for probability about the present: Serán las ocho ≈ It is probably eight o'clock.",
+                        "When combining ir a + infinitive with pronouns, keep the order consistent (Lo voy a terminar / Voy a terminarlo)."
                     ],
                     "practice": [
-                        "Rewrite short plans using both future forms.",
-                        "Conjugate five irregular verbs in the future and place them in predictions.",
-                        "Complete sentences by matching time markers with the correct future choice.",
+                        "Rewrite short plans twice: first with ir a + infinitive, then with the simple future.",
+                        "Conjugate five irregular verbs in the simple future and use them in long-term predictions.",
+                        "Complete sentences by matching time markers with the appropriate future choice.",
+                        "Build a timeline that labels immediate plans vs. distant goals and justify which future form you chose.",
                         "Draft a weekly agenda separating near plans (ir a) from long-term goals (futuro simple)."
                     ]
                 }

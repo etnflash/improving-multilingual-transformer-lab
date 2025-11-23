@@ -1,0 +1,57 @@
+{
+  "level": "B2",
+  "scenes": [
+    {
+      "id": "stakeholder-briefing",
+      "title": "Informe con partes interesadas",
+      "goal": "Explicar avances y riesgos con un tono profesional.",
+      "dialog": [
+        {
+          "speaker": "coordinador",
+          "line": "Gracias por conectarse. Para entonces, ya habremos completado el piloto interno.",
+          "translation": "Thanks for joining. By then we will have completed the internal pilot."
+        },
+        {
+          "speaker": "inversionista",
+          "line": "¿Qué aspectos ya habían analizado antes de proponer el nuevo presupuesto?",
+          "translation": "Which aspects had you already analyzed before proposing the new budget?"
+        },
+        {
+          "speaker": "coordinador",
+          "line": "Habíamos identificado tres riesgos latentes, pero dos ya se han mitigado.",
+          "translation": "We had identified three latent risks, but two have already been mitigated."
+        }
+      ],
+      "reflection": [
+        "Aporta verbos compuestos (habíamos identificado, se han mitigado) para la claridad temporal.",
+        "Cierra con un resumen accionable o próximos pasos."
+      ]
+    },
+    {
+      "id": "debate-critico",
+      "title": "Debate académico breve",
+      "goal": "Introducir hipótesis y contraargumentos educados.",
+      "dialog": [
+        {
+          "speaker": "moderadora",
+          "line": "Es probable que haya habido sesgos en la muestra; comenten estrategias para reducirlos.",
+          "translation": "It is likely there have been biases in the sample; discuss strategies to reduce them."
+        },
+        {
+          "speaker": "ponente-a",
+          "line": "Si hubiéramos cruzado los datos con otras fuentes, habríamos detectado esas variaciones.",
+          "translation": "Had we cross-checked the data with other sources, we would have detected those variations."
+        },
+        {
+          "speaker": "ponente-b",
+          "line": "No descartemos las conclusiones todavía; esperemos a que el comité las revise.",
+          "translation": "Let's not dismiss the conclusions yet; let's wait until the committee reviews them."
+        }
+      ],
+      "reflection": [
+        "Introduce mandatos negativos formales como estrategia para modular el tono.",
+        "Los oyentes formulan preguntas abiertas para mantener el diálogo colaborativo."
+      ]
+    }
+  ]
+}

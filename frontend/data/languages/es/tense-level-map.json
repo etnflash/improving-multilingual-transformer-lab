@@ -1,0 +1,162 @@
+{
+    "language": "es",
+    "generatedAt": "2025-11-23",
+    "tenses": [
+        {
+            "tense": "Presente de indicativo (regular e irregular)",
+            "recommendedLevel": "A1",
+            "status": "covered",
+            "coveredBy": [
+                { "level": "A1", "topicId": "present-regular", "path": "levels/A1/grammar.json" },
+                { "level": "A1", "topicId": "present-irregulars", "path": "levels/A1/grammar.json" },
+                { "level": "A1", "topicId": "ser-estar-basics", "path": "levels/A1/grammar.json" }
+            ],
+            "notes": "Incluye rutinas básicas, verbos ser/estar y los irregulares más comunes (tener, ir, venir)."
+        },
+        {
+            "tense": "Perífrasis de futuro inmediato (ir a + infinitivo)",
+            "recommendedLevel": "A1",
+            "status": "covered",
+            "coveredBy": [
+                { "level": "A1", "topicId": "ir-a-infinitive", "path": "levels/A1/grammar.json" }
+            ],
+            "notes": "Planear acciones cercanas con marcadores de tiempo inmediatos."
+        },
+        {
+            "tense": "Imperativo afirmativo básico",
+            "recommendedLevel": "A1",
+            "status": "covered",
+            "coveredBy": [
+                { "level": "A1", "topicId": "imperative-basics", "path": "levels/A1/grammar.json" }
+            ],
+            "notes": "Formas de tú y usted para instrucciones cotidianas; falta todavía la versión negativa."
+        },
+        {
+            "tense": "Progresivo (estar/seguir + gerundio)",
+            "recommendedLevel": "A2",
+            "status": "covered",
+            "coveredBy": [
+                { "level": "A2", "topicId": "progressive-periphrasis", "path": "levels/A2/grammar.json" }
+            ],
+            "notes": "Incluye estar, seguir y continuar + gerundio para acciones en desarrollo."
+        },
+        {
+            "tense": "Pretérito indefinido",
+            "recommendedLevel": "A2",
+            "status": "covered",
+            "coveredBy": [
+                { "level": "A2", "topicId": "preterite-vs-imperfect", "path": "levels/A2/grammar.json" }
+            ],
+            "notes": "Enfoca acciones puntuales y cadenas narrativas completas."
+        },
+        {
+            "tense": "Pretérito imperfecto",
+            "recommendedLevel": "A2",
+            "status": "covered",
+            "coveredBy": [
+                { "level": "A2", "topicId": "preterite-vs-imperfect", "path": "levels/A2/grammar.json" }
+            ],
+            "notes": "Describe hábitos y fondos narrativos; ahora incluye tablas completas de conjugación."
+        },
+        {
+            "tense": "Pretérito perfecto compuesto",
+            "recommendedLevel": "A2",
+            "status": "covered",
+            "coveredBy": [
+                { "level": "A2", "topicId": "present-perfect-usage", "path": "levels/A2/grammar.json" }
+            ],
+            "notes": "Haber en presente + participio para experiencias recientes conectadas al presente."
+        },
+        {
+            "tense": "Futuro simple",
+            "recommendedLevel": "A2",
+            "status": "covered",
+            "coveredBy": [
+                { "level": "A2", "topicId": "future-forms", "path": "levels/A2/grammar.json" }
+            ],
+            "notes": "Contrasta con ir a + infinitivo e incluye diez irregulares esenciales."
+        },
+        {
+            "tense": "Condicional simple",
+            "recommendedLevel": "B2",
+            "status": "covered",
+            "coveredBy": [
+                { "level": "B1", "topicId": "conditional-si-clauses", "path": "levels/B1/grammar.json" }
+            ],
+            "notes": "Hipótesis presentes e irreales con si + imperfecto de subjuntivo; también usos de cortesía."
+        },
+        {
+            "tense": "Condicional perfecto",
+            "recommendedLevel": "B2",
+            "status": "covered",
+            "coveredBy": [
+                { "level": "B1", "topicId": "conditional-perfect", "path": "levels/B1/grammar.json" }
+            ],
+            "notes": "Oraciones irreales del pasado con si + pluscuamperfecto de subjuntivo."
+        },
+        {
+            "tense": "Subjuntivo presente",
+            "recommendedLevel": "B1",
+            "status": "covered",
+            "coveredBy": [
+                { "level": "B1", "topicId": "subjunctive-desires-emotions", "path": "levels/B1/grammar.json" },
+                { "level": "B1", "topicId": "subjunctive-impersonal-expressions", "path": "levels/B1/grammar.json" }
+            ],
+            "notes": "Deseos, emociones, influencia y expresiones impersonales (es importante que...)."
+        },
+        {
+            "tense": "Subjuntivo imperfecto",
+            "recommendedLevel": "B1",
+            "status": "covered",
+            "coveredBy": [
+                { "level": "B1", "topicId": "conditional-si-clauses", "path": "levels/B1/grammar.json" }
+            ],
+            "notes": "Forma -ra aplicada en hipótesis improbables y cortesía formal."
+        },
+        {
+            "tense": "Subjuntivo pluscuamperfecto",
+            "recommendedLevel": "B1",
+            "status": "covered",
+            "coveredBy": [
+                { "level": "B1", "topicId": "conditional-perfect", "path": "levels/B1/grammar.json" }
+            ],
+            "notes": "Necesario para si del pasado y conjeturas retrospectivas."
+        },
+        {
+            "tense": "Pretérito pluscuamperfecto de indicativo",
+            "recommendedLevel": "B1",
+            "status": "covered",
+            "coveredBy": [
+                { "level": "B2", "topicId": "past-perfect-indicative", "path": "levels/B2/grammar.json" }
+            ],
+            "notes": "Se explica mediante haber en imperfecto + participio, con énfasis en marcadores temporales avanzados."
+        },
+        {
+            "tense": "Futuro perfecto",
+            "recommendedLevel": "B1",
+            "status": "covered",
+            "coveredBy": [
+                { "level": "B2", "topicId": "future-perfect", "path": "levels/B2/grammar.json" }
+            ],
+            "notes": "Se aborda con haber en futuro + participio, incluyendo usos de probabilidad sobre el pasado inmediato."
+        },
+        {
+            "tense": "Imperativo negativo / formas completas",
+            "recommendedLevel": "B2",
+            "status": "covered",
+            "coveredBy": [
+                { "level": "B2", "topicId": "negative-imperative-pronouns", "path": "levels/B2/grammar.json" }
+            ],
+            "notes": "Incluye mandatos negativos formales e informales y la posición obligatoria de pronombres átonos."
+        },
+        {
+            "tense": "Subjuntivo perfecto (pretérito perfecto de subjuntivo)",
+            "recommendedLevel": "B2",
+            "status": "covered",
+            "coveredBy": [
+                { "level": "B2", "topicId": "subjunctive-present-perfect", "path": "levels/B2/grammar.json" }
+            ],
+            "notes": "Ahora disponible para juzgar eventos recientes con haya + participio."
+        }
+    ]
+}

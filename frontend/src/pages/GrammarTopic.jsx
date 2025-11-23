@@ -164,9 +164,21 @@ function GrammarTopic() {
         </section>
       )}
 
-      {pointAndChat?.cards?.length > 0 && <PointAndChat data={pointAndChat} />}
+      {pointAndChat?.cards?.length > 0 && (
+        <PointAndChat
+          data={pointAndChat}
+          showTranslation={showTranslation}
+          translations={translationOverlay?.pointAndChat}
+        />
+      )}
 
-      {swapChart?.rows?.length > 0 && <SwapChart data={swapChart} />}
+      {swapChart?.rows?.length > 0 && (
+        <SwapChart
+          data={swapChart}
+          showTranslation={showTranslation}
+          translations={translationOverlay?.swapChart}
+        />
+      )}
 
       {dailyPlanner?.slots?.length > 0 && <DailyPlanner data={dailyPlanner} />}
 

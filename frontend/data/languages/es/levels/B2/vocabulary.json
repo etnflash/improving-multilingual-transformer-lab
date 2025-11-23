@@ -1,0 +1,44 @@
+{
+  "level": "B2",
+  "sets": [
+    {
+      "id": "strategic-projects",
+      "title": "Gestión de proyectos estratégicos",
+      "summary": "Léxico para planificar entregables complejos y coordinar equipos.",
+      "words": [
+        { "term": "entregable", "translation": "deliverable" },
+        { "term": "presupuesto escalonado", "translation": "tiered budget" },
+        { "term": "riesgos latentes", "translation": "latent risks" },
+        { "term": "alcance acordado", "translation": "agreed scope" },
+        { "term": "mitigar", "translation": "to mitigate" },
+        { "term": "punto de control", "translation": "checkpoint" }
+      ]
+    },
+    {
+      "id": "critical-discourse",
+      "title": "Discurso crítico y académico",
+      "summary": "Expresiones para matizar opiniones y analizar evidencias.",
+      "words": [
+        { "term": "matiz", "translation": "nuance" },
+        { "term": "postura sustentada", "translation": "well-supported stance" },
+        { "term": "sesgo", "translation": "bias" },
+        { "term": "contrargumento", "translation": "counterargument", "note": "acentuar en 'men'" },
+        { "term": "sostener", "translation": "to uphold/argue" },
+        { "term": "respaldo empirico", "translation": "empirical backing" }
+      ]
+    },
+    {
+      "id": "intercultural-work",
+      "title": "Colaboración intercultural",
+      "summary": "Vocabulario para describir dinámicas en equipos globales.",
+      "words": [
+        { "term": "turno de palabra", "translation": "speaking turn" },
+        { "term": "zona horaria compartida", "translation": "overlapping time zone" },
+        { "term": "retroalimentacion abierta", "translation": "open feedback" },
+        { "term": "resolución consensuada", "translation": "consensus-based resolution" },
+        { "term": "malentendido pragmatico", "translation": "pragmatic misunderstanding" },
+        { "term": "equipo hibrido", "translation": "hybrid team" }
+      ]
+    }
+  ]
+}

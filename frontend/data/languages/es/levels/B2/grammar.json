@@ -1,0 +1,693 @@
+{
+    "level": "B2",
+    "topics": [
+        {
+            "id": "past-perfect-indicative",
+            "title": "Pretérito pluscuamperfecto de indicativo",
+            "summary": "Encadenar acontecimientos pasados con haber en imperfecto + participio.",
+            "details": [
+                "Se emplea para una acción pasada anterior a otra también pasada: Cuando llegué, ellos ya habían cenado.",
+                "La estructura es haber en imperfecto (había, habías...) + participio; los participios mantienen concordancia solo si son adjetivos.",
+                "Aparece con marcadores como antes de, ya, todavía no, para entonces, cuando.",
+                "Con conjunciones temporales como después de que o en cuanto + pasado, el pluscuamperfecto ayuda a dejar explícita la acción concluida.",
+                "En narraciones largas alterna con pretérito e imperfecto para clarificar prioridad de eventos y evitar ambigüedades." 
+            ],
+            "points": [
+                "Usa pluscuamperfecto para dejar claro el orden temporal en narraciones largas.",
+                "Combínalo con pretérito indefinido o imperfecto según el contexto principal.",
+                "Admite perífrasis de reporte: Dijo que ya había terminado." 
+            ],
+            "examples": [
+                {
+                    "sentence": "Cuando aterrizamos, la conferencia ya había empezado.",
+                    "translation": "When we landed, the conference had already started."
+                },
+                {
+                    "sentence": "Nunca habían visto nieve antes de ese viaje.",
+                    "translation": "They had never seen snow before that trip."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "hablar",
+                    "tense": "Pluscuamperfecto de indicativo",
+                    "forms": [
+                        { "person": "yo", "form": "había hablado" },
+                        { "person": "tú", "form": "habías hablado" },
+                        { "person": "él/ella/usted", "form": "había hablado" },
+                        { "person": "nosotros", "form": "habíamos hablado" },
+                        { "person": "vosotros", "form": "habíais hablado" },
+                        { "person": "ellos/ustedes", "form": "habían hablado" }
+                    ]
+                },
+                {
+                    "verb": "comer",
+                    "tense": "Pluscuamperfecto de indicativo",
+                    "forms": [
+                        { "person": "yo", "form": "había comido" },
+                        { "person": "tú", "form": "habías comido" },
+                        { "person": "él/ella/usted", "form": "había comido" },
+                        { "person": "nosotros", "form": "habíamos comido" },
+                        { "person": "vosotros", "form": "habíais comido" },
+                        { "person": "ellos/ustedes", "form": "habían comido" }
+                    ]
+                },
+                {
+                    "verb": "vivir",
+                    "tense": "Pluscuamperfecto de indicativo",
+                    "forms": [
+                        { "person": "yo", "form": "había vivido" },
+                        { "person": "tú", "form": "habías vivido" },
+                        { "person": "él/ella/usted", "form": "había vivido" },
+                        { "person": "nosotros", "form": "habíamos vivido" },
+                        { "person": "vosotros", "form": "habíais vivido" },
+                        { "person": "ellos/ustedes", "form": "habían vivido" }
+                    ]
+                },
+                {
+                    "verb": "participios irregulares",
+                    "tense": "Referencia",
+                    "forms": [
+                        { "person": "abrir", "form": "abierto" },
+                        { "person": "hacer", "form": "hecho" },
+                        { "person": "poner", "form": "puesto" },
+                        { "person": "ver", "form": "visto" },
+                        { "person": "decir", "form": "dicho" },
+                        { "person": "escribir", "form": "escrito" },
+                        { "person": "romper", "form": "roto" },
+                        { "person": "volver", "form": "vuelto" },
+                        { "person": "cubrir", "form": "cubierto" },
+                        { "person": "morir", "form": "muerto" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Reescribe una narración corta añadiendo al menos tres pluscuamperfectos para indicar acciones previas.",
+                "Completa oraciones con ya / todavía no para practicar el matiz temporal.",
+                "Contrasta pretérito indefinido y pluscuamperfecto en un cuadro comparativo.",
+                "Describe un proyecto enumerando qué tareas ya habían finalizado antes de una fecha concreta.",
+                "Crea una línea de tiempo con tres eventos principales e inserta notas en pluscuamperfecto que expliquen antecedentes invisibles.",
+                "Convierte testimonios directos (\"ya terminé\") en reportes en pluscuamperfecto (Dijo que ya había terminado)."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Cuando llegué al cine, Laura ya ____ (comprar) las entradas.",
+                    "options": ["compraba", "había comprado", "compró"],
+                    "answer": "había comprado",
+                    "explanation": "La compra ocurrió antes de la llegada ⇒ pluscuamperfecto."
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Los científicos ____ (descubrir) el error antes de publicar el artículo.",
+                    "answer": "habían descubierto",
+                    "hint": "Usa haber en imperfecto + participio." 
+                },
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Después de que la empresa ____ (firmar) el contrato, inició la producción masiva.",
+                    "options": ["firmó", "había firmado", "firmaba"],
+                    "answer": "había firmado",
+                    "explanation": "La firma precede a la producción ⇒ pluscuamperfecto." 
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Link past events with haber in the imperfect + past participle (Spanish past perfect).",
+                    "details": [
+                        "Use it for an action completed before another past moment: Cuando llegué, ellos ya habían cenado.",
+                        "Build it with imperfect haber + participle; participles only agree if used adjectivally.",
+                        "Common cues: antes de, ya, todavía no, para entonces, cuando."
+                    ],
+                    "points": [
+                        "Keeps timelines clear inside long narratives.",
+                        "Switch to preterite or imperfect for the main storyline as needed.",
+                        "Works in reported speech: Dijo que ya había terminado."
+                    ],
+                    "practice": [
+                        "Rewrite a short narrative inserting at least three past-perfect verbs.",
+                        "Complete sentences with ya / todavía no to highlight sequencing.",
+                        "Contrast preterite vs. past perfect in a comparison chart.",
+                        "Describe a project listing which tasks had been finished before a certain deadline."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "future-perfect",
+            "title": "Futuro perfecto",
+            "summary": "Expresar acciones que estarán completadas antes de un momento futuro o conjeturas del pasado reciente.",
+            "details": [
+                "Se forma con haber en futuro (habré, habrás...) + participio.",
+                "Responde a \"¿qué habrá pasado para entonces?\" y aparece con marcadores como para 2030, cuando llegues, dentro de dos horas.",
+                "También indica suposiciones sobre hechos recién terminados: Habrá salido hace poco.",
+                "Funciona como hito dentro de planes escalonados (Cuando cumplas cinco años en la empresa, habrás liderado dos proyectos).",
+                "En estilo periodístico ayuda a especular sobre motivos o cronologías sin afirmarlos directamente." 
+            ],
+            "points": [
+                "Útil para planes estratégicos y metas escalonadas.",
+                "Puede combinarse con conectores condicionales: Si terminas el capítulo, lo habrás leído dos veces.",
+                "Distingue entre futuro simple (acción posterior) y futuro perfecto (acción previa respecto a otro futuro)." 
+            ],
+            "examples": [
+                {
+                    "sentence": "Para cuando llegues, ya habremos preparado el informe.",
+                    "translation": "By the time you arrive, we will already have prepared the report."
+                },
+                {
+                    "sentence": "¿Habrá terminado el examen? Lleva más de tres horas en la sala.",
+                    "translation": "Will she have finished the exam? She has been in the room for over three hours."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "hablar",
+                    "tense": "Futuro perfecto",
+                    "forms": [
+                        { "person": "yo", "form": "habré hablado" },
+                        { "person": "tú", "form": "habrás hablado" },
+                        { "person": "él/ella/usted", "form": "habrá hablado" },
+                        { "person": "nosotros", "form": "habremos hablado" },
+                        { "person": "vosotros", "form": "habréis hablado" },
+                        { "person": "ellos/ustedes", "form": "habrán hablado" }
+                    ]
+                },
+                {
+                    "verb": "comer",
+                    "tense": "Futuro perfecto",
+                    "forms": [
+                        { "person": "yo", "form": "habré comido" },
+                        { "person": "tú", "form": "habrás comido" },
+                        { "person": "él/ella/usted", "form": "habrá comido" },
+                        { "person": "nosotros", "form": "habremos comido" },
+                        { "person": "vosotros", "form": "habréis comido" },
+                        { "person": "ellos/ustedes", "form": "habrán comido" }
+                    ]
+                },
+                {
+                    "verb": "vivir",
+                    "tense": "Futuro perfecto",
+                    "forms": [
+                        { "person": "yo", "form": "habré vivido" },
+                        { "person": "tú", "form": "habrás vivido" },
+                        { "person": "él/ella/usted", "form": "habrá vivido" },
+                        { "person": "nosotros", "form": "habremos vivido" },
+                        { "person": "vosotros", "form": "habréis vivido" },
+                        { "person": "ellos/ustedes", "form": "habrán vivido" }
+                    ]
+                },
+                {
+                    "verb": "irregulares clave",
+                    "tense": "Futuro perfecto",
+                    "forms": [
+                        { "person": "tener", "form": "habré tenido" },
+                        { "person": "decir", "form": "habrás dicho" },
+                        { "person": "poner", "form": "habrá puesto" },
+                        { "person": "hacer", "form": "habremos hecho" },
+                        { "person": "venir", "form": "habréis venido" },
+                        { "person": "ver", "form": "habrán visto" },
+                        { "person": "poder", "form": "habrá podido" },
+                        { "person": "querer", "form": "habremos querido" },
+                        { "person": "saber", "form": "habréis sabido" },
+                        { "person": "salir", "form": "habrán salido" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Redacta metas trimestrales describiendo qué habrás logrado en cada hito.",
+                "Convierte predicciones en dos fases: primero futuro simple, luego futuro perfecto.",
+                "Escribe suposiciones sobre hechos recientes usando futuro perfecto.",
+                "Completa cronogramas con antes/después aplicando la forma adecuada.",
+                "Elabora titulares hipotéticos para noticias especulando con habrá + participio.",
+                "Describe qué habilidades habrás consolidado antes de certificarte en un examen oficial."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "En 2035 la empresa ____ (abrir) oficinas en tres continentes.",
+                    "options": ["abrirá", "habrá abierto", "ha abierto"],
+                    "answer": "habrá abierto",
+                    "explanation": "Acción terminada antes del año meta." 
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "¿Por qué no contesta? Tal vez ____ (salir, él) hace unos minutos.",
+                    "answer": "habrá salido",
+                    "hint": "Usa futuro perfecto para conjeturas del pasado reciente." 
+                },
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Cuando presente el informe final, ya ____ (analizar, nosotros) todos los datos crudos.",
+                    "options": ["analizaremos", "habremos analizado", "analizamos"],
+                    "answer": "habremos analizado",
+                    "explanation": "La acción de analizar termina antes del hito futuro." 
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Talk about actions that will be finished before a future point or speculate about recent past events.",
+                    "details": [
+                        "Form it with future haber + past participle.",
+                        "Answers \"what will have happened by...?\" and pairs with markers like para 2030, cuando llegues, dentro de dos horas.",
+                        "Also conveys guesses about just-finished actions: Habrá salido hace poco."
+                    ],
+                    "points": [
+                        "Great for strategic planning milestones.",
+                        "Combine it with conditional clauses to emphasize prerequisites.",
+                        "Differentiate it from the simple future, which refers to events after the reference point."
+                    ],
+                    "practice": [
+                        "Write quarterly goals describing what you will have accomplished by each checkpoint.",
+                        "Convert single-phase predictions into two-step versions (future simple + future perfect).",
+                        "Draft speculations about recent events using the future perfect.",
+                        "Fill in timelines marking before/after relationships with the correct future form."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "conditional-recap",
+            "title": "Condicionales avanzados y cuatro estructuras con si",
+            "summary": "Repasar en un solo bloque las cuatro familias de oraciones condicionales y sus matices formales.",
+            "details": [
+                "Condicional 0/1 (real o probable): si + presente + presente/futuro/imperativo para verdades generales o planes factibles.",
+                "Condicional 2 (hipotético presente): si + imperfecto de subjuntivo + condicional simple para situaciones irreales actuales.",
+                "Condicional 3 (hipotético pasado): si + pluscuamperfecto de subjuntivo + condicional perfecto para resultados no ocurridos.",
+                "Condicional mixto: combina si + pluscuamperfecto de subjuntivo con condicional simple para efectos presentes derivados de un hecho pasado.",
+                "Los cuatro patrones admiten inversión (De haber sabido...) y marcadores como de lo contrario, aun si, siempre que.",
+                "Para matizar probabilidad agrega modales (podría, debería, tendría que) y adverbios evaluativos (probablemente, hipotéticamente).",
+                "En contextos formales usa perífrasis condicionales con ser posible que / en caso de que + subjuntivo para introducir cláusulas auxiliares." 
+            ],
+            "points": [
+                "Cuida la concordancia temporal: la parte con si nunca lleva futuro ni condicional.",
+                "El condicional simple suaviza peticiones (Me gustaría que vinieras) incluso sin si explícito.",
+                "El condicional perfecto funciona con adverbios de evaluación (Habríamos llegado antes, seguramente).",
+                "Las inversion sentences (De haber tenido más datos, habríamos...) omiten si pero conservan el tiempo apropiado.",
+                "Los conectores aun cuando, siempre que, con tal de que permiten construir condiciones parciales o restringidas." 
+            ],
+            "examples": [
+                {
+                    "sentence": "Si estudias ahora, aprobarás el módulo de métricas.",
+                    "translation": "If you study now, you will pass the metrics module."
+                },
+                {
+                    "sentence": "Si tuviera más tiempo, participaría en el laboratorio en vivo.",
+                    "translation": "If I had more time, I would take part in the live lab."
+                },
+                {
+                    "sentence": "Si hubiéramos enviado el informe antes, habríamos evitado la multa.",
+                    "translation": "If we had sent the report earlier, we would have avoided the fine."
+                },
+                {
+                    "sentence": "Si hubieras confirmado ayer, hoy tendríamos un plan claro.",
+                    "translation": "If you had confirmed yesterday, today we would have a clear plan."
+                },
+                {
+                    "sentence": "De haber contado con más testers, podríamos estar lanzando la beta hoy.",
+                    "translation": "Had we had more testers, we could be launching the beta today."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "condicional simple",
+                    "tense": "Referencia",
+                    "forms": [
+                        { "person": "yo", "form": "hablaría" },
+                        { "person": "tú", "form": "hablarías" },
+                        { "person": "él/ella/usted", "form": "hablaría" },
+                        { "person": "nosotros", "form": "hablaríamos" },
+                        { "person": "vosotros", "form": "hablaríais" },
+                        { "person": "ellos/ustedes", "form": "hablarían" }
+                    ]
+                },
+                {
+                    "verb": "condicional perfecto",
+                    "tense": "Referencia",
+                    "forms": [
+                        { "person": "yo", "form": "habría hablado" },
+                        { "person": "tú", "form": "habrías hablado" },
+                        { "person": "él/ella/usted", "form": "habría hablado" },
+                        { "person": "nosotros", "form": "habríamos hablado" },
+                        { "person": "vosotros", "form": "habríais hablado" },
+                        { "person": "ellos/ustedes", "form": "habrían hablado" }
+                    ]
+                },
+                {
+                    "verb": "subjuntivo imperfecto",
+                    "tense": "Referencia",
+                    "forms": [
+                        { "person": "yo", "form": "hablara / hablase" },
+                        { "person": "tú", "form": "hablaras / hablases" },
+                        { "person": "él/ella/usted", "form": "hablara / hablase" },
+                        { "person": "nosotros", "form": "habláramos / hablásemos" },
+                        { "person": "vosotros", "form": "hablarais / hablaseis" },
+                        { "person": "ellos/ustedes", "form": "hablaran / hablasen" }
+                    ]
+                },
+                {
+                    "verb": "subjuntivo pluscuamperfecto",
+                    "tense": "Referencia",
+                    "forms": [
+                        { "person": "yo", "form": "hubiera hablado / hubiese hablado" },
+                        { "person": "tú", "form": "hubieras hablado / hubieses hablado" },
+                        { "person": "él/ella/usted", "form": "hubiera hablado / hubiese hablado" },
+                        { "person": "nosotros", "form": "hubiéramos hablado / hubiésemos hablado" },
+                        { "person": "vosotros", "form": "hubierais hablado / hubieseis hablado" },
+                        { "person": "ellos/ustedes", "form": "hubieran hablado / hubiesen hablado" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Completa una tabla con los cuatro tipos de condicional describiendo uso, estructura y ejemplo propio.",
+                "Convierte titulares reales en hipótesis tipo 2 y tipo 3 para practicar cambios de tiempo.",
+                "Escribe correos diplomáticos usando condicional simple para peticiones corteses.",
+                "Redacta un informe de riesgo con secciones de si + pluscuamperfecto y consecuencias actuales (condicional mixto).",
+                "Reescribe diálogos del nivel B1 elevando el registro con conectores avanzados (aun si, siempre que).",
+                "Crea tarjetas de contraste donde una mitad tenga la cláusula si y la otra la principal adecuada.",
+                "Formula tres escenarios corporativos e incluye versión con inversión (De haber...) y versión estándar para comparar el tono.",
+                "Añade marcadores de probabilidad (probablemente, posiblemente) a condicionales ya escritos explicando el matiz." 
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Si ____ (tener, nosotros) un presupuesto flexible, implementaríamos el plan piloto ya mismo.",
+                    "options": ["tenemos", "tuviéramos", "tuvimos"],
+                    "answer": "tuviéramos",
+                    "explanation": "Hipótesis presente ⇒ si + imperfecto de subjuntivo." 
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Si ____ (saber, yo) del retraso, te habría avisado ayer.",
+                    "answer": "hubiera sabido",
+                    "hint": "Hipótesis del pasado ⇒ pluscuamperfecto de subjuntivo." 
+                },
+                {
+                    "type": "multiple-choice",
+                    "prompt": "De haber mostrado más datos, ____ (convencer, nosotros) al comité.",
+                    "options": ["convencemos", "convenceríamos", "convenceremos"],
+                    "answer": "convenceríamos",
+                    "explanation": "Inversión condicional que equivale a si hubiéramos mostrado..." 
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Siempre que ____ (aportar, ellos) evidencia, consideraríamos su propuesta.",
+                    "answer": "aporten",
+                    "hint": "Usa presente de subjuntivo tras conectores restrictivos + condicional simple en la principal." 
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "One-stop recap of the four conditional sentence families and their register cues.",
+                    "details": [
+                        "Real/probable (si + present + present/future/imperative) for facts and likely plans.",
+                        "Type 2 (si + past subjunctive + conditional simple) for present unreal scenarios.",
+                        "Type 3 (si + past perfect subjunctive + conditional perfect) for past unreal outcomes.",
+                        "Mixed conditionals to link past causes with present results and to use inverted starts (De haber...).",
+                        "Model modal nuance (podría, debería, tendría que) and probability adverbs to control politeness and certainty.",
+                        "Leverage connectors like aun cuando / siempre que for partial or restricted conditions in formal discourse."
+                    ],
+                    "points": [
+                        "Keep tense concordance straight: the si clause never takes future or conditional forms.",
+                        "Use the simple conditional to soften requests (Me gustaría que vinieras) even without an explicit si.",
+                        "Combine the conditional perfect with evaluative adverbs (Habríamos llegado antes, seguramente).",
+                        "Inverted openings (De haber tenido más datos, habríamos...) drop si but keep the same tense pairing.",
+                        "Connectors like aun cuando, siempre que, con tal de que set up partial or restricted conditions."
+                    ],
+                    "practice": [
+                        "Build a chart summarizing all four types with your own examples.",
+                        "Rewrite neutral headlines as type-2 or type-3 hypotheses.",
+                        "Draft polite requests with the conditional simple and softening adverbs.",
+                        "Write a risk memo featuring mixed conditional logic.",
+                        "Produce twin versions (standard vs. inverted) of the same scenario to compare tone.",
+                        "Annotate conditional sentences with probability markers to explain how certainty shifts." 
+                    ]
+                }
+            }
+        },
+        {
+            "id": "negative-imperative-pronouns",
+            "title": "Imperativo negativo y combinación con pronombres",
+            "summary": "Formar órdenes negativas formales e informales y colocar pronombres átonos antes del verbo.",
+            "details": [
+                "El imperativo negativo usa las formas del presente de subjuntivo (no hables, no coma, no salgáis).",
+                "Los pronombres siempre van antes del verbo negativo: No te levantes, No se lo digan.",
+                "Resulta clave para instrucciones de seguridad, manuales y retroalimentación avanzada.",
+                "El modo vos/vosotros presenta variantes regionales (no hablés / no habléis); aclara según el público.",
+                "Puedes añadir por favor sin alterar la posición de los pronombres: Por favor, no se lo digan." 
+            ],
+            "points": [
+                "Incluye diferencias de registro: no hables (tú) vs. no hable (usted).",
+                "Con verbos pronominales añade ambos pronombres antes: No te lo pongas.",
+                "Evita dobles negaciones innecesarias; basta con no + verbo." 
+            ],
+            "examples": [
+                {
+                    "sentence": "No abramos la puerta hasta que llegue la policía.",
+                    "translation": "Let's not open the door until the police arrive."
+                },
+                {
+                    "sentence": "No se lo entreguen todavía, esperen mi señal.",
+                    "translation": "Don't hand it over yet; wait for my signal."
+                },
+                {
+                    "sentence": "Por favor, no te quites el casco dentro de la obra.",
+                    "translation": "Please don’t take off your helmet inside the construction site."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "hablar",
+                    "tense": "Imperativo negativo",
+                    "forms": [
+                        { "person": "tú", "form": "no hables" },
+                        { "person": "usted", "form": "no hable" },
+                        { "person": "nosotros", "form": "no hablemos" },
+                        { "person": "vosotros", "form": "no habléis" },
+                        { "person": "ustedes", "form": "no hablen" }
+                    ]
+                },
+                {
+                    "verb": "comer",
+                    "tense": "Imperativo negativo",
+                    "forms": [
+                        { "person": "tú", "form": "no comas" },
+                        { "person": "usted", "form": "no coma" },
+                        { "person": "nosotros", "form": "no comamos" },
+                        { "person": "vosotros", "form": "no comáis" },
+                        { "person": "ustedes", "form": "no coman" }
+                    ]
+                },
+                {
+                    "verb": "vivir",
+                    "tense": "Imperativo negativo",
+                    "forms": [
+                        { "person": "tú", "form": "no vivas" },
+                        { "person": "usted", "form": "no viva" },
+                        { "person": "nosotros", "form": "no vivamos" },
+                        { "person": "vosotros", "form": "no viváis" },
+                        { "person": "ustedes", "form": "no vivan" }
+                    ]
+                },
+                {
+                    "verb": "irregulares frecuentes",
+                    "tense": "Imperativo negativo",
+                    "forms": [
+                        { "person": "ir (tú)", "form": "no vayas" },
+                        { "person": "ir (usted)", "form": "no vaya" },
+                        { "person": "ser (tú)", "form": "no seas" },
+                        { "person": "ser (usted)", "form": "no sea" },
+                        { "person": "estar (tú)", "form": "no estés" },
+                        { "person": "estar (ustedes)", "form": "no estén" },
+                        { "person": "dar (tú)", "form": "no des" },
+                        { "person": "dar (usted)", "form": "no dé" },
+                        { "person": "saber (tú)", "form": "no sepas" },
+                        { "person": "saber (usted)", "form": "no sepa" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Convierte instrucciones afirmativas en negativas manteniendo el registro adecuado.",
+                "Inserta pronombres dobles (objeto indirecto + directo) en mandatos negativos complejos.",
+                "Diseña carteles de seguridad usando imperativos negativos y aclaraciones.",
+                "Escribe diálogos donde se alternen sugerencias positivas y prohibiciones negativas.",
+                "Crea listas de verificación para laboratorios o cocinas industriales con mandatos negativos específicos.",
+                "Redacta una versión formal (usted) y otra coloquial (tú/vos) de la misma prohibición."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "____ (No / No te / Te no) levantes antes de que termine la sesión.",
+                    "options": ["No te", "No", "Te no"],
+                    "answer": "No te",
+                    "explanation": "Pronombre reflexivo va después de no y antes del verbo." 
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Por favor, ____ (no / decírmelo) todavía.",
+                    "answer": "no me lo digas",
+                    "hint": "Pronombres antes del verbo negativo." 
+                },
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Para dirigirte a un grupo formal usa ____: 'No ____ permanezcan de pie'.",
+                    "options": ["se", "os", "te"],
+                    "answer": "se",
+                    "explanation": "La forma negativa de ustedes mantiene se + verbo en subjuntivo." 
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Build negative commands and place object/reflexive pronouns before the verb.",
+                    "details": [
+                        "Negative imperatives reuse present-subjunctive forms (no hables, no salga).",
+                        "Pronouns always precede the verb in negative orders: No te levantes, No se lo digan.",
+                        "Essential for safety manuals, advanced instructions, and nuanced feedback."
+                    ],
+                    "points": [
+                        "Mind register differences: no hables vs. no hable.",
+                        "Attach multiple pronouns before the verb in negative commands (No te lo pongas).",
+                        "Avoid redundant double negatives—no + verb is enough."
+                    ],
+                    "practice": [
+                        "Turn affirmative commands into negative ones without changing the level of formality.",
+                        "Insert double pronouns in complex negative orders.",
+                        "Design safety posters featuring negative imperatives.",
+                        "Write dialogues alternating affirmative suggestions and negative prohibitions."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "subjunctive-present-perfect",
+            "title": "Pretérito perfecto de subjuntivo",
+            "summary": "Evaluar acciones recientes usando haya + participio tras expresiones de emoción, duda o juicio.",
+            "details": [
+                "Se forma con haber en presente de subjuntivo (haya, hayas...) + participio.",
+                "Aparece después de es posible que, me alegra que, dudo que cuando la acción subordinada es anterior al momento presente.",
+                "Útil para valorar resultados recién ocurridos con impacto actual.",
+                "Permite suavizar hipótesis corteses: Es probable que haya habido un malentendido.",
+                "En cortes formales de prensa o académicos es preferible para informar sin confirmar totalmente los hechos." 
+            ],
+            "points": [
+                "Contrasta con el presente de subjuntivo: haya terminado (acción previa) vs. termine (simultánea/futura).",
+                "Los participios irregulares mantienen las mismas formas que en otros tiempos perfectos.",
+                "Se integra en cláusulas temporales y concesivas en registros formales." 
+            ],
+            "examples": [
+                {
+                    "sentence": "Nos alegra que hayan llegado a tiempo.",
+                    "translation": "We are glad that you have arrived on time."
+                },
+                {
+                    "sentence": "Es posible que el jurado haya cambiado de opinión.",
+                    "translation": "It is possible that the jury has changed its mind."
+                }
+            ],
+            "conjugations": [
+                {
+                    "verb": "hablar",
+                    "tense": "Pretérito perfecto de subjuntivo",
+                    "forms": [
+                        { "person": "yo", "form": "haya hablado" },
+                        { "person": "tú", "form": "hayas hablado" },
+                        { "person": "él/ella/usted", "form": "haya hablado" },
+                        { "person": "nosotros", "form": "hayamos hablado" },
+                        { "person": "vosotros", "form": "hayáis hablado" },
+                        { "person": "ellos/ustedes", "form": "hayan hablado" }
+                    ]
+                },
+                {
+                    "verb": "comer",
+                    "tense": "Pretérito perfecto de subjuntivo",
+                    "forms": [
+                        { "person": "yo", "form": "haya comido" },
+                        { "person": "tú", "form": "hayas comido" },
+                        { "person": "él/ella/usted", "form": "haya comido" },
+                        { "person": "nosotros", "form": "hayamos comido" },
+                        { "person": "vosotros", "form": "hayáis comido" },
+                        { "person": "ellos/ustedes", "form": "hayan comido" }
+                    ]
+                },
+                {
+                    "verb": "vivir",
+                    "tense": "Pretérito perfecto de subjuntivo",
+                    "forms": [
+                        { "person": "yo", "form": "haya vivido" },
+                        { "person": "tú", "form": "hayas vivido" },
+                        { "person": "él/ella/usted", "form": "haya vivido" },
+                        { "person": "nosotros", "form": "hayamos vivido" },
+                        { "person": "vosotros", "form": "hayáis vivido" },
+                        { "person": "ellos/ustedes", "form": "hayan vivido" }
+                    ]
+                },
+                {
+                    "verb": "participios irregulares",
+                    "tense": "Referencia",
+                    "forms": [
+                        { "person": "abrir", "form": "haya abierto" },
+                        { "person": "decir", "form": "hayas dicho" },
+                        { "person": "escribir", "form": "haya escrito" },
+                        { "person": "poner", "form": "hayamos puesto" },
+                        { "person": "ver", "form": "hayáis visto" },
+                        { "person": "volver", "form": "hayan vuelto" },
+                        { "person": "hacer", "form": "hayamos hecho" },
+                        { "person": "romper", "form": "hayáis roto" },
+                        { "person": "morir", "form": "hayan muerto" },
+                        { "person": "descubrir", "form": "hayas descubierto" }
+                    ]
+                }
+            ],
+            "practice": [
+                "Completa frases con expresiones de emoción usando haya + participio.",
+                "Reescribe diarios de noticias evaluando eventos recién ocurridos.",
+                "Transforma oraciones con presente de subjuntivo en pretérito perfecto para enfatizar anterioridad.",
+                "Redacta correos formales con es posible que / es probable que + haya + participio.",
+                "Diseña entrevistas simuladas con preguntas que obliguen a responder en pretérito perfecto de subjuntivo.",
+                "Crea titulares que expresen sorpresa o duda seleccionando el matiz apropiado (quizá hayan renunciado)."
+            ],
+            "interactions": [
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Dudo que ellos ____ (resolver) el problema tan rápido.",
+                    "options": ["resuelvan", "hayan resuelto", "resolvieron"],
+                    "answer": "hayan resuelto",
+                    "explanation": "La acción subordinada es previa al momento presente." 
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Nos sorprende que ____ (ganar, ustedes) el concurso dos años seguidos.",
+                    "answer": "hayan ganado",
+                    "hint": "Emplea haber en subjuntivo + participio." 
+                },
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Es probable que ____ (producirse) cambios en la directiva tras la reunión.",
+                    "options": ["se produzcan", "se hayan producido", "se producirán"],
+                    "answer": "se hayan producido",
+                    "explanation": "La oración expresa valoración de un hecho ya ocurrido recientemente." 
+                }
+            ],
+            "translations": {
+                "en": {
+                    "summary": "Evaluate recent actions with haya + participle after expressions of emotion, doubt, or judgment.",
+                    "details": [
+                        "Built with present-subjunctive haber + past participle.",
+                        "Triggered by phrases like es posible que, me alegra que when the subordinate action happened already.",
+                        "Great to comment on fresh outcomes that still matter now."
+                    ],
+                    "points": [
+                        "Contrast with the plain present subjunctive to show anteriority.",
+                        "Reuses the same irregular participles found elsewhere.",
+                        "Shows up in temporal/concessive clauses in formal speech."
+                    ],
+                    "practice": [
+                        "Complete emotion sentences using haya + participle.",
+                        "Rewrite news briefs evaluating just-finished events.",
+                        "Convert present-subjunctive clauses into perfect form to emphasize the past action.",
+                        "Draft formal emails with es posible que / es probable que + haya + participio."
+                    ]
+                }
+            }
+        }
+    ]
+}

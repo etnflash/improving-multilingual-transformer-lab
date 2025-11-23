@@ -6,7 +6,7 @@
             "name": "Spanish",
             "nativeName": "Español",
             "baseLanguage": "en",
-            "level": "A2-B1",
+            "level": "A2-B2",
             "status": "live",
             "modules": [
                 "pattern-learning",
@@ -17,7 +17,8 @@
             "levels": [
                 { "id": "A1", "label": "A1 - Beginner" },
                 { "id": "A2", "label": "A2 - Elementary" },
-                { "id": "B1", "label": "B1 - Intermediate" }
+                { "id": "B1", "label": "B1 - Intermediate" },
+                { "id": "B2", "label": "B2 - Upper Intermediate" }
             ]
         },
         {

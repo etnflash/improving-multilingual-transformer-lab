@@ -605,16 +605,21 @@
         {
             "id": "relative-pronouns-advanced",
             "title": "Pronombres relativos avanzados",
-            "summary": "Unir oraciones complejas con el que, la cual, lo que, cuyo para mayor precisión.",
+            "summary": "Conecta cláusulas complejas con pronombres relativos flexibles y da ritmo visual a tus textos.",
             "details": [
-                "El que / la que / los que / las que se usan con o sin preposición para aclarar género y número.",
-                "Lo que introduce ideas o hechos completos cuando no hay antecedente concreto (Lo que necesito es tiempo).",
-                "Cuyo/a/os/as indica posesión y concuerda con el sustantivo que le sigue, no con el poseedor."
+                "El que / la que / los que / las que se usan con o sin preposición para aclarar género y número cuando el antecedente es concreto.",
+                "Quien / quienes sustituye a personas tras comas o preposiciones: Los ponentes, quienes viajaron desde Lima, presentaron primero.",
+                "El cual / la cual / los cuales / las cuales resuelve ambigüedades después de preposiciones compuestas (cerca de, junto a) o cuando hay dos antecedentes posibles.",
+                "Lo que resume ideas completas sin antecedente fijo, mientras que lo cual necesita un referente textual explícito.",
+                "Los adverbios relativos donde, cuando y como enlazan lugares, tiempos y modos y se combinan con preposiciones (desde donde, para cuando, según como).",
+                "Cuyo/a/os/as expresa posesión y concuerda con el sustantivo que le sigue; nunca se duplica con su." 
             ],
             "points": [
-                "Después de preposición formal prefiere el cual / la cual para evitar ambigüedades.",
-                "No dupliques posesión con su cuando uses cuyo: 'la persona cuyo coche' es suficiente.",
-                "Practica transformar dos oraciones simples en una sola con relativo."
+                "Alterna que y las formas largas para evitar repeticiones consecutivas en párrafos técnicos.",
+                "Añade un determinante antes del relativo cuando dos sustantivos comparten antecedente (el informe y el plan, los cuales...).",
+                "Los incisos entre comas aportan información no esencial; sin comas el relativo restringe el significado.",
+                "Cuyo adopta el género y número del elemento poseído y puede repetirse en cadena para varias posesiones.",
+                "Lo que introduce comentarios generales; lo cual retoma solo la oración inmediatamente anterior." 
             ],
             "examples": [
                 {
@@ -624,13 +629,97 @@
                 {
                     "sentence": "Ese es el museo en el que expusieron fotografías históricas.",
                     "translation": "That is the museum in which they exhibited historical photographs."
+                },
+                {
+                    "sentence": "Los informes sobre los cuales trabajamos resumen datos sensibles.",
+                    "translation": "The reports we worked on summarize sensitive data."
+                },
+                {
+                    "sentence": "Los mentores, quienes coordinaron el piloto, reciben ahora a los nuevos grupos.",
+                    "translation": "The mentors, who coordinated the pilot, are now receiving the new cohorts."
                 }
             ],
+            "visualVocabulary": {
+                "title": "Mapa rápido de relativos",
+                "subtitle": "Relaciona cada conector con un tipo de antecedente o situación.",
+                "items": [
+                    { "term": "el que / la que", "translation": "the one that", "note": "genera concordancia" },
+                    { "term": "quien / quienes", "translation": "who", "note": "personas con coma" },
+                    { "term": "el cual / la cual", "translation": "which", "note": "preposiciones largas" },
+                    { "term": "lo que", "translation": "what", "note": "idea completa" },
+                    { "term": "lo cual", "translation": "which", "note": "retoma la frase previa" },
+                    { "term": "cuyo/a", "translation": "whose", "note": "posee el sustantivo siguiente" },
+                    { "term": "donde / cuando", "translation": "where / when", "note": "lugares y tiempos" }
+                ]
+            },
+            "pointAndChat": {
+                "title": "Tarjetas para describir referentes",
+                "subtitle": "Usa la vista, señala el antecedente y di en voz alta la versión con relativo.",
+                "cards": [
+                    {
+                        "label": "Personas destacadas",
+                        "spanish": "Estas científicas, quienes lideran el laboratorio remoto, conectan tres husos horarios.",
+                        "english": "These scientists, who lead the remote lab, connect three time zones.",
+                        "gesture": "señala al grupo",
+                        "tip": "Añade quienes tras una coma para aportar un dato extra sin limitar el grupo."
+                    },
+                    {
+                        "label": "Detalles técnicos",
+                        "spanish": "Observa el servidor junto al cual instalamos los sensores auxiliares.",
+                        "english": "Look at the server next to which we installed the auxiliary sensors.",
+                        "gesture": "marca el objeto con la mano",
+                        "tip": "Con preposiciones de dos palabras, el cual evita ambigüedad."
+                    },
+                    {
+                        "label": "Conclusión",
+                        "spanish": "El sistema falló dos veces, lo cual nos obligó a replantear la entrega.",
+                        "english": "The system failed twice, which forced us to rethink the delivery.",
+                        "gesture": "dibuja un rectángulo para la idea",
+                        "tip": "Lo cual retoma toda la frase previa; no necesita repetir sustantivos."
+                    }
+                ]
+            },
+            "swapChart": {
+                "title": "Pronombre ideal según el contexto",
+                "subtitle": "Observa el tipo de antecedente y cambia al relativo que aporta más claridad.",
+                "rows": [
+                    {
+                        "distance": "Personas tras coma",
+                        "spanish": "Los mentores, quienes diseñaron el plan, evaluarán tu prototipo.",
+                        "english": "The mentors, who designed the plan, will assess your prototype.",
+                        "quantity": "elige 'quien/quienes'",
+                        "cue": "Pausa breve antes del relativo." 
+                    },
+                    {
+                        "distance": "Preposición extensa",
+                        "spanish": "Analiza los riesgos cerca de los cuales se ubica la planta.",
+                        "english": "Analyze the risks near which the plant is located.",
+                        "quantity": "usa 'el/la cual'",
+                        "cue": "Evita repetir que después de frases largas." 
+                    },
+                    {
+                        "distance": "Ideas completas",
+                        "spanish": "El informe llegó tarde, lo cual generó dudas en el comité.",
+                        "english": "The report arrived late, which created doubts within the committee.",
+                        "quantity": "'lo cual'",
+                        "cue": "Funciona solo si ya mencionaste la acción previa." 
+                    },
+                    {
+                        "distance": "Posesión explícita",
+                        "spanish": "Revisamos el laboratorio cuya ventilación no cumple la norma.",
+                        "english": "We inspected the lab whose ventilation does not meet the standard.",
+                        "quantity": "'cuyo/a/os/as'",
+                        "cue": "Concuerda con ventilación, no con laboratorio." 
+                    }
+                ]
+            },
             "practice": [
                 "Une pares de oraciones usando el relativo adecuado.",
-                "Reescribe párrafos sustituyendo su/sus por cuyo.",
+                "Reescribe párrafos sustituyendo su/sus por cuyo y mantén la concordancia.",
                 "Completa oraciones con lo que vs. lo cual según el antecedente.",
-                "Escribe un mini reportaje usando al menos tres pronombres relativos diferentes."
+                "Escribe un mini reportaje usando al menos tres pronombres relativos diferentes.",
+                "Diseña una tabla de decisión que asigne pronombre a tipo de antecedente y añádele ejemplos propios.",
+                "Convierte instrucciones técnicas en versiones con inciso explicativo entre comas y relativo adecuado."
             ],
             "interactions": [
                 {
@@ -645,43 +734,122 @@
                     "prompt": "No entendí lo ____ dijiste al final.",
                     "answer": "que",
                     "hint": "Lo que retoma la idea completa de la frase anterior."
+                },
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Necesitamos un espacio desde ____ podamos transmitir sin ruido.",
+                    "options": ["donde", "cuyo", "quien"],
+                    "answer": "donde",
+                    "explanation": "Los adverbios relativos cubren ubicaciones físicas." 
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Firmaron dos convenios, los ____ detallan las métricas de cumplimiento.",
+                    "answer": "cuales",
+                    "hint": "Para plural después de los usa los cuales." 
                 }
             ],
             "translations": {
                 "en": {
-                    "summary": "Link complex sentences precisely with el que, la cual, lo que, cuyo, and related relative pronouns.",
+                    "summary": "Link complex clauses with flexible relative pronouns and keep the prose visually guided.",
                     "details": [
-                        "El que / la que / los que / las que appear with or without prepositions to clarify gender and number.",
-                        "Lo que introduces full ideas or facts when there is no concrete antecedent (Lo que necesito es tiempo).",
-                        "Cuyo/a/os/as marks possession and agrees with the noun that follows, not with the owner."
+                        "El que / la que / los que / las que appear with or without prepositions when the antecedent is concrete and you need gender/number clarity.",
+                        "Quien / quienes replaces people after commas or prepositions: Los ponentes, quienes viajaron..., spoke first.",
+                        "El cual / la cual / los cuales / las cuales remove ambiguity after multiword prepositions or when two antecedents are present.",
+                        "Lo que summarizes entire ideas without a fixed noun, while lo cual must refer back to an explicit clause.",
+                        "Relative adverbs donde, cuando, and como connect locations, times, or manners and can combine with prepositions (desde donde, para cuando).",
+                        "Cuyo/a/os/as marks possession, agrees with the following noun, and never doubles with su." 
                     ],
                     "points": [
-                        "After formal prepositions, prefer el cual / la cual to avoid ambiguity.",
-                        "Do not duplicate possession with su when using cuyo (la persona cuyo coche...).",
-                        "Practice merging two simple sentences into one with a relative clause."
+                        "Alternate short que with longer forms to avoid repetitive echoes in technical paragraphs.",
+                        "Add an article before the relative when two nouns share an antecedent (el informe y el plan, los cuales...).",
+                        "Commas create nonrestrictive clauses; remove them when you need to restrict the meaning.",
+                        "Cuyo matches the gender/number of what is owned and can repeat in chains for multiple possessions.",
+                        "Lo que brings in overarching comments, whereas lo cual refers only to the immediately preceding idea." 
                     ],
                     "practice": [
-                        "Join sentence pairs using the appropriate relative pronoun.",
-                        "Rewrite paragraphs by replacing su/sus with cuyo.",
-                        "Complete sentences choosing between lo que and lo cual based on the antecedent.",
-                        "Write a short report using at least three different relative pronouns."
-                    ]
+                        "Join sentence pairs using the best-fitting relative pronoun.",
+                        "Rewrite paragraphs by swapping su/sus for cuyo while keeping agreement.",
+                        "Complete sentences choosing between lo que and lo cual depending on the antecedent.",
+                        "Write a short report using at least three different relative pronouns.",
+                        "Design a decision table that maps context to pronoun and include your own examples.",
+                        "Turn technical instructions into versions with parenthetical clauses between commas plus the right relative." 
+                    ],
+                    "pointAndChat": {
+                        "title": "Cards to describe references",
+                        "subtitle": "Look at the antecedent, point to it, and say the relative-clause version out loud.",
+                        "cards": [
+                            {
+                                "label": "Key people",
+                                "sentence": "These scientists, who lead the remote lab, connect three time zones.",
+                                "gesture": "Point at the group.",
+                                "tip": "Add quienes after a comma to include extra information without restricting the group."
+                            },
+                            {
+                                "label": "Technical details",
+                                "sentence": "Look at the server next to which we installed the auxiliary sensors.",
+                                "gesture": "Outline the device with your hand.",
+                                "tip": "After multiword prepositions, el cual keeps the reference clear."
+                            },
+                            {
+                                "label": "Wrap-up",
+                                "sentence": "The system failed twice, which forced us to rethink the delivery.",
+                                "gesture": "Draw a rectangle in the air to represent the idea.",
+                                "tip": "Lo cual refers to the entire previous sentence, so repeating nouns is unnecessary."
+                            }
+                        ]
+                    },
+                    "swapChart": {
+                        "title": "Best pronoun for each context",
+                        "subtitle": "Spot the antecedent type and swap to the clearest relative construction.",
+                        "rows": [
+                            {
+                                "distance": "People after a comma",
+                                "sentence": "The mentors, who designed the plan, will assess your prototype.",
+                                "quantity": "choose quien/quienes",
+                                "cue": "Pause briefly before the relative clause."
+                            },
+                            {
+                                "distance": "Extended preposition",
+                                "sentence": "Analyze the risks near which the plant is located.",
+                                "quantity": "use el/la cual",
+                                "cue": "Skip que after long prepositional phrases."
+                            },
+                            {
+                                "distance": "Whole ideas",
+                                "sentence": "The report arrived late, which created doubts within the committee.",
+                                "quantity": "lo cual",
+                                "cue": "Only works if the previous action is explicit."
+                            },
+                            {
+                                "distance": "Explicit possession",
+                                "sentence": "We inspected the lab whose ventilation does not meet the standard.",
+                                "quantity": "cuyo/a/os/as",
+                                "cue": "Match the gender/number of the possessed noun (ventilación)."
+                            }
+                        ]
+                    }
                 }
             }
         },
         {
             "id": "subjunctive-adjective-clauses",
             "title": "Subjuntivo en oraciones de relativo",
-            "summary": "Usar el subjuntivo cuando el antecedente es desconocido, inexistente o negado.",
+            "summary": "Activa el subjuntivo en cláusulas de relativo para describir objetivos imprecisos, hipotéticos o inexistentes.",
             "details": [
                 "Cuando se busca algo no identificado se usa subjuntivo: Busco un profesor que hable chino.",
                 "Si el antecedente no existe o se niega, también va subjuntivo: No hay nadie que pueda ayudarme.",
                 "Con antecedentes conocidos o específicos se mantiene el indicativo: Tengo un profesor que habla chino.",
-                "Palabras negativas (ningún, nadie) y expresiones como cualquiera que favorecen el subjuntivo."],
+                "Expresiones como cualquiera que, el primero que, sea quien sea o lo que sea requieren subjuntivo en la cláusula dependiente.",
+                "Los relativos adverbiales donde, cuando y como adoptan subjuntivo cuando el lugar, tiempo o modo es hipotético o variable.",
+                "En requisitos futuros o mandatos se combina un principal en futuro/imperativo con relativo en subjuntivo para fijar condiciones (Contrataremos a quien demuestre criterio)." 
+            ],
             "points": [
-                "Concuerda el verbo subordinado con el antecedente plural o singular.",
-                "Añade contexto con para + infinitivo o que + verbo para precisar la búsqueda.",
-                "Contrasta pares de oraciones para percibir el matiz entre certeza y duda."
+                "Detecta determinantes indefinidos (algún, cualquier, ningún) para anticipar el cambio al subjuntivo.",
+                "Los superlativos subjetivos (el mejor, la única) suelen activar subjuntivo porque expresan valoración personal.",
+                "Cuando el referente pasa de hipotético a concreto, cambia al indicativo para reflejar certeza.",
+                "Los relativos con palabras negativas (nadie que, nada que) obligan al subjuntivo aunque la estructura parezca afirmativa.",
+                "Mantén el acuerdo de número con el antecedente aunque se trate de ideas abstractas (Necesito soluciones que funcionen)." 
             ],
             "examples": [
                 {
@@ -692,8 +860,94 @@
                     "sentence": "Conozco a estudiantes que trabajan y estudian a la vez.",
                     "translation": "I know students who work and study at the same time.",
                     "explanation": "Antecedente específico ⇒ indicativo."
+                },
+                {
+                    "sentence": "Buscamos salas donde se pueda grabar sin eco.",
+                    "translation": "We are looking for rooms where one can record without echo."
+                },
+                {
+                    "sentence": "Tengo un equipo que maneja el software con soltura.",
+                    "translation": "I have a team that handles the software comfortably.",
+                    "explanation": "Referente identificado ⇒ indicativo."
+                },
+                {
+                    "sentence": "No hay dato que explique la variación nocturna.",
+                    "translation": "There is no data that explains the overnight variation."
                 }
             ],
+            "visualVocabulary": {
+                "title": "Activadores del subjuntivo relativo",
+                "subtitle": "Memoriza estas expresiones para disparar automáticamente el modo correcto.",
+                "items": [
+                    { "term": "ningún / ninguna", "translation": "not a single", "note": "niega existencia" },
+                    { "term": "cualquiera que", "translation": "whoever", "note": "+ subjuntivo" },
+                    { "term": "sea quien sea", "translation": "whoever it may be", "note": "cláusula libre" },
+                    { "term": "dondequiera que", "translation": "wherever", "note": "lugar hipotético" },
+                    { "term": "el primero que", "translation": "the first one that", "note": "matiz subjetivo" },
+                    { "term": "un/una + que", "translation": "a ... that", "note": "antecedente indefinido" }
+                ]
+            },
+            "pointAndChat": {
+                "title": "Tarjetas de búsqueda",
+                "subtitle": "Describe lo que necesitas y alterna entre indicativo y subjuntivo según la certeza.",
+                "cards": [
+                    {
+                        "label": "Oferta laboral",
+                        "spanish": "Buscamos personas que sepan coordinar equipos remotos sin supervisión directa.",
+                        "english": "We are looking for people who can coordinate remote teams without direct supervision.",
+                        "gesture": "muestra un anuncio",
+                        "tip": "Verbo en subjuntivo porque el candidato aún no existe para la empresa." 
+                    },
+                    {
+                        "label": "Visita guiada",
+                        "spanish": "Tenemos una sede que ofrece laboratorios equipados con IA explainable.",
+                        "english": "We have a campus that offers labs equipped with explainable AI.",
+                        "gesture": "señala un plano",
+                        "tip": "Indicativo: el lugar está identificado y disponible." 
+                    },
+                    {
+                        "label": "Soporte técnico",
+                        "spanish": "¿Hay alguien que pueda replicar el bug en menos de cinco minutos?",
+                        "english": "Is there anyone who can replicate the bug in under five minutes?",
+                        "gesture": "mano levantada para preguntar",
+                        "tip": "La duda sobre existencia activa el subjuntivo." 
+                    }
+                ]
+            },
+            "swapChart": {
+                "title": "¿Indicativo o subjuntivo en relativo?",
+                "subtitle": "Localiza la pista contextual y cambia de modo de inmediato.",
+                "rows": [
+                    {
+                        "distance": "Búsqueda difusa",
+                        "spanish": "Necesito colaboradores que puedan viajar sin visa.",
+                        "english": "I need collaborators who can travel without a visa.",
+                        "quantity": "subjuntivo",
+                        "cue": "El referente todavía no se confirma." 
+                    },
+                    {
+                        "distance": "Antecedente confirmado",
+                        "spanish": "Tengo colegas que pueden viajar mañana.",
+                        "english": "I have colleagues who can travel tomorrow.",
+                        "quantity": "indicativo",
+                        "cue": "Ya existen y se conocen." 
+                    },
+                    {
+                        "distance": "Negación absoluta",
+                        "spanish": "No hay informe que explique la caída.",
+                        "english": "There is no report that explains the drop.",
+                        "quantity": "subjuntivo",
+                        "cue": "Nadie/nada + que ⇒ modo subjuntivo." 
+                    },
+                    {
+                        "distance": "Superlativo subjetivo",
+                        "spanish": "Es la única propuesta que atienda a las comunidades rurales.",
+                        "english": "It is the only proposal that serves rural communities.",
+                        "quantity": "subjuntivo",
+                        "cue": "La valoración personal activa el cambio de modo." 
+                    }
+                ]
+            },
             "conjugations": [
                 {
                     "verb": "hablar",
@@ -772,7 +1026,9 @@
                 "Reescribe oraciones cambiando de indicativo a subjuntivo según la información disponible.",
                 "Crea anuncios de trabajo usando se busca... que + subjuntivo.",
                 "Completa espacios con hable/habla, puedan/pueden dependiendo del contexto.",
-                "Redacta un diálogo en el que un personaje describe la casa que quiere comprar (subjuntivo) y otro la que ya tiene (indicativo)."
+                "Redacta un diálogo en el que un personaje describe la casa que quiere comprar (subjuntivo) y otro la que ya tiene (indicativo).",
+                "Elabora un cuadro de decisión con las columnas '¿Existe?' y 'Modo' para practicar cambios rápidos.",
+                "Transforma listas de requisitos en un párrafo fluido usando cláusulas de relativo y resalta el modo elegido." 
             ],
             "interactions": [
                 {
@@ -787,28 +1043,101 @@
                     "prompt": "Busco un libro que ____ (tratar) sobre diseño sostenible.",
                     "answer": "trate",
                     "hint": "Objeto aún no identificado."
+                },
+                {
+                    "type": "multiple-choice",
+                    "prompt": "Tenemos un analista que ____ (poder) replicar el fallo de memoria.",
+                    "options": ["pueda", "puede", "podrá"],
+                    "answer": "puede",
+                    "explanation": "Referente concreto ⇒ indicativo." 
+                },
+                {
+                    "type": "cloze",
+                    "prompt": "Contrataremos a la primera candidata que ____ (presentar) métricas claras.",
+                    "answer": "presente",
+                    "hint": "Superlativo / ordinal subjetivo ⇒ subjuntivo." 
                 }
             ],
             "translations": {
                 "en": {
-                    "summary": "Choose the subjunctive in relative clauses when the antecedent is unknown, nonexistent, or denied.",
+                    "summary": "Trigger the subjunctive in relative clauses to describe unclear, hypothetical, or nonexistent targets.",
                     "details": [
-                        "When searching for something unidentified, use the subjunctive: Busco un profesor que hable chino.",
-                        "If the antecedent does not exist or is negated, stay in the subjunctive: No hay nadie que pueda ayudarme.",
-                        "Stick with the indicative for known or specific antecedents: Tengo un profesor que habla chino.",
-                        "Negative words (ningún, nadie) and expressions like cualquiera que tend to require the subjunctive."
+                        "Use the subjunctive when searching for something undefined: Busco un profesor que hable chino.",
+                        "Negative or nonexistent antecedents also require the subjunctive: No hay nadie que pueda ayudarme.",
+                        "Stick with the indicative for known, specific antecedents: Tengo un profesor que habla chino.",
+                        "Expressions such as cualquiera que, el primero que, sea quien sea, or lo que sea demand the subjunctive.",
+                        "Relative adverbs donde, cuando, and como shift to the subjunctive when the place/time/manner is hypothetical.",
+                        "Future requirements or commands often pair a main clause in future/imperative with a subordinate subjunctive clause (Contrataremos a quien demuestre criterio)." 
                     ],
                     "points": [
-                        "Match the subordinate verb with the antecedent’s number.",
-                        "Add context with para + infinitive or que + verb to clarify the search.",
-                        "Contrast sentence pairs to feel the nuance between certainty and doubt."
+                        "Indefinite determiners (algún, cualquier, ningún) hint that the subjunctive is coming.",
+                        "Superlatives or subjective qualifiers (el mejor, la única) typically activate the subjunctive.",
+                        "Once the referent becomes concrete, switch back to the indicative to mirror certainty.",
+                        "Negatives like nadie que / nada que always take the subjunctive even if the sentence looks affirmative.",
+                        "Keep number agreement with the antecedent even for abstract ideas (Necesito soluciones que funcionen)." 
                     ],
                     "practice": [
-                        "Rewrite sentences switching between indicative and subjunctive depending on the information available.",
+                        "Rewrite sentences by toggling between indicative and subjunctive based on the available information.",
                         "Create job ads using se busca... que + subjunctive.",
-                        "Fill blanks with hable/habla, puedan/pueden based on context clues.",
-                        "Draft a dialogue where one character describes the house they want (subjunctive) and another the one they already have (indicative)."
-                    ]
+                        "Fill in blanks with hable/habla, puedan/pueden according to context clues.",
+                        "Draft a dialogue where one person describes the house they want (subjunctive) and another the one they already have (indicative).",
+                        "Build a decision grid with columns for 'Does it exist?' and 'Mood' to drill quick switches.",
+                        "Transform requirement lists into a cohesive paragraph full of relative clauses and highlight the chosen mood." 
+                    ],
+                    "pointAndChat": {
+                        "title": "Search cue cards",
+                        "subtitle": "Describe what you need and flip between indicative/subjunctive depending on certainty.",
+                        "cards": [
+                            {
+                                "label": "Job offer",
+                                "sentence": "We are looking for people who can coordinate remote teams without direct supervision.",
+                                "gesture": "Show a mock job post.",
+                                "tip": "Use the subjunctive because the candidate does not yet exist for the company."
+                            },
+                            {
+                                "label": "Guided tour",
+                                "sentence": "We have a campus that offers labs equipped with explainable AI.",
+                                "gesture": "Point at a floor plan.",
+                                "tip": "Indicative: the location is identified and available."
+                            },
+                            {
+                                "label": "Tech support",
+                                "sentence": "Is there anyone who can replicate the bug in under five minutes?",
+                                "gesture": "Raise your hand to ask.",
+                                "tip": "Doubting whether someone exists triggers the subjunctive."
+                            }
+                        ]
+                    },
+                    "swapChart": {
+                        "title": "Indicative or subjunctive in relative clauses?",
+                        "subtitle": "Find the contextual cue and switch moods immediately.",
+                        "rows": [
+                            {
+                                "distance": "Fuzzy search",
+                                "sentence": "I need collaborators who can travel without a visa.",
+                                "quantity": "subjunctive",
+                                "cue": "The referent is not confirmed yet."
+                            },
+                            {
+                                "distance": "Confirmed antecedent",
+                                "sentence": "I have colleagues who can travel tomorrow.",
+                                "quantity": "indicative",
+                                "cue": "They already exist and are known."
+                            },
+                            {
+                                "distance": "Absolute negation",
+                                "sentence": "There is no report that explains the drop.",
+                                "quantity": "subjunctive",
+                                "cue": "Nadie/nada + que forces the subjunctive."
+                            },
+                            {
+                                "distance": "Subjective superlative",
+                                "sentence": "It is the only proposal that serves rural communities.",
+                                "quantity": "subjunctive",
+                                "cue": "A personal evaluation flips the mood."
+                            }
+                        ]
+                    }
                 }
             }
         },
